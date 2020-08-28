@@ -1,0 +1,12 @@
+- default: menu_index
+  url:   ""
+
+- default: menu_category
+  url:   "category"
+
+- title: "mail"
+  absoluteUrl: true
+  url: "https://mx.savalione.com"
+
+- default: menu_about
+  url:   "about"
