@@ -4,9 +4,8 @@
 - default: menu_category
   url:   "category"
 
-- title: "mail"
-  absoluteUrl: true
-  url: "https://mx.savalione.com"
+- default: "menu_links"
+  url: "links"
 
 - default: menu_about
   url:   "about"
