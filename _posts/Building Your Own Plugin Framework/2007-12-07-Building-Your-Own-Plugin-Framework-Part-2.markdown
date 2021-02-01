@@ -9,7 +9,6 @@ tags:
   - c++
 ---
 
-# Building Your Own Plugin Framework: Part 2
 Architectire and design
 
 December 07, 2007

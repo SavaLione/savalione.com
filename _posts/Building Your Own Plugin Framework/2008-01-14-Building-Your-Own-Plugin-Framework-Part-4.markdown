@@ -9,7 +9,6 @@ tags:
   - c++
 ---
 
-# Building Your Own Plugin Framework: Part 4
 Hybrid C/C++ plugins
 
 January 14, 2008

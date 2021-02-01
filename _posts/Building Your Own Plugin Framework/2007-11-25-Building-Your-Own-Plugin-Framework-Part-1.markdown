@@ -9,7 +9,6 @@ tags:
   - c++
 ---
 
-# Building Your Own Plugin Framework: Part 1
 A cross-platform plugin framework for C/C++
 
 November 25, 2007
@@ -319,7 +318,7 @@ In hybrid C/C++ programming models, you develop your plugin in C++ but under the
 ## Language-Linkage Matrix
 Figure 1 shows the various pros and cons of different combinations of deployment models (static vs. dynamic libraries) and programming language choice (C vs. C++).
 
-![Figure 1](assets/images/building_your_own_plugin_framework/part_1_figure_1.png)
+![Figure 1](/assets/images/building_your_own_plugin_framework/part_1_figure_1.png)
 ```Figure 1```
 
 For the sake of this discussion the dual C/C++ model has the prerequisites and limitations of C++ if using C++ plugins and the prerequisites and limitations of C if using C plugins. Also, the hybrid C/C++ model is just a C model because the C++ layer is hidden behind the plugin implementation. This can all be confusing, but the bottom line is that you have options and the plugin framework allows you to make choices and pick the tradeoffs you feel appropriate to your situation. It doesn't force you to use a specific model and it doesn't aim to lowest common denominator.

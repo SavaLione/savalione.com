@@ -9,7 +9,6 @@ tags:
   - c++
 ---
 
-# Building Your Own Plugin Framework: Part 3
 Cross-platform development, misc topics, and the dual C/C++ object model
 
 December 26, 2007

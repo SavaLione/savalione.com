@@ -9,7 +9,6 @@ tags:
   - c++
 ---
 
-# Building Your Own Plugin Framework: Part 5
 The plugins, the source, the game, and the wrap-up
 
 February 13, 2008
@@ -507,7 +506,7 @@ void BattleManager::playTurn()
 
 The BattleManager starts by creating a **Turn** object on the stack. Each [live] actor getx his **Turn** object with proper information and acts on it. The **Hero** goes first. The BattleManager invokes its **play()** method, passing the turn object. The **Hero** moves about and attacks. The BattleManager is aware of all the action that transpires because the data structures that are manipulated are the **ActorInfo** structs the BattleManager manages. Once the hero is done, each of the other actors gets its chance to do some mayhem. After all the actors do their worst, it's time to remove the bodies from the battle field. This is done with the help of the standard **std::remove_if** algorithm and the **isDead()** predicate that checks if the actor has zero health points. Before the turn ends, the BattleManager checks if the **Hero** or all the monsters are dead. The game goes on until one of these conditions is fulfilled. Figure 1 shows the game in progress.
 
-![Figure 1: Game in progress](assets/images/building_your_own_plugin_framework/part_5_figure_1_game_in_progress.png)
+![Figure 1: Game in progress](/assets/images/building_your_own_plugin_framework/part_5_figure_1_game_in_progress.png)
 
 That's it. Go ahead and give it a try, but don't go addict on me :-)
 
@@ -553,7 +552,7 @@ Well, before I let you go home I want to share the history of the plugin framewo
 
 NuPIC is a platform for distributed computing conceived to run massive HTM (Hierarchical Temporal Memory) networks. The term "node" is usually reserved to a physical machine or a host in cluster nomenclature. In NuPIC the term "node" refers to a node in the HTM network. These nodes can be sensors, compute nodes or effectors. From a software engineering point of view, there are many node processor processes running on many cores (same or different machines), each one of them running multiple HTM nodes, there is a supervisor process that orchestrates all the action and there are tools that communicate with the supervisor via a sophisticated API. The goal is usually to train a HTM network by feeding it some data and then perform inference by showing it novel data and see how similar it is to something the network learned. The runtime engine is the supervisor and all the node processor. The application or tools communicate with the supervisor to load networks files, run computations, and control the live networks at runtime by sending commands and setting parameters. Where do plugins fit into the picture? Actually everywhere. Every node in the HTM network is implemented as a plugin. When a network file is loaded into the runtime engine, it is parsed and the specific nodes are instantiated based on their type just like the monsters in the game. Figure 2 is a high-level illustration of NuPIC's architecture.
 
-![Figure 2: NuPIC architecture](assets/images/building_your_own_plugin_framework/part_5_figure_2_nupic_architecture.png)
+![Figure 2: NuPIC architecture](/assets/images/building_your_own_plugin_framework/part_5_figure_2_nupic_architecture.png)
 ```Figure 2: NuPIC architecture```
 
 I think that looking at another system with a radically different interface helps clarify the boundary between generic plugin framework concerns and the application and its object model.
