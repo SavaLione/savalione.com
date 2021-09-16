@@ -11,41 +11,25 @@ permalink: /links/
 ## Contacts
 ### Social networks
 * [vk.com/savalione](https://vk.com/savalione)
+* [LinkedIn](https://www.linkedin.com/in/savalione/)
 * [Pinterest](https://www.pinterest.ru/savalione/)
 * [Deviantart](https://www.deviantart.com/savalione)
 
 ### Emails
 * monologuesplus@gmail.com
-* sava@savalione.com
 * bokunosavalione@gmail.com
+* sava@savalione.com
 
 ## Technical resources
 ```
-3d.savalione.com
 blog.savalione.com
-cache.savalione.com
-c1.cache.savalione.com
-c2.cache.savalione.com
-c3.cache.savalione.com
-db.savalione.com
 files.savalione.com
-food.savalione.com
-forum.savalione.com
-freenas.savalione.com
-ftp.savalione.com
 grafana.savalione.com
 git.savalione.com
 mx.savalione.com
-nas.savalione.com
 pfsense.savalione.com
-photo.savalione.com
-sava.savalione.com
-savalione.com
 sph.savalione.com
-srv.savalione.com
-u.savalione.com
 zabbix.savalione.com
-zabbix-local.savalione.com
 ```
 
 ### Web server
@@ -83,7 +67,6 @@ Private e-mail server located in the Russia. Features:
 
 #### Available domains:
 * savalione.com
-* ural-electronics.ru
 
 #### Question/answer
 ```
