@@ -18,7 +18,7 @@ permalink: /links/
 ### pgp
 [savalione public pgp key](https://files.savalione.com/key/SavaLione_0x28D3EE95_public.asc)
 
-```pgp
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 
 mQINBGGrSzEBEADkPm44BpJuE0yRbOAC8Jy8LPWdm+x38jECIvYUw3bUkKHv5dGL
