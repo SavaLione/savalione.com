@@ -4,6 +4,7 @@ title:  "Пять новых серверов"
 date:   2019-12-09
 categories: [server]
 tags: [DL120G5]
+hidden: true
 ---
 
 ### Предыстория
