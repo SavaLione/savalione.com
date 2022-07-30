@@ -4,53 +4,63 @@ title: About
 permalink: /about/
 ---
 
-Hi!
+Hello!
 
-My name Saveliy Pototskiy (SavaLione)
+My name is Saveliy Pototskiy, also known by nickname: ``SavaLione``.
 
-In 2010 I first got acquainted with linux (Ubuntu 10)
+I'm a ``C++`` software developer and network administrator. 
 
-In 2011, I first wrote a module for linux
+## Work experience:
 
-From 2012 to 2015 administered systems on linux
+My experience as network administrator starts in 2010 with Ubuntu 10.
 
-From 2015 to 2017 offered the services of an internet/hosting provider
+From 2012 to 2015, I administered servers on Ubuntu.
 
-From 2018 to the present, I work in the company as a programmer engineer. Responsibilities include:
-* Creation of highly targeted software for clients, servers, microcontrollers
-* Writing distributed systems in c/c++ using the MPI library
-* Optimizing software using the OpenMP library
-* System administration of a complex of servers (linux, bsd)
-* Development of modules for the site, database, web server
+From 2015 to 2017, I worked as a network administrator.
 
-In 2021 he received a bachelor's degree in Software Engineering
+From 2018 to the present, I work in the company as a software engineer.
+My responsibilities as a software engineer include:
+* Design and development of server software.
+* Architecture development of client-server applications.
+* Unit testing.
+* ``C++`` software optimization.
 
-From 2021 to the present I am studying for a master's degree
+My responsibilities as a network administrator include:
+* System administration of a complex of servers.
+* Development of modules for the sites, databases and web servers.
+* Network architecture development.
 
-## Qualification
+### Skills
+As a software engineer I have experience in these tools:
+* C++.
+* Compilers: GCC, Clang, MinGW.
+* CMake.
+* Standard Template Library.
+* GNU Debugger (gdb).
+* OpenMP.
+* OpenCV.
+* Git.
 
-* C/C++
-* CMake
-* Linux
-* Git
-* STL
-* Software development for STM32 microcontrollers
-* Creation of electronic circuits
-* PCB tracing
-* Industrial robots
+As a network administrator I have experience in these tools:
+* Ubuntu, Debian, FreeBSD, NetBSD.
+* pfSense.
+* Cisco IOS.
+* Nginx.
+* Zabbix.
+* Grafana.
+* Representation state transfer (Rest API).
+* Netplan.
+* ZFS.
+* Samba.
+* Databases: MariaDB, MySQL.
+* Asterisk.
 
-## Interests
+## Education
+* 2017-2021, Ural Federal University, Bachelor degree, Software Engineering.
+* 2021-2023, Ural Federal University, Magister degree, Applied Informatics.
 
-System administration of unix-like systems (linux, bsd)
-
-Development of cross-platform software in c / c ++ languages
-
-Optimizing software using OpenMP
-
-Writing technical documentation
-
-Radio electronics. Development of circuits, tracing of printed circuit boards
-
-## Hobby
-
-Servers, network equipment, microcontrollers, rare Sun servers and etc.
+## Personal information
+* Email: ``monologuesplus@gmail.com``
+* LinkedIn: [``linkedin.com/in/savalione/``](https://www.linkedin.com/in/savalione/)
+* Github: [``github.com/SavaLione``](https://github.com/SavaLione)
+* Personal web page: [``savalione.com``](https://savalione.com)
