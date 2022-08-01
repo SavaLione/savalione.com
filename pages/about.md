@@ -1,6 +1,8 @@
 ---
 layout: page
 title: About
+date:   2019-11-03
+last_modified_at: 2022-08-01 17:05:00
 permalink: /about/
 ---
 
@@ -8,15 +10,15 @@ Hello!
 
 My name is Saveliy Pototskiy, also known by nickname: ``SavaLione``.
 
-I'm a ``C++`` software developer and network administrator. 
+I'm a ``C++`` software developer and network engineer. 
 
 ## Work experience:
 
-My experience as network administrator starts in 2010 with Ubuntu 10.
+My experience as network engineer starts in 2010 with Ubuntu 10.
 
 From 2012 to 2015, I administered servers on Ubuntu.
 
-From 2015 to 2017, I worked as a network administrator.
+From 2015 to 2017, I worked as a network engineer.
 
 From 2018 to the present, I work in the company as a software engineer.
 My responsibilities as a software engineer include:
@@ -25,7 +27,7 @@ My responsibilities as a software engineer include:
 * Unit testing.
 * ``C++`` software optimization.
 
-My responsibilities as a network administrator include:
+My responsibilities as a network engineer include:
 * System administration of a complex of servers.
 * Development of modules for the sites, databases and web servers.
 * Network architecture development.
@@ -41,7 +43,7 @@ As a software engineer I have experience in these tools:
 * OpenCV.
 * Git.
 
-As a network administrator I have experience in these tools:
+As a network engineer I have experience in these tools:
 * Ubuntu, Debian, FreeBSD, NetBSD.
 * pfSense.
 * Cisco IOS.
