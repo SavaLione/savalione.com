@@ -1,28 +1,13 @@
-# Welcome to Jekyll-Paper!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# savalione.com
 title: SavaLione
 email: monologuesplus@gmail.com
 name: SavaLione
 description: >- # this means to ignore newlines until "baseurl:"
   Saveliy Pototskiy
-keywords: [savalione]
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://savalione.com" # the base hostname & protocol for your site, e.g. http://example.com
+keywords: [savalione c++ web blog cisco network]
 domain: "savalione.com" # the domain name for your site, e.g. example.com
-language: en
+
+# Language
 # Supported languages list:
 # en: English
 # de: Deutsche (German)
@@ -32,14 +17,29 @@ language: en
 # pt: Português (Portuguese)
 # zh-cn: 简体中文 (Simplified Chinese)
 # zh-tw: 繁體中文 (Traditional Chinese)
+language: en
 
-analytics:   # the Google Analytics property ID, e.g. UA-XXXXX-Y
+# The base hostname and protocol for site, e.g. http://example.com
+url: "https://savalione.com"
+
+# The subpath of site, e.g. /blog
+baseurl: ""
+
+# Google analytics
+analytics_google: G-4Z4CDPDP4M
+
+# Jekyll seo author
+author: "SavaLione"
+
+# Jekyll seo locale
+locale: en_us
+# https://developer.yoast.com/features/opengraph/api/changing-og-locale-output/
 
 paginate: 25
 paginate_path: "/page:num/"
 
-comments: false  # enable comments
-disqus:          # disqus account
+comments: false
+disqus:
 
 mathjax: true # Mathematics
 mermaid: true # Diagrams
