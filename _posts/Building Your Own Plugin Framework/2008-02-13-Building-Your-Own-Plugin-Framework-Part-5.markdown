@@ -6,7 +6,7 @@ last_modified_at: 2021-02-01 07:00:00
 categories: [Programming]
 tags:
   - c
-  - c++
+  - cpp
 ---
 
 The plugins, the source, the game, and the wrap-up

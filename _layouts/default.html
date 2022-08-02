@@ -3,23 +3,24 @@
 <html lang="{{ site.language }}">
 
 <head>
-    {% include head.html %}
+	{% include head.html %}
+	{% include favicon.html %}
 </head>
 
 <body>
-    <div class="container">
-        {% include nav.html %}
-        <hr class="stylish" />
-        {{ content }}
-    </div>
+	<div class="container">
+		{% include nav.html %}
+		<hr class="stylish" />
+		{{ content }}
+	</div>
 
-    <footer>
-        {% include footer.html %}
-    </footer>
+	<footer>
+		{% include footer.html %}
+	</footer>
 
-    {% if site.javascript_enabled %}
-    <script src="{{ site.baseurl }}/assets/script/main.js"></script>
-    {% endif %}
+	{% if site.javascript_enabled %}
+	<script src="{{ site.baseurl }}/assets/script/main.js"></script>
+	{% endif %}
 </body>
 
 {% include copyright.html %}

@@ -68,5 +68,4 @@ defaults:
   - scope:
       type: posts
     values:
-      title: Essays
       permalink: /post/:title

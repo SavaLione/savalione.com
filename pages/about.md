@@ -2,15 +2,14 @@
 layout: page
 title: About
 date:   2019-11-03
-last_modified_at: 2022-08-01 17:05:00
+last_modified_at: 2022-08-02 20:28:00
 permalink: /about/
 ---
-
 Hello!
 
-My name is Saveliy Pototskiy, also known by nickname: ``SavaLione``.
+My name is Saveliy Pototskiy, also known as savalione.
 
-I'm a ``C++`` software developer and network engineer. 
+I'm a C++ software developer and network engineer. 
 
 ## Work experience:
 
@@ -25,7 +24,7 @@ My responsibilities as a software engineer include:
 * Design and development of server software.
 * Architecture development of client-server applications.
 * Unit testing.
-* ``C++`` software optimization.
+* C++ software optimization.
 
 My responsibilities as a network engineer include:
 * System administration of a complex of servers.
@@ -62,7 +61,7 @@ As a network engineer I have experience in these tools:
 * 2021-2023, Ural Federal University, Magister degree, Applied Informatics.
 
 ## Personal information
-* Email: ``monologuesplus@gmail.com``
-* LinkedIn: [``linkedin.com/in/savalione/``](https://www.linkedin.com/in/savalione/)
-* Github: [``github.com/SavaLione``](https://github.com/SavaLione)
-* Personal web page: [``savalione.com``](https://savalione.com)
+* Email: monologuesplus@gmail.com
+* LinkedIn: [linkedin.com/in/savalione/](https://www.linkedin.com/in/savalione/)
+* Github: [github.com/SavaLione](https://github.com/SavaLione)
+* Personal web page: [savalione.com](https://savalione.com)

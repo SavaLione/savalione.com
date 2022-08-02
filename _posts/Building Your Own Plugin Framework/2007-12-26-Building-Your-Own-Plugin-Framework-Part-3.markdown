@@ -6,7 +6,7 @@ last_modified_at: 2021-02-01 05:00:00
 categories: [Programming]
 tags:
   - c
-  - c++
+  - cpp
 ---
 
 Cross-platform development, misc topics, and the dual C/C++ object model

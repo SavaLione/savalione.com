@@ -6,7 +6,7 @@ last_modified_at: 2021-02-01 03:00:00
 categories: [Programming]
 tags:
   - c
-  - c++
+  - cpp
 ---
 
 A cross-platform plugin framework for C/C++

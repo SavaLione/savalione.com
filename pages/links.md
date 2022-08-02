@@ -7,13 +7,13 @@ permalink: /links/
 ---
 
 ## Contacts
-* Email: ``monologuesplus@gmail.com``
-* LinkedIn: [``linkedin.com/in/savalione/``](https://www.linkedin.com/in/savalione/)
-* Github: [``github.com/SavaLione``](https://github.com/SavaLione)
-* Personal web page: [``savalione.com``](https://savalione.com)
+* Email: monologuesplus@gmail.com
+* LinkedIn: [linkedin.com/in/savalione/](https://www.linkedin.com/in/savalione/)
+* Github: [github.com/SavaLione](https://github.com/SavaLione)
+* Personal web page: [savalione.com](https://savalione.com)
 
 ### pgp
-[``SavaLione public pgp key link``](https://files.savalione.com/key/SavaLione_0x28D3EE95_public.asc)
+[SavaLione public pgp key link](https://files.savalione.com/key/SavaLione_0x28D3EE95_public.asc)
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
