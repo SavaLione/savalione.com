@@ -2,46 +2,50 @@
 layout: default
 ---
 
-<article class="container-post">
-  <div class="post-title">
+<div class="_progress-wrapper">
+    <div id="_progress"></div>
+</div>
+
+<header>
     <h1>{{ page.title }}</h1>
-  </div>
-  <div class="post-author">
-    <span>{{ site.name }}</span>
-  </div>
-  <div class="post-content">
-    {{ content }}
-  </div>
-  <div class="post-info">
-    <div class="post-date">
-      {{ site.data.lang[site.language].post_write_date }}{{ page.date | date: "%Y-%m-%d" }}{% if page.last_modified_at %}, {{ site.data.lang[site.language].post_update_date }}{{ page.last_modified_at | date: "%Y-%m-%d" }}{% endif %}.
-    </div>
-    <div class="post-categories">
-      <span>{{ site.data.lang[site.language].post_categories }}</span>
-      {% for category in page.categories %}
-      <a href="{{ site.baseurl }}/category/{{ category | slugify }}" class="post-category">{{ category }}</a>
-      {% endfor %}
-    </div>
-    <div class="post-tags">
-      <span>{{ site.data.lang[site.language].post_tags }}</span>
-      {% for tag in page.tags %}
-      <a href="{{ site.baseurl }}/tag/{{ tag | slugify }}" class="post-tag">{{ tag }}</a>
-      {% endfor %}
-    </div>
-    <div class="post-tools">
-      {% if page.next %}
-      <div>
-        <span>{{ site.data.lang[site.language].post_next }}</span><a href="{{ page.next.url }}">{{ page.next.title }}</a>
-      </div>
-      {% endif %}
-      {% if page.previous %}
-      <div>
-        <span>{{ site.data.lang[site.language].post_previous }}</span><a href="{{ page.previous.url }}">{{ page.previous.title }}</a>
-      </div>
-      {% endif %}
-    </div>
-    {% if site.comments %}
-      {% include comments.html %}
-    {% endif %}
-  </div>
-</article>
+    <hr class="stylish" />
+    <header class="title-tags">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time>
+    </header>
+</header>
+
+<hr class="stylish" />
+
+<main role="main">
+
+    <article>
+
+        <section class="content">
+            {{content}}
+        </section>
+
+        <hr class="stylish" />
+
+        <div class="tags-container">
+            Tags: <span>
+                {% for tag in page.tags %}
+                <a class="tags" href="/tags#{{ tag }}">{{ tag }}</a>
+                {% endfor %}
+            </span>
+            &nbsp;
+        </div>
+
+        <hr class="stylish" />
+
+        <section class="pagination">
+            {% if page.previous.url %}
+            <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+            {% endif %}
+            {% if page.next.url %}
+            <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+            {% endif %}
+        </section>
+
+    </article>
+
+</main>

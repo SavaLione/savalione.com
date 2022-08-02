@@ -1,24 +1,48 @@
-<div class="container-posts">
-{% for post in paginator.posts %}
-  <div class="posts-list-item">
-    <span class="posts-list-item-name float-left"><a href="{{ post.url }}">{{ post.title }}</a></span>
-    <span class="posts-list-item-date float-right">{{ post.date | date: "%Y-%m-%d" }}</span>
-  </div>
-{% endfor %}
+<header>
+    <h1>{{ site.name }}</h1>
+</header>
 
-{% if paginator.total_pages > 1 %}
-  <div class="posts-list-pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path }}" class="float-left">{{ site.data.lang[site.language].paginator_previous }}</a>
-    {% else %}
-      <span class="float-left">{{ site.data.lang[site.language].paginator_previous }}</span>
+<hr class="stylish" />
+
+<main class="home-main">
+    <!-- {% for collection in site.collections %}
+    {% if collection.docs.size > 0 %}
+    <section id="posts">
+        <details {% if collection.default_open %}open{% endif %}>
+            <summary>
+                <h3 class="home-page-heading">{{ collection.title }}</h3>
+            </summary>
+            <div class="parent">
+                {% for post in collection.docs %}
+                <div class="post-wrapper">
+                    <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%m/%Y"
+                        }}</time>
+                    <a class="post-link" href="{{ post.url }}">
+                        {{ post.title }}
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </details>
+    </section>
     {% endif %}
-    <span class="posts-page-number ">{{ site.data.lang[site.language].paginator_pages }}{{ paginator.page }} / {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path }}" class="float-right">{{ site.data.lang[site.language].paginator_next }}</a>
-    {% else %}
-      <span class="float-right">{{ site.data.lang[site.language].paginator_next }}</span>
-    {% endif %}
-  </div>
-{% endif %}
-</div>
+    {% endfor %} -->
+
+
+    <section id="posts">
+
+        <div class="parent">
+            {% for post in paginator.posts %}
+
+            <div class="post-wrapper">
+                <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+                <a class="post-link" href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+
+    </section>
+
+</main>

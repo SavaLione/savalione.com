@@ -5,6 +5,7 @@ public
 # cache
 .sass-cache
 .jekyll-metadata
+.jekyll-cache
 
 # gem lock file
 Gemfile.lock
