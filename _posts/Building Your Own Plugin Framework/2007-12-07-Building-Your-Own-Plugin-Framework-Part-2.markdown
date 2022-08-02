@@ -2,21 +2,26 @@
 layout: post
 title:  "Building Your Own Plugin Framework: Part 2"
 date:   2007-12-07
-last_modified_at: 2021-02-01 04:00:00
+last_modified_at: 2022-08-02 10:36:00
 categories: [Programming]
 tags:
   - c
   - cpp
 ---
 
-Architectire and design
-
-December 07, 2007
+Author: Gigi Sayfan
 
 URL: [drdobbs.com](https://www.drdobbs.com/cpp/building-your-own-plugin-framework-part/204702751)
 
+# Architectire and design
+
 ---
-*Editor's Note: This is the second installment of a five-part series by Gigi Sayfan on creating cross-platform plugins in C++. Other installments are: [Part 1](Building%20Your%20Own%20Plugin%20Framework%20Part%201.md), [Part 3](Building%20Your%20Own%20Plugin%20Framework%20Part%203.md), [Part 4](Building%20Your%20Own%20Plugin%20Framework%20Part%204.md), and [Part 5](Building%20Your%20Own%20Plugin%20Framework%20Part%205.md).*
+Editor's Note: This is the second installment of a five-part series by Gigi Sayfan on creating cross-platform plugins in C++. Other installments are:
+* [Part 1](Building-Your-Own-Plugin-Framework-Part-1)
+* [Part 3](Building-Your-Own-Plugin-Framework-Part-3)
+* [Part 4](Building-Your-Own-Plugin-Framework-Part-4)
+* [Part 5](Building-Your-Own-Plugin-Framework-Part-5)
+
 
 ---
 

@@ -2,21 +2,27 @@
 layout: post
 title:  "Building Your Own Plugin Framework: Part 1"
 date:   2007-11-25
-last_modified_at: 2021-02-01 03:00:00
+last_modified_at: 2022-08-02 10:33:00
 categories: [Programming]
 tags:
   - c
   - cpp
 ---
 
-A cross-platform plugin framework for C/C++
-
-November 25, 2007
+Author: Gigi Sayfan
 
 URL: [drdobbs.com](https://www.drdobbs.com/cpp/building-your-own-plugin-framework-part/204202899)
 
+# A cross-platform plugin framework for C/C++
+
 ---
-*Editor's Note: This is the first installment of a five-part series by Gigi Sayfan on creating cross-platform plugins in C++. Subsequent installments are: [Part 2](Building%20Your%20Own%20Plugin%20Framework%20Part%202.md), [Part 3](Building%20Your%20Own%20Plugin%20Framework%20Part%203.md), [Part 4](Building%20Your%20Own%20Plugin%20Framework%20Part%204.md), and [Part 5](Building%20Your%20Own%20Plugin%20Framework%20Part%205.md).*
+Editor's Note: This is the first installment of a five-part series by Gigi Sayfan on creating cross-platform plugins in C++.
+Subsequent installments are:
+* [Part 2](Building-Your-Own-Plugin-Framework-Part-2)
+* [Part 3](Building-Your-Own-Plugin-Framework-Part-3)
+* [Part 4](Building-Your-Own-Plugin-Framework-Part-4)
+* [Part 5](Building-Your-Own-Plugin-Framework-Part-5)
+
 
 ---
 
@@ -325,5 +331,3 @@ For the sake of this discussion the dual C/C++ model has the prerequisites and l
 
 ---
 *Gigi Sayfan specializes in cross-platform object-oriented programming in C/C++/ C#/Python/Java with emphasis on large-scale distributed systems. He is currently trying to build intelligent machines inspired by the brain at Numenta (www.numenta.com).*
-
----

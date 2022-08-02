@@ -2,22 +2,26 @@
 layout: post
 title:  "Building Your Own Plugin Framework: Part 5"
 date:   2008-02-13
-last_modified_at: 2021-02-01 07:00:00
+last_modified_at: 2022-08-02 10:42:00
 categories: [Programming]
 tags:
   - c
   - cpp
 ---
 
-The plugins, the source, the game, and the wrap-up
-
-February 13, 2008
+Author: Gigi Sayfan
 
 URL: [drdobbs.com](https://www.drdobbs.com/cpp/building-your-own-plugin-framework-part/206503957)
 
+# The plugins, the source, the game, and the wrap-up
+
 ---
 
-This is the final article in a series about developing cross-platform plugins in C++. In previous articles -- [Part 1](Building%20Your%20Own%20Plugin%20Framework%20Part%201.md), [Part 2](Building%20Your%20Own%20Plugin%20Framework%20Part%202.md), [Part 3](Building%20Your%20Own%20Plugin%20Framework%20Part%203.md), and [Part 4](Building%20Your%20Own%20Plugin%20Framework%20Part%204.md) -- I examined the difficulties of working with C++ plugins in portable way.
+This is the final article in a series about developing cross-platform plugins in C++. In previous articles --
+[Part 1](Building-Your-Own-Plugin-Framework-Part-1),
+[Part 2](Building-Your-Own-Plugin-Framework-Part-2),
+[Part 3](Building-Your-Own-Plugin-Framework-Part-3), and
+[Part 4](Building-Your-Own-Plugin-Framework-Part-4) -- I examined the difficulties of working with C++ plugins in portable way.
 
 In this installment, I cover the missing pieces of the sample game introduced in Part 4 and give a demonstration. I also take a quick tour of the [source code](http://twimgs.com/ddj/images/article/2008/code/plugin.zip) that accompanies this series, tell a few good stories (it's about time), and finally compare the plugin framework to the [NuPIC](https://numenta.com/for-developers/software/pdf/nupic_prog_guide.pdf) (Numenta's Platform for Intelligent Computing) plugin framework, which is its conceptual ancestor. But first, let's take a look at some monster plugins that will be loaded into the game.
 

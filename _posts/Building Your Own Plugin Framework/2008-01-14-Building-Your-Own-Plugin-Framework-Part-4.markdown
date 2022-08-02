@@ -2,21 +2,25 @@
 layout: post
 title:  "Building Your Own Plugin Framework: Part 4"
 date:   2008-01-14
-last_modified_at: 2021-02-01 06:00:00
+last_modified_at: 2022-08-02 10:39:00
 categories: [Programming]
 tags:
   - c
   - cpp
 ---
 
-Hybrid C/C++ plugins
-
-January 14, 2008
+Author: Gigi Sayfan
 
 URL: [drdobbs.com](https://www.drdobbs.com/cpp/building-your-own-plugin-framework-part/205604762)
 
+# Hybrid C/C++ plugins
+
 ---
-*Editor's Note: This is the fourth installment of a five-part series by Gigi Sayfan on creating cross-platform plugins in C++. Other installments are: [Part 1](Building%20Your%20Own%20Plugin%20Framework%20Part%201.md), [Part 2](Building%20Your%20Own%20Plugin%20Framework%20Part%202.md), [Part 3](Building%20Your%20Own%20Plugin%20Framework%20Part%203.md), and [Part 5](Building%20Your%20Own%20Plugin%20Framework%20Part%205.md).*
+Editor's Note: This is the fourth installment of a five-part series by Gigi Sayfan on creating cross-platform plugins in C++. Other installments are:
+* [Part 1](Building-Your-Own-Plugin-Framework-Part-1)
+* [Part 2](Building-Your-Own-Plugin-Framework-Part-2)
+* [Part 3](Building-Your-Own-Plugin-Framework-Part-3)
+* [Part 5](Building-Your-Own-Plugin-Framework-Part-5)
 
 ---
 

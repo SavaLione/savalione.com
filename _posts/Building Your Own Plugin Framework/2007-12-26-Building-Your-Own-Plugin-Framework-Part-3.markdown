@@ -2,21 +2,25 @@
 layout: post
 title:  "Building Your Own Plugin Framework: Part 3"
 date:   2007-12-26
-last_modified_at: 2021-02-01 05:00:00
+last_modified_at: 2022-08-02 10:38:00
 categories: [Programming]
 tags:
   - c
   - cpp
 ---
 
-Cross-platform development, misc topics, and the dual C/C++ object model
-
-December 26, 2007
+Author: Gigi Sayfan
 
 URL: [drdobbs.com](https://www.drdobbs.com/cpp/building-your-own-plugin-framework-part/205203129)
 
+# Cross-platform development, misc topics, and the dual C/C++ object model
+
 ---
-*Editor's Note: This is the third installment of a five-part series by Gigi Sayfan on creating cross-platform plugins in C++. Other installments are: [Part 1](Building%20Your%20Own%20Plugin%20Framework%20Part%201.md), [Part 2](Building%20Your%20Own%20Plugin%20Framework%20Part%202.md), [Part 4](Building%20Your%20Own%20Plugin%20Framework%20Part%204.md), and [Part 5](Building%20Your%20Own%20Plugin%20Framework%20Part%205.md).*
+Editor's Note: This is the third installment of a five-part series by Gigi Sayfan on creating cross-platform plugins in C++. Other installments are:
+* [Part 1](Building-Your-Own-Plugin-Framework-Part-1)
+* [Part 2](Building-Your-Own-Plugin-Framework-Part-2)
+* [Part 4](Building-Your-Own-Plugin-Framework-Part-4)
+* [Part 5](Building-Your-Own-Plugin-Framework-Part-5)
 
 ---
 
