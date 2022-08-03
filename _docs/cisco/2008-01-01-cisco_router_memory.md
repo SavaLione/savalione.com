@@ -129,6 +129,59 @@ This is always the case unless there is a severe memory component shortage.
 |The 2801 has 128MB memory soldiered onto the motherboard.|
 |2801 has (1) 1.1 USB port / 2811,2821,2851, 3825, 3845 have (2) USB 1.1 ports|
 
+## Table 3 - 7xxx Series Routers
+
+|Router |Route Memory ||| Packet Memory |||Boot Flash |||E?|
+| ^^    |Slots|Std|Max|Slots|Std|Max|Slots|Std|Max| ^^ |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|70x0 RP |4|16|64 |0|||1|4|4|Y|
+|70x0 RSP|4|16|128|0|||1|8|8|Y|
+|71xx    |2|64|256|1|64|64|1|8|8|Y|
+|72xx NPE-100|4|32|128|0|||0|||N|
+|72xx NPE-150|4|64|128|1 fixed|||0|||N|
+|72xx NPE-175|1|64|128|0|||0|||N|
+|72xx NPE-200|4|64|128|4 fixed|||0|||N|
+|72xx NPE-225|1|128|256|0|||0|||N|
+|72xx NPE-300|2|128|256|2|32|32|0|||N|
+|72xx NPE-400|1|128|512|0|||0|||N|
+|72xx NPE-G1 |2|256|1024|16 <= 256|||16 fixed|||Y|
+| ^^         | ^^ | ^^ | ^^ |32 > 256||| ^^ ||| ^^ |
+|72xx NPE-G2 |1|256|1024|0|||64 fixed|||Y|
+|72xx NSE-1  |1|128|256|0|||0|||N|
+|72xx I/O -FE|0||||||0|4|4|Y|
+| ^^ | ^^ ||||||1| ^^ | ^^ | ^^ |
+|72xx I/O-GE 2FE|0||||||8 fixed|||Y|
+|7301|2|256|1024|16 <= 256|||32 fixed|||Y|
+| ^^ | ^^ | ^^ | ^^ |32 > 256||| ^^ ||| ^^ |
+|7304 NSE-100 |1|512 |512 |0|||1|32|32|Y|
+|7304 NSE-G100|2|1024|1024|128|||1|32|32|Y|
+|7401|1|128|512|0|||8 fixed|||Y|
+|75xx RSP1   |4|16 |128 |0|||1|8 |8 |Y|
+|75xx RSP2   |4|32 |128 |0|||1|8 |8 |Y|
+|75xx RSP4   |2|64 |256 |2 fixed|||1|8 |16|Y|
+|75xx RSP4+  |2|64 |256 |2 fixed|||1|8 |16|Y|
+|75xx RSP8   |2|64 |256 |8 fixed|||1|16|16|Y|
+|75xx RSP16  |2|128|1024|8 fixed|||1|16|16|Y|
+|75xx VIP2-10|2|16|64 |1|0.512|2|0|||N|
+|75xx VIP2-15|2|16|64 |1|1 |2|0|||N|
+|75xx VIP2-20|2|16|64 |1|1 |2|0|||N|
+|75xx VIP2-40|2|32|64 |1|2 |2|0|||N|
+|75xx VIP2-50|1|32|128|1|4 |8|0|||N|
+|75xx VIP4   |1|64|256|1|64|64|0|||N|
+|75xx VIP6   |1|64|256|1|64|64|0|||N|
+
+|:Notes - 7xxx Series Routers:  ||
+|:------|:-----------------------|
+|NPE-100|must pair memory SIMM's.|
+|NPE-150| ^^                     |
+|NPE-200| ^^                     |
+|NPE-G1 | ^^                     |
+|7301   | ^^                     |
+|VIP2-10| ^^                     |
+|VIP2-15| ^^                     |
+|VIP2-20| ^^                     |
+|VIP2-40| ^^                     |
+
 ## Memory Tables - Table 4 - Core Routers
 
 |Router |Route Memory   |||Packet Memory   |||Boot Flash      |||E?   |
