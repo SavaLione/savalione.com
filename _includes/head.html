@@ -12,4 +12,8 @@
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" />
 <title>{% if page.title == "Home" %}{{ site.title }}{% else %}{{ page.title }} &middot; {{ site.title }}{% endif %}</title>
 
-{% include analytics.html %}
+{% if site.analytics_google %}
+{% include analytics_google.html %}
+{% endif %}
+
+{% include favicon.html %}
