@@ -8,6 +8,7 @@ tags:
   - Cisco
   - Routing
   - Performance
+  - Specs
 ---
 ## Router Switching Performance in Packets Per Second (PPS)
 Numbers are given with 64 byte packet size, IP only, and are only an indication of raw switching performance.

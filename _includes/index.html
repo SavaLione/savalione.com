@@ -11,7 +11,8 @@
             </div>
             {% endfor %}
             {% else %}
-            {% for doc in site.docs %}
+            {% assign sorted = site.docs | sort: 'date' | reverse %}
+            {% for doc in sorted %}
             <div class="post-wrapper">
                 <time class="post-date" datetime="{{ doc.date | date_to_xmlschema }}">{{ doc.date | date: "%Y-%m-%d" }}</time>
                 <a class="post-link" href="{{ doc.url }}">
