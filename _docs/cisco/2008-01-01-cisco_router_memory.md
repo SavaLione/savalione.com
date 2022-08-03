@@ -2,7 +2,7 @@
 layout: docs
 title:  "Cisco router memory"
 date:   2008-01-01
-last_modified_at: 2022-08-03 21:11:00
+last_modified_at: 2022-08-04 00:32:00
 categories: [Cisco]
 tags:
   - Cisco
