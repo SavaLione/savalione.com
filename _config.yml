@@ -26,9 +26,21 @@ author: "SavaLione"
 locale: en_us
 # https://developer.yoast.com/features/opengraph/api/changing-og-locale-output/
 
-# jekyll-paginate
-paginate: 25
-paginate_path: "/page:num/"
+# jekyll-paginate (deprecated)
+# paginate: 25
+# paginate_path: "/page:num/"
+
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 25
+  offset: 2
+  permalink: '/page:num/'
+  title: ':title - page :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # JavaScript
 javascript_enabled: true
@@ -37,7 +49,7 @@ javascript_enabled: true
 markdown: kramdown
 highlighter: rouge
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-archives
   - jekyll-seo-tag
   - jekyll-feed
@@ -60,12 +72,21 @@ sass:
 
 collections:
   posts:
-    title: Essays
-    default_open: true
     output: true
+    permalink: "/post/:title"
+  docs:
+    output: true
+    permalink: "/docs/:categories/:title"
 
 defaults:
   - scope:
-      type: posts
+      type: "posts"
     values:
       permalink: /post/:title
+      layout: "post"
+  - scope:
+      path: ""
+      type: "documentation"
+    values:
+      permalink: /docs/:categories/:title
+      layout: "documentation"
