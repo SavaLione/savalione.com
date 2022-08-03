@@ -86,7 +86,7 @@ defaults:
       layout: "post"
   - scope:
       path: ""
-      type: "documentation"
+      type: "docs"
     values:
       permalink: /docs/:categories/:title
-      layout: "documentation"
+      layout: "docs"

@@ -1,14 +1,25 @@
 <main class="home-main">
-	<section id="posts">
-		<div class="parent">
-			{% for post in paginator.posts %}
-			<div class="post-wrapper">
-				<time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-				<a class="post-link" href="{{ post.url }}">
-					{{ post.title }}
-				</a>
-			</div>
-			{% endfor %}
-		</div>
-	</section>
+    <section id="posts">
+        <div class="parent">
+            {% if page.title == "Home"%}
+            {% for post in paginator.posts %}
+            <div class="post-wrapper">
+                <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+                <a class="post-link" href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </div>
+            {% endfor %}
+            {% else %}
+            {% for doc in site.docs %}
+            <div class="post-wrapper">
+                <time class="post-date" datetime="{{ doc.date | date_to_xmlschema }}">{{ doc.date | date: "%Y-%m-%d" }}</time>
+                <a class="post-link" href="{{ doc.url }}">
+                    {{ doc.title }}
+                </a>
+            </div>
+            {% endfor %}
+            {% endif %}
+        </div>
+    </section>
 </main>
