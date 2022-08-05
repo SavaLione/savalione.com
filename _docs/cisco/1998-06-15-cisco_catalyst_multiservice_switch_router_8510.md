@@ -22,6 +22,73 @@ Unlike old first- or second-generation ATM switches that force customers to have
 inefficient, multi-system solution, the Catalyst 8500 switch provides an
 **integrated ATM and Gigabit Ethernet** solution in a **single chassis**.
 
+### Specifications
+#### Physical Specifications
+
+|:Catalyst 8510 and LightSteam 1010 Specifications:|||
+|Description|Specifications||
+|:---|:---|:---|
+|Switch and processor capacity||10-Gbps shared memory, nonblocking switch fabric up to 32-KB frames|
+|Dimensions (H x W x D)||Chassis: 10.4 x 17.25 x 18.4 in (26.4 x 43.8 x 46.7 cm)|
+| ^^                   ||Processor, switch processor, carrier module, and interface module: 1.2 x 14.4 x 16 in (3.0 x 36.6 x 40.6 cm)|
+| ^^                   ||Port adapter: 1.2 x 6.5 x 10 in (3.0 x 16.5 x 25.4 cm)|
+| ^^                   ||Power supply: 2.7 x 6.0 x 15.3 in (6.9 x 15.2 x 38.9 cm)|
+|Weight                ||Empty chassis: 32 lb (14.51 kg)|
+| ^^                   ||Fully populated chassis: approximately 130 lb (58.97 kg)|
+| ^^                   ||AC power supply: 11 lb (4.99 kg)|
+| ^^                   ||DC power supply: 10 lb (4.54 kg)|
+|Airflow ||95 cfm through the system fan assembly|
+|Operating temperature ||32 to 122 F (0 to 50 C)|
+|Nonoperating temperature|| -40 to 167 F (-40 to 75 C)|
+|Humidity||10 to 90%, noncondensing|
+|Altitude||-500 to 6,500 ft (-152 to 2000 m)|
+|Microprocessor||100-Mhz MIPS R4700|
+|AC total output||388W maximum|
+|AC-input voltage||100-127/200-240 VAC wide input with power factor correction|
+|AC frequency Auto||sensing limits: 100 to 127/200 to 240 VAC, 8/4A, 50/60 Hz|
+|AC current rating||8/4A with the chassis fully populated|
+|Power supply load||376W maximum configuration, 200W typical with max configuration|
+|DC voltages supplied and steady-state maximum current rating|System:|+5V @ 70A|
+| ^^                                                         | ^^    |+12V @ 2A|
+| ^^                                                         | ^^    |+24V @ 0.12A|
+| ^^                                                         |Processor:|+5V @ 15A|
+| ^^                                                         | ^^    |+24V @ 25mA|
+| ^^                                                         | ^^    |+12V @ 500mA|
+|Memory                                                     ||8-MB Flash memory SIMM (upgradable to 16 MB)|
+| ^^                                                        ||64-MB DRAM|
+| ^^                                                        ||256-KB boot EPROM|
+| ^^                                                        ||128-KB SRAM|
+| ^^                                                        ||No Flash PC card installed by default (accepts 8-, 16-, or 20-MB Intel Series 2+ Flash PC cards)|
+
+#### System Overview
+
+```
+|------------------|------------------|
+|Power Supply 1    |Power Supply 2    |
+|__________________|__________________|
+|F|Interface Slot 1|
+|A|Interface Slot 2|
+|N|
+|T|Switch Route Processor
+|R|
+|A|Interface Slot 3|
+|Y|Interface Slot 4|
+
+```
+
+|:Catalyst 8510:|||
+|:---:|:---:|:---:|
+|Power Supply 1|Power Supply 2||
+| ^^           | ^^           ||
+|FAN TRAY|Interface Slot 1||
+| ^^     |Interface Slot 2||
+| ^^     |Switch Route Processor||
+| ^^     |Interface Slot 3||
+| ^^     |Interface Slot 4||
+
+### Cables Specifications
+#### Distances
+
 |:Maximum Transmission Distances:||||
 |Transceiver Speed|Cable Type|Max. Distance Between Stations||
 | ^^              | ^^       |Meter|Feet|
@@ -49,6 +116,11 @@ inefficient, multi-system solution, the Catalyst 8500 switch provides an
 
 1. If you are attaching a short cable to the 622-Mbps long-reach port adapter, you must add 10 dB of attenuation to the cable or the transmitter might overdrive the receiver and introduce data errors.
 
+#### RJ-45
+
+The 10/100 Mbps Ethernet interface module with unshielded twisted-pair (UTP) ports supports
+RJ-45 connectors. The following table lists the signals for RJ-45 cable connectors.
+
 |:Pinouts to RJ-45 Connectors:|||
 |Pin|Signal|Description|
 |:---|:---|:---|
@@ -61,8 +133,10 @@ inefficient, multi-system solution, the Catalyst 8500 switch provides an
 |7| TxD+ |Transmit data +|
 |8| TxD– |Transmit data –|
 
+#### RJ-48c
+
 The T1, E1, CES T1, and CES E1 port adapters support RJ-48c connectors.
-The following table lists the signals for RJ-48c connectors:
+The following table lists the signals for RJ-48c connectors.
 
 |:Pinouts to RJ-48c Connectors:||
 |Pin|Description|
@@ -75,6 +149,8 @@ The following table lists the signals for RJ-48c connectors:
 |6| No connection|
 |7| No connection|
 |8| No connection|
+
+#### 96-Pin Molex
 
 The 25-Mbps port adapter supports a 96-pin Molex to 4 unshielded RJ-45 connectors.
 The following table lists the signals for the 96-pin Molex connector:
@@ -180,6 +256,8 @@ The following table lists the signals for the 96-pin Molex connector:
 |GND  |95  |NC  |NC  |No connection   |
 |GND  |96  |NC  |NC  |No connection   |
 
+#### MT-RJ
+
 The Ethernet ports on the 100BASE-FX interface module are MT-RJ receptacles.
 The following table lists the signals for the MT-RJ Ethernet cable connector:
 
@@ -197,37 +275,3 @@ The following table lists the signals for the MT-RJ Ethernet cable connector:
 |9 |TD+   |--->|Transmit data+|
 |10|TD-   |--->|Transmit data|
 
-|:Catalyst 8510 and LightSteam 1010 Specifications:|||
-|Description|Specifications||
-|:---|:---|:---|
-|Switch and processor capacity||10-Gbps shared memory, nonblocking switch fabric up to 32-KB frames|
-|Dimensions (H x W x D)||Chassis: 10.4 x 17.25 x 18.4 in (26.4 x 43.8 x 46.7 cm)|
-| ^^                   ||Processor, switch processor, carrier module, and interface module: 1.2 x 14.4 x 16 in (3.0 x 36.6 x 40.6 cm)|
-| ^^                   ||Port adapter: 1.2 x 6.5 x 10 in (3.0 x 16.5 x 25.4 cm)|
-| ^^                   ||Power supply: 2.7 x 6.0 x 15.3 in (6.9 x 15.2 x 38.9 cm)|
-|Weight                ||Empty chassis: 32 lb (14.51 kg)|
-| ^^                   ||Fully populated chassis: approximately 130 lb (58.97 kg)|
-| ^^                   ||AC power supply: 11 lb (4.99 kg)|
-| ^^                   ||DC power supply: 10 lb (4.54 kg)|
-|Airflow ||95 cfm through the system fan assembly|
-|Operating temperature ||32 to 122 F (0 to 50 C)|
-|Nonoperating temperature|| -40 to 167 F (-40 to 75 C)|
-|Humidity||10 to 90%, noncondensing|
-|Altitude||-500 to 6,500 ft (-152 to 2000 m)|
-|Microprocessor||100-Mhz MIPS R4700|
-|AC total output||388W maximum|
-|AC-input voltage||100-127/200-240 VAC wide input with power factor correction|
-|AC frequency Auto||sensing limits: 100 to 127/200 to 240 VAC, 8/4A, 50/60 Hz|
-|AC current rating||8/4A with the chassis fully populated|
-|Power supply load||376W maximum configuration, 200W typical with max configuration|
-|DC voltages supplied and steady-state maximum current rating|System:|+5V @ 70A|
-| ^^                                                         | ^^    |+12V @ 2A|
-| ^^                                                         | ^^    |+24V @ 0.12A|
-| ^^                                                         |Processor:|+5V @ 15A|
-| ^^                                                         | ^^    |+24V @ 25mA|
-| ^^                                                         | ^^    |+12V @ 500mA|
-|Memory                                                     ||8-MB Flash memory SIMM (upgradable to 16 MB)|
-| ^^                                                        ||64-MB DRAM|
-| ^^                                                        ||256-KB boot EPROM|
-| ^^                                                        ||128-KB SRAM|
-| ^^                                                        ||No Flash PC card installed by default (accepts 8-, 16-, or 20-MB Intel Series 2+ Flash PC cards)|
