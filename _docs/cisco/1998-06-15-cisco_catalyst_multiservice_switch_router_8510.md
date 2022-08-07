@@ -60,61 +60,58 @@ inefficient, multi-system solution, the Catalyst 8500 switch provides an
 | ^^                                                        ||128-KB SRAM|
 | ^^                                                        ||No Flash PC card installed by default (accepts 8-, 16-, or 20-MB Intel Series 2+ Flash PC cards)|
 
-#### System Overview
-
-```
-|------------------|------------------|
-|Power Supply 1    |Power Supply 2    |
-|__________________|__________________|
-|F|Interface Slot 1|
-|A|Interface Slot 2|
-|N|
-|T|Switch Route Processor
-|R|
-|A|Interface Slot 3|
-|Y|Interface Slot 4|
-
-```
+##### Processor Options and Line Cards Supported in the Catalyst 8500
 
 |:Catalyst 8510:|||
-|:---:|:---:|:---:|
-|Power Supply 1|Power Supply 2||
-| ^^           | ^^           ||
-|FAN TRAY|Interface Slot 1||
-| ^^     |Interface Slot 2||
-| ^^     |Switch Route Processor||
-| ^^     |Interface Slot 3||
-| ^^     |Interface Slot 4||
+| |Switch Route Processor (SRP)|Multiservice Switch Route Processor (MSRP)|
+|:---|:---|:---|
+|Fast Ethernet Line Cards|X|X|
+|Gigabit Ethernet Line Cards|X|X|
+|ATM/PoS Uplinks up to OC-12|X|X|
+|ATM Switching Interface Line Cards from T1/E1 to OC-12| |X|
+|ATM Circuit Emulation Service (CES)| |X|
+
+|:Catalyst 8540:|||
+| |Switch Processor (SP) and Route Processor (RP)|Multiservice Switch Processor (MSP) and Multiservice Route Processor (MRP)|
+|High-Density Fast Ethernet Line Cards|X|X|
+|High-Density Gigabit Ethernet Line Cards|X|X|
+|ATM/PoS Uplinks up to OC-12|X|X|
+|ATM Switching Interface Line Cards from T1/E1 to OC-48| |X|
+|ATM Circuit Emulation Service (CES)| |X|
+
+##### Catalyst 8510 Layer 3 Line Cards
+
+|:Catalyst 8510 Layer 3 Line Cards:|||
+|Line Card|Media Options|Maximum Switch Density|
+|:---|:---|:---|
+|8-Port Fast Ethernet|10/100 UTP with RJ-45 connectors|32 port|
+|  ^^                |100 BaseFX MMF with SC connectors| ^^   |
+|1-Port Gigabit Ethernet|:GBIC connectors:|4 ports|
+| ^^                    |Short wavelength (250m)| ^^ |
+| ^^                    |Long wavelength (500m)| ^^ |
+| ^^                    |Single mode (3 km)| ^^ |
+|Modular ATM and Packet over SONET Uplinks|OC-3c|Details to be announced later|
+| ^^                    |OC-12c| ^^ |
+
+##### Catalyst 8540 Layer 3 Line Cards
+
+|:Catalyst 8540 Layer 3 Line Cards:|||
+|Line Card|Media Options|Maximum Switch Density|
+|:---|:---|:---|
+|16-Port Fast Ethernet|10/100 UTP with RJ-45 connectors|128 port|
+|  ^^                |100 BaseFX MMF with SC connectors| ^^   |
+|2-Port Gigabit Ethernet|:GBIC connectors:|16 ports|
+| ^^                    |Short wavelength (250m)| ^^ |
+| ^^                    |Long wavelength (500m)| ^^ |
+| ^^                    |Single mode (3 km)| ^^ |
+|Modular ATM and Packet over SONET Uplinks|OC-3c|Details to be announced later|
+| ^^                    |OC-12c| ^^ |
 
 ### Cables Specifications
-#### Distances
-
-|:Maximum Transmission Distances:||||
-|Transceiver Speed|Cable Type|Max. Distance Between Stations||
-| ^^              | ^^       |Meter|Feet|
-|:---|:---|:---|:---|
-|10/100-Mbps Ethernet   |Category 5 UTP                 |100 m|328 feet|
-|100-Mbps Ethernet      |Multimode fiber                |500 m|1640 feet|
-|1000-Mbps Ethernet     |Multimode fiber                |500 m|1640 feet|
-|1000-Mbps Ethernet     |Single-mode fiber              |5 km |16404 feet|
-|25-Mbps ATM            |Category 5 UTP                 |100 m|328 feet|
-|155-Mbps ATM           |Single-mode fiber, long reach  |40 km|25 miles|
-|155-Mbps ATM           |Multimode fiber                |2 km |1.2 miles|
-|622-Mbps ATM           |Single-mode fiber              |15 km|9 miles|
-|622-Mbps ATM           |Single-mode fiber, long reach  |40 km (1)|25 miles|
-|622-Mbps ATM           |Multimode fiber                |500 m|1640 feet|
-|T1, 1.544-Mbps ATM     |Category 5 twisted-pair                    |198 m|650 feet|
-|E1, 2.048-Mbps ATM     |Category 5 twisted-pair and FTP (120 ohm)  |198 m|650 feet|
-|E1, 2.048-Mbps ATM     |Coaxial cable (75 ohm)                     |198 m|650 feet|
-|CDS3, 45-Mbps          |Coaxial cable                              |137 m|450 feet|
-|CE1, 2.048-Mbps        |ATM Category 5 twisted-pair                |198 m|650 feet|
-|CES T1                 |Category 5 twisted-pair and FTP            |198 m|650 feet|
-|CES E1                 |Category 5 twisted-pair and FTP (120 ohm)  |250 m|820 feet|
-|CES E1                 |Coaxial cable (75 ohm)         |198 m|650 feet|
-|DS3, 45-Mbps           |Coaxial cable                  |137 m|450 feet|
-|E3, 34-Mbps            |Coaxial cable                  |396 m|1299 feet|
-
-1. If you are attaching a short cable to the 622-Mbps long-reach port adapter, you must add 10 dB of attenuation to the cable or the transmitter might overdrive the receiver and introduce data errors.
+I suggested that it would be better to isolate some of the technical specifications, such as length or pinout,
+and move them to a new page.
+I did this because usually the length and pinout is the same for different equipment.
+You can see cables technical specifications here: [Cables specifications](/docs/etc/cables_specifications).
 
 #### RJ-45
 
