@@ -1,9 +1,10 @@
 ---
 layout: docs
+type: docs
 title:  "Cables specifications"
 date:   2022-08-08
 last_modified_at: 2022-08-08 00:36:00
-categories: [Layer_1]
+categories: [Physical]
 tags:
   - Ethernet
   - T1

@@ -1,5 +1,6 @@
 ---
 layout: docs
+type: docs
 title:  "Cisco router memory"
 date:   2008-01-01
 last_modified_at: 2022-08-04 00:32:00

@@ -81,13 +81,15 @@ collections:
 
 defaults:
   - scope:
+      path: "_posts/posts"
       type: "posts"
     values:
       permalink: /post/:title
       layout: "post"
   - scope:
-      path: ""
-      type: "docs"
+      path: "_posts/docs"
+      type: "posts"
     values:
       permalink: /docs/:categories/:title
       layout: "docs"
+

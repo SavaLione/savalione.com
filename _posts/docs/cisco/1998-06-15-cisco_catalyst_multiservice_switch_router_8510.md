@@ -1,5 +1,6 @@
 ---
 layout: docs
+type: docs
 title:  "Cisco Catalyst 8510 Multiservice Switch Router"
 date:   1998-06-15
 last_modified_at: 2022-08-05 11:44:00

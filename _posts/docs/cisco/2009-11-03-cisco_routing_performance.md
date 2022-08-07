@@ -1,5 +1,6 @@
 ---
 layout: docs
+type: docs
 title:  "Cisco routing performance"
 date:   2009-11-03
 last_modified_at: 2022-08-03 21:06:00
