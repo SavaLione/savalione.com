@@ -27,7 +27,7 @@ inefficient, multi-system solution, the Catalyst 8500 switch provides an
 #### Physical Specifications
 
 |:Catalyst 8510 and LightSteam 1010 Specifications:|||
-|Description|Specifications||
+|Description||Specifications|
 |:---|:---|:---|
 |Switch and processor capacity||10-Gbps shared memory, nonblocking switch fabric up to 32-KB frames|
 |Dimensions (H x W x D)||Chassis: 10.4 x 17.25 x 18.4 in (26.4 x 43.8 x 46.7 cm)|
