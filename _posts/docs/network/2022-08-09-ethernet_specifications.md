@@ -3,7 +3,7 @@ layout: docs
 type: docs
 title:  "Ethernet specifications"
 date:   2022-08-09
-last_modified_at: 2022-08-09 02:52:00
+last_modified_at: 2022-08-09 07:27:00
 categories: [Network]
 tags:
   - Ethernet
