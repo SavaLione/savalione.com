@@ -29,33 +29,78 @@ tags:
 |1h     |360G   |45G    |4.6T   |250G   |36T    |4.5T   |144T   |18T    |360T   |45T    |
 |1d     |8.64T  |1.08T  |86.4T  |10.8T  |864T   |108T   |3.456P |432T   |8.64P  |1.08P  |
 
-## Ethernet frame
+## Ethernet frame and package
 
 ### Ethernet frame sizes
-#### Default minimum ethernet frame
 
-|:Default minimum ethernet frame:|||||||
-|Interframe Gap|Preamble|DST MAC|SRC MAC|Type   |Data        |CRC    |
-|12 Bytes      |8 Bytes |6 bytes|6 bytes|2 Bytes|Min 46 bytes|4 bytes|
+|:Ethernet minimum frame sizes:||||
+|:---|:---|:---|:---|
+|Default|VLAN|Q-in-Q|MPLS|
+|64|64|64|64|
 
-#### Default minimum vlan tagged ethernet frame
 
-|:Default minimum vlan tagged ethernet frame:||||||||
-|Interframe Gap|Preamble|DST MAC|SRC MAC|802.1Q Tag|Type   |Data        |CRC    |
-|12 Bytes      |8 Bytes |6 bytes|6 bytes|4 bytes   |2 Bytes|Min 46 bytes|4 bytes|
+|:Ethernet maximum frame sizes (bytes):||||
+|:---|:---|:---|:---|
+|Default|VLAN|Q-in-Q|MPLS|
 
-#### Default minimum Q-in-Q tagged ethernet frame
+### Ethernet package sizes
 
-|:Default minimum Q-in-Q tagged ethernet frame:|||||||||
-|Interframe Gap|Preamble|DST MAC|SRC MAC|Metro Tag|Customer Tag|Type   |Data        |CRC    |
-|12 Bytes      |8 Bytes |6 bytes|6 bytes|4 bytes  |4 bytes     |2 Bytes|Min 46 bytes|4 bytes|
+|:Ethernet minimum package sizes:||||
+|:---|:---|:---|:---|
+|Default|VLAN|Q-in-Q|MPLS|
+|84|84|84|84|
 
-#### Default minimum MPLS ethernet frame
+|:Ethernet maximum package sizes (bytes):||||
+|:---|:---|:---|:---|
+|Default|VLAN|Q-in-Q|MPLS|
 
-|:Default minimum MPLS ethernet frame:||||||||||
-|Interframe Gap|Preamble|DST MAC|SRC MAC|Type     |MPLS Label  |MPLS Label  |MPLS Label  |Data        |CRC    |
-|12 Bytes      |8 Bytes |6 bytes|6 bytes|2 bytes  |4 bytes     |4 bytes     |4 bytes     |Min 46 bytes|4 bytes|
+#### Default minimum ethernet packet and frame
 
+|:Default minimum ethernet packet and frame:||||||||
+|       |Interframe Gap|Preamble|DST MAC|SRC MAC|Type   |Data        |CRC    |
+| ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|2 Bytes|Min 46 bytes|4 bytes|
+|Layer 2| ||:Ethernet frame:|||||
+|Layer 1|:Ethernet packet:|||||||
+
+Default minimum ethernet frame size: 64 bytes
+
+Default minimum ethernet packet size: 84 bytes
+
+#### Default minimum vlan tagged ethernet packet and frame (IEEE 802.1Q)
+
+|:Default minimum vlan tagged ethernet packet and frame:|||||||||
+|       |Interframe Gap|Preamble|DST MAC|SRC MAC|802.1Q Tag|Type   |Data        |CRC    |
+| ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|4 bytes   |2 Bytes|Min 42 bytes|4 bytes|
+|Layer 2| ||:Ethernet vlan tagged frame:||||||
+|Layer 1|:Ethernet vlan tagged packet:||||||||
+
+Default minimum vlan tagged ethernet frame size: 64 bytes
+
+Default minimum vlan tagged ethernet packet size: 84 bytes
+
+#### Default minimum Q-in-Q tagged ethernet packet and frame (IEEE 802.1ad)
+
+|:Default minimum Q-in-Q tagged ethernet frame:||||||||||
+|       |Interframe Gap|Preamble|DST MAC|SRC MAC|Metro Tag|Customer Tag|Type   |Data        |CRC    |
+| ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|4 bytes  |4 bytes     |2 Bytes|Min 38 bytes|4 bytes|
+|Layer 2| ||:Ethernet Q-in-Q tagged frame:|||||||
+|Layer 1|:Ethernet Q-in-Q tagged packet:|||||||||
+
+Default minimum Q-in-Q tagged ethernet frame size: 64 bytes
+
+Default minimum Q-in-Q tagged ethernet packet size: 84 bytes
+
+#### Default minimum MPLS tagged ethernet packet and frame
+
+|:Default minimum MPLS tagged ethernet packet and frame:|||||||||||
+|       |Interframe Gap|Preamble|DST MAC|SRC MAC|Type     |MPLS Label  |MPLS Label  |MPLS Label  |Data        |CRC    |
+| ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|2 bytes  |4 bytes     |4 bytes     |4 bytes     |Min 34 bytes|4 bytes|
+|Layer 2| ||:Ethernet MPLS tagged frame:||||||||
+|Layer 1|:Ethernet MPLS tagged packet:||||||||||
+
+Default minimum MPLS tagged ethernet frame size: 64 bytes
+
+Default minimum MPLS tagged ethernet frame size: 84 bytes
 
 ### Smallest size of Ethernet frame
 The minimum frame payload is 46 Bytes (dictated by the slot time of the Ethernet LAN architecture).
