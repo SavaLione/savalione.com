@@ -29,78 +29,112 @@ tags:
 |1h     |360G   |45G    |4.6T   |250G   |36T    |4.5T   |144T   |18T    |360T   |45T    |
 |1d     |8.64T  |1.08T  |86.4T  |10.8T  |864T   |108T   |3.456P |432T   |8.64P  |1.08P  |
 
-## Ethernet frame and package
-
-### Ethernet frame sizes
-
-|:Ethernet minimum frame sizes:||||
-|:---|:---|:---|:---|
-|Default|VLAN|Q-in-Q|MPLS|
-|64|64|64|64|
+## Ethernet frame and packet
+### Ethernet frame and packet sizes
 
 
-|:Ethernet maximum frame sizes (bytes):||||
-|:---|:---|:---|:---|
-|Default|VLAN|Q-in-Q|MPLS|
+|:Ethernet frame and packet sizes:|||||||||
+|       |Default       ||VLAN          ||Q-in-Q        ||MPLS          ||
+| ^^    |Frame  |Packet |Frame  |Packet |Frame  |Packet |Frame  |Packet |
+|:------|:------|:------|:------|:------|:------|:------|:------|:------|
+|Minimum|64     |84     |64     |84     |64     |84     |64     |84     |
+|Maximum|1518   |1538   |1522   |1542   |1526   |1546   |1530   |1550   |
 
-### Ethernet package sizes
+#### Minimum default ethernet packet and frame
 
-|:Ethernet minimum package sizes:||||
-|:---|:---|:---|:---|
-|Default|VLAN|Q-in-Q|MPLS|
-|84|84|84|84|
-
-|:Ethernet maximum package sizes (bytes):||||
-|:---|:---|:---|:---|
-|Default|VLAN|Q-in-Q|MPLS|
-
-#### Default minimum ethernet packet and frame
-
-|:Default minimum ethernet packet and frame:||||||||
+|:Minimum default ethernet packet and frame:||||||||
 |       |Interframe Gap|Preamble|DST MAC|SRC MAC|Type   |Data        |CRC    |
 | ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|2 Bytes|Min 46 bytes|4 bytes|
 |Layer 2| ||:Ethernet frame:|||||
 |Layer 1|:Ethernet packet:|||||||
 
-Default minimum ethernet frame size: 64 bytes
+Minimum default ethernet frame size: 64 bytes
 
-Default minimum ethernet packet size: 84 bytes
+Minimum default ethernet packet size: 84 bytes
 
-#### Default minimum vlan tagged ethernet packet and frame (IEEE 802.1Q)
+#### Minimum vlan tagged ethernet packet and frame (IEEE 802.1Q)
 
-|:Default minimum vlan tagged ethernet packet and frame:|||||||||
+|:Minimum vlan tagged ethernet packet and frame:|||||||||
 |       |Interframe Gap|Preamble|DST MAC|SRC MAC|802.1Q Tag|Type   |Data        |CRC    |
 | ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|4 bytes   |2 Bytes|Min 42 bytes|4 bytes|
 |Layer 2| ||:Ethernet vlan tagged frame:||||||
 |Layer 1|:Ethernet vlan tagged packet:||||||||
 
-Default minimum vlan tagged ethernet frame size: 64 bytes
+Minimum vlan tagged ethernet frame size: 64 bytes
 
-Default minimum vlan tagged ethernet packet size: 84 bytes
+Minimum vlan tagged ethernet packet size: 84 bytes
 
-#### Default minimum Q-in-Q tagged ethernet packet and frame (IEEE 802.1ad)
+#### Minimum Q-in-Q tagged ethernet packet and frame (IEEE 802.1ad)
 
-|:Default minimum Q-in-Q tagged ethernet frame:||||||||||
+|:Minimum Q-in-Q tagged ethernet frame:||||||||||
 |       |Interframe Gap|Preamble|DST MAC|SRC MAC|Metro Tag|Customer Tag|Type   |Data        |CRC    |
 | ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|4 bytes  |4 bytes     |2 Bytes|Min 38 bytes|4 bytes|
 |Layer 2| ||:Ethernet Q-in-Q tagged frame:|||||||
 |Layer 1|:Ethernet Q-in-Q tagged packet:|||||||||
 
-Default minimum Q-in-Q tagged ethernet frame size: 64 bytes
+Minimum Q-in-Q tagged ethernet frame size: 64 bytes
 
-Default minimum Q-in-Q tagged ethernet packet size: 84 bytes
+Minimum Q-in-Q tagged ethernet packet size: 84 bytes
 
-#### Default minimum MPLS tagged ethernet packet and frame
+#### Minimum MPLS tagged ethernet packet and frame
 
-|:Default minimum MPLS tagged ethernet packet and frame:|||||||||||
+|:Minimum MPLS tagged ethernet packet and frame:|||||||||||
 |       |Interframe Gap|Preamble|DST MAC|SRC MAC|Type     |MPLS Label  |MPLS Label  |MPLS Label  |Data        |CRC    |
 | ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|2 bytes  |4 bytes     |4 bytes     |4 bytes     |Min 34 bytes|4 bytes|
 |Layer 2| ||:Ethernet MPLS tagged frame:||||||||
 |Layer 1|:Ethernet MPLS tagged packet:||||||||||
 
-Default minimum MPLS tagged ethernet frame size: 64 bytes
+Minimum MPLS tagged ethernet frame size: 64 bytes
 
-Default minimum MPLS tagged ethernet frame size: 84 bytes
+Minimum MPLS tagged ethernet packet size: 84 bytes
+
+#### Maximum default ethernet packet and frame
+
+|:Maximum default ethernet packet and frame:||||||||
+|       |Interframe Gap|Preamble|DST MAC|SRC MAC|Type   |Data        |CRC    |
+| ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|2 Bytes|1500 bytes  |4 bytes|
+|Layer 2| ||:Ethernet frame:|||||
+|Layer 1|:Ethernet packet:|||||||
+
+Maximum default ethernet frame size: 1518 bytes
+
+Maximum default ethernet packet size: 1538 bytes
+
+#### Maximum vlan tagged ethernet packet and frame (IEEE 802.1Q)
+
+|:Maximum vlan tagged ethernet packet and frame:|||||||||
+|       |Interframe Gap|Preamble|DST MAC|SRC MAC|802.1Q Tag|Type   |Data        |CRC    |
+| ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|4 bytes   |2 Bytes|1500 bytes  |4 bytes|
+|Layer 2| ||:Ethernet vlan tagged frame:||||||
+|Layer 1|:Ethernet vlan tagged packet:||||||||
+
+Maximum vlan tagged ethernet frame size: 1522 bytes
+
+Maximum vlan tagged ethernet packet size: 1542 bytes
+
+#### Maximum Q-in-Q tagged ethernet packet and frame (IEEE 802.1ad)
+
+|:Maximum Q-in-Q tagged ethernet frame:||||||||||
+|       |Interframe Gap|Preamble|DST MAC|SRC MAC|Metro Tag|Customer Tag|Type   |Data        |CRC    |
+| ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|4 bytes  |4 bytes     |2 Bytes|1500 bytes  |4 bytes|
+|Layer 2| ||:Ethernet Q-in-Q tagged frame:|||||||
+|Layer 1|:Ethernet Q-in-Q tagged packet:|||||||||
+
+Maximum Q-in-Q tagged ethernet frame size: 1526 bytes
+
+Maximum Q-in-Q tagged ethernet packet size: 1546 bytes
+
+#### Maximum MPLS tagged ethernet packet and frame
+
+|:Maximum MPLS tagged ethernet packet and frame:|||||||||||
+|       |Interframe Gap|Preamble|DST MAC|SRC MAC|Type     |MPLS Label  |MPLS Label  |MPLS Label  |Data        |CRC    |
+| ^^    |12 Bytes      |8 Bytes |6 bytes|6 bytes|2 bytes  |4 bytes     |4 bytes     |4 bytes     |1500 bytes  |4 bytes|
+|Layer 2| ||:Ethernet MPLS tagged frame:||||||||
+|Layer 1|:Ethernet MPLS tagged packet:||||||||||
+
+Maximum MPLS tagged ethernet frame size: 1530 bytes
+
+Maximum MPLS tagged ethernet packet size: 1550 bytes
 
 ### Smallest size of Ethernet frame
 The minimum frame payload is 46 Bytes (dictated by the slot time of the Ethernet LAN architecture).
