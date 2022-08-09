@@ -226,7 +226,10 @@ Provided by Roger Beeman, Cisco Systems
 |100 Gbps   |148809523  |148 mpfs   |
 
 ```text
-(speed in bits) / (84*8)
+(speed in bits) / ((frame size)*8)
+
+Example for minimum default ethernet packet:
+    (speed in bits) / (84*8)
 ```
 
 ## Ethernet cable categories frequency
