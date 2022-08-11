@@ -4,6 +4,7 @@ type: docs
 title:  "Cables specifications"
 date:   2022-08-08
 last_modified_at: 2022-08-08 00:36:00
+description: "Network layer one cables specifications"
 categories: [Physical]
 tags:
   - Ethernet

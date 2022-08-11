@@ -3,6 +3,7 @@ layout: page
 title: About
 date:   2019-11-03
 last_modified_at: 2022-08-02 20:28:00
+description: "savalione.com about me"
 permalink: /about/
 ---
 Hello!

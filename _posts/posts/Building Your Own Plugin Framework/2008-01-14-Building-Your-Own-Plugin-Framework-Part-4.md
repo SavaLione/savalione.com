@@ -3,6 +3,7 @@ layout: post
 title:  "Building Your Own Plugin Framework: Part 4"
 date:   2008-01-14
 last_modified_at: 2022-08-02 10:39:00
+description: "Building Your Own Plugin Framework on C and C++: Part 4"
 categories: [Programming]
 tags:
   - c
