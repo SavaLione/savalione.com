@@ -44,7 +44,7 @@ The optional double scalar and vector types are supported if ``CL_DEVICE_DOUBLE_
 |:Built-in Vector Data Types:|||
 |OpenCL Type            |API Type   |Description                    |
 |:----------------------|:----------|:------------------------------|
-|char*n*                  |cl_charn   |8-bit signed                   |
+|char***n***                  |cl_charn   |8-bit signed                   |
 |ucharn                 |cl_ucharn  |8-bit unsigned                 |
 |shortn                 |cl_shortn  |16-bit signed                  |
 |ushortn                |cl_ushortn |16-bit unsigned                |
