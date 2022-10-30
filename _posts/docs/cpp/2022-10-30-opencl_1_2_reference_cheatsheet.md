@@ -40,3 +40,47 @@ The optional double scalar and vector types are supported if ``CL_DEVICE_DOUBLE_
 |intptr_t               |--         |32- or 64-bit signed integer   |
 |uintptr_t              |--         |32- or 64-bit unsigned integer |
 |void                   |void       |void                           |
+
+|:Built-in Vector Data Types:|||
+|OpenCL Type            |API Type   |Description                    |
+|:----------------------|:----------|:------------------------------|
+|charn                  |cl_charn   |8-bit signed                   |
+|ucharn                 |cl_ucharn  |8-bit unsigned                 |
+|shortn                 |cl_shortn  |16-bit signed                  |
+|ushortn                |cl_ushortn |16-bit unsigned                |
+|intn                   |cl_intn    |32-bit signed                  |
+|uintn                  |cl_uintn   |32-bit unsigned                |
+|longn                  |cl_longn   |64-bit signed                  |
+|ulongn                 |cl_ulongn  |64-bit unsigned                |
+|floatn                 |cl_floatn  |32-bit float                   |
+|doublen (OPTIONAL)     |cl_doublen |64-bit float                   |
+
+#### Other Built-in Data Types
+The optional types listed here other than ``event_t`` are only defined if ``CL_DEVICE_IMAGE_SUPPORT`` is ``CL_TRUE``.
+
+|:Other Built-in Data Types:||
+|OpenCL Type                  |Description                    |
+|:----------------------------|:------------------------------|
+|image2d_t (OPTIONAL)         |2D image handle                |
+|image3d_t (OPTIONAL)         |3D image handle                |
+|image2d_array_t (OPTIONAL)   |2D image array                 |
+|image1d_t (OPTIONAL)         |1D image handle                |
+|image1d_buffer_t (OPTIONAL)  |1D image buffer                |
+|image1d_array_t (OPTIONAL)   |1D image array                 |
+|sampler_t (OPTIONAL)         |sampler handle                 |
+|event_t                      |event handle                   |
+
+#### Reserved Data Types
+
+|:Reserved Data Types:||
+|OpenCL Type                  |Description                    |
+|:----------------------------|:------------------------------|
+|booln |boolean vector|
+|halfn |16-bit, vector|
+|quad, quadn |128-bit float, vector|
+|complex half, complex halfn imaginary half, imaginary halfn| 16-bit complex, vector|
+|complex float, complex floatn imaginary float, imaginary floatn| 32-bit complex, vector|
+|complex double, complex doublen imaginary double, imaginary doublen| 64-bit complex, vector|
+|complex quad, complex quadn imaginary quad, imaginary quadn |128-bit complex, vector|
+|floatnxm |n*m matrix of 32-bit floats|
+|doublenxm |n*m matrix of 64-bit floats|
