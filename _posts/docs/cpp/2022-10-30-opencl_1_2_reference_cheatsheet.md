@@ -33,7 +33,7 @@ The optional double scalar and vector types are supported if ``CL_DEVICE_DOUBLE_
 |long                   |cl_long    |64-bit signed                  |
 |unsigned long, ulong   |cl_ulong   |64-bit unsigned                |
 |float                  |cl_float   |32-bit float                   |
-|double (OPTIONAL)      |cl_double  |64-bit. IEEE 754               |
+|double (``OPTIONAL``)      |cl_double  |64-bit. IEEE 754               |
 |half                   |cl_half    |16-bit float (storage only)    |
 |size_t                 |--         |32- or 64-bit unsigned integer |
 |ptrdiff_t              |--         |32- or 64-bit signed integer   |
