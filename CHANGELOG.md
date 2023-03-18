@@ -3,3 +3,7 @@
     - Changed date
     - Removed copyright symbol
 - Added vs code settings
+- Changed fonts
+    - Removed old woff and woff2 fonts
+    - Added font Open Sans from Google
+    - Added typefaces: regular, italic, bold, bold italic

@@ -16,14 +16,14 @@
 
     // Spelling language (we want English and Russian spelling check)
     "spellright.language": [
-        "en",
-        "ru"
+        "en"
     ],
     "spellright.documentTypes": [
         "latex",
         "plaintext",
         "markdown",
-        "jsonc"
+        "jsonc",
+        "scss"
     ],
     "spellright.parserByClass": {
         "bibtex": {
