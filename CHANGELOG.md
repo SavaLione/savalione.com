@@ -12,3 +12,7 @@
 - Removed bash scripts
 - Changed 404 not found page
 - Fixed pwa manifest icon path
+- Added Progressive Web App support
+- Added pwa maskable icon
+- Added html ``theme-color`` tag for pwa
+- Changed tag color

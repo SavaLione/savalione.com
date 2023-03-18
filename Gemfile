@@ -10,5 +10,6 @@ group :jekyll_plugins do
     gem "jekyll-feed"
     gem "jekyll-sitemap"
     gem "jekyll-spaceship"
+    gem "jekyll-pwa-workbox"
 end
 

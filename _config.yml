@@ -60,6 +60,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-spaceship
+  - jekyll-pwa-workbox
 
 # Category settings
 jekyll-archives:
@@ -98,3 +99,17 @@ defaults:
       permalink: /docs/:categories/:title
       layout: "docs"
 
+# Progressive Web App
+pwa:
+  sw_src_filepath: service-worker.js # Optional
+  sw_dest_filename: service-worker.js # Optional
+  dest_js_directory: assets/script # Required
+  precache_recent_posts_num: 25 # Optional
+  precache_glob_directory: / # Optional
+  precache_glob_patterns: # Optional
+    - "/**/*.{js,json,css}"
+    - "/**/*.{ico,jpg,jpeg,png,svg}"
+    - "/**/*.woff2"
+    - "/**/*.html"
+  precache_glob_ignores: # Optional
+    - "sw-register.js"

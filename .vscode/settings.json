@@ -23,7 +23,8 @@
         "plaintext",
         "markdown",
         "jsonc",
-        "scss"
+        "scss",
+        "yaml"
     ],
     "spellright.parserByClass": {
         "bibtex": {

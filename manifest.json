@@ -8,12 +8,19 @@
     "orientation": "any",
     "scope": "/",
     "start_url": "/",
-    "description": "A readable Hacker News app.",
+    "description": "Saveliy Pototskiy blog",
     "icons": [
         {
             "src": "assets/ico/favicon.svg",
             "sizes": "any",
-            "type": "image/svg+xml"
+            "type": "image/svg+xml",
+            "purpose": "any"
+        },
+        {
+            "src": "assets/ico/favicon.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
         },
         {
             "src": "assets/ico/favicon-16x16.png",
