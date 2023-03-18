@@ -9,3 +9,5 @@
     - Added typefaces: regular, italic, bold, bold italic
 - Fixed html land tag (now en)
 - Changed Jekyll seo tag settings
+- Removed bash scripts
+- Changed 404 not found page

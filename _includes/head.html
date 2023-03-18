@@ -13,6 +13,9 @@
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css" />
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" />
 
+<!-- Progressive Web App -->
+{% include pwa.html %}
+
 {% if site.analytics_google %}
 {% include analytics_google.html %}
 {% endif %}
