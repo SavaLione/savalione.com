@@ -19,12 +19,18 @@ analytics_google: G-4Z4CDPDP4M
 # Copyright
 copyright: "2019-2023 Saveliy Pototskiy (SavaLione)"
 
-# Jekyll seo author
-author: "SavaLione"
+# Jekyll seo tag author
+author:
+  name: "Saveliy Pototskiy"
+  url: https://savalione.com
 
 # Jekyll seo locale
 locale: en_us
+language: en
 # https://developer.yoast.com/features/opengraph/api/changing-og-locale-output/
+
+seo:
+  type: BlogPosting
 
 # jekyll-paginate (deprecated)
 # paginate: 25
