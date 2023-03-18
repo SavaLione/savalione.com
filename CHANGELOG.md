@@ -11,3 +11,4 @@
 - Changed Jekyll seo tag settings
 - Removed bash scripts
 - Changed 404 not found page
+- Fixed pwa manifest icon path

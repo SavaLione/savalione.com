@@ -3,7 +3,9 @@
     "name": "Saveliy Pototskiy blog",
     "short_name": "savalione",
     "background_color": "#ffffff",
-    "display": "browser",
+    "theme_color": "#ffffff",
+    "display": "standalone",
+    "orientation": "any",
     "scope": "/",
     "start_url": "/",
     "description": "A readable Hacker News app.",
@@ -21,11 +23,6 @@
         {
             "src": "assets/ico/favicon-32x32.png",
             "sizes": "32x32",
-            "type": "image/png"
-        },
-        {
-            "src": "assets/ico/favicon-150x150.png",
-            "sizes": "150x150",
             "type": "image/png"
         },
         {
