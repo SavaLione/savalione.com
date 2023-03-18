@@ -1,0 +1,5 @@
+- Added changelog (CHANGELOG.md)
+- Changed copyright
+    - Changed date
+    - Removed copyright symbol
+- Added vs code settings

@@ -17,7 +17,7 @@ baseurl: ""
 analytics_google: G-4Z4CDPDP4M
 
 # Copyright
-copyright: "2019-2022 Saveliy Pototskiy (savalione) &copy;"
+copyright: "2019-2023 Saveliy Pototskiy (SavaLione)"
 
 # Jekyll seo author
 author: "SavaLione"
@@ -29,7 +29,6 @@ locale: en_us
 # jekyll-paginate (deprecated)
 # paginate: 25
 # paginate_path: "/page:num/"
-
 
 # Pagination Settings
 pagination:
