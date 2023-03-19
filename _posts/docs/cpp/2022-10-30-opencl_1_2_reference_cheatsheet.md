@@ -120,7 +120,7 @@ Swizzling, duplication, and nesting are allowed, e.g.: ``v.yx``, ``v.xx``, ``v.l
 #### Operators
 These operators behave similarly as in C99 except that
 operands may include vector types when possible:
-```
+```text
 + - * % / -- ++ == != &
 ~ ^ > < >= <= | ! && ||
 ?: >> << = , op= sizeof

@@ -169,6 +169,15 @@ p {
 	color: #000000;
 	// margin: 1.25rem 0;
     margin: 1.25rem 0rem 0.625rem 0rem;
+
+    &>code {
+        font-family: "FiraCode", monospace;
+        background-color: #eee;
+        font-size: 85%;
+        overflow-x: auto;
+        border: 1px solid #d0d7de;
+        border-radius: 6px;
+    }
 }
 
 .tags {

@@ -29,3 +29,6 @@
 - Changed link path generation
     - Added slash at the end of a link
     - Added permalink to all existing post to avoid redirections and new link generation
+- Fixed text inline code snippets
+- Fixed dark mode of text inline code snippets
+- Fixed code snippet in OpenCL doc
