@@ -19,3 +19,6 @@
 - Added font FiraCode (for code snippets)
 - Added callouts (info, success, danger)
 - Fixed dark theme (it needs removing)
+- Changed hover color
+- Removed hover background color
+- Changed post wrapper margin (0.8 -> 0.6)
