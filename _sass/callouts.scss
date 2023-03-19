@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+.callout
+{
+    border: 1px solid #d0d7de;
+    font-size: 85%;
+    margin-top: 0.5rem;
+
+    &-info {
+        border-color: #0969da;
+        background-color: #ddf4ff;
+        padding: 16px;
+        border-radius: 4px;
+    }
+
+    &-success {
+        border-color: rgba(74,194,107,.4);
+        background-color: #dafbe1;
+        padding: 16px;
+        border-radius: 4px;
+    }
+
+    &-danger {
+        border-color: rgba(255,129,130,.4);
+        background-color: #ffebe9;
+        padding: 16px;
+        border-radius: 4px;
+    }
+}
+
+// Link colour #0969da

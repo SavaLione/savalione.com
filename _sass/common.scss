@@ -41,14 +41,21 @@ img {
 	margin: 0 auto;
 }
 
-code,
 pre {
-	font-family: monospace;
+	font-family: "FiraCode", monospace;
 	background-color: #eee;
-	letter-spacing: 1px;
-	font-size: 0.9rem;
-	padding: 2.5px;
+	// letter-spacing: 1px;
+	// font-size: 0.9rem;
+    font-size: 85%;
 	overflow-x: auto;
+
+    margin-top: 0.5rem;
+    border: 1px solid #d0d7de;
+    border-radius: 6px;
+
+    &>code {
+
+    }
 }
 
 .highlight {
@@ -56,7 +63,7 @@ pre {
 	border-radius: 5px;
 
 	* {
-		font-family: monospace, monospace;
+		font-family: "FiraCode", monospace;
 		background-color: unset;
 		padding: unset;
 		letter-spacing: unset;
@@ -64,19 +71,21 @@ pre {
 
 	&>pre {
 		padding: 8px 12px;
+        overflow: auto;
+        font-size: 85%;
 
-		&>code::before {
-			content: attr(data-lang);
-			position: absolute;
-			right: 20px;
-			top: -10px;
-			padding: 0 7.5px;
-			border: 1px solid #828282;
-			border-radius: 5px;
-			text-align: center;
-			color: #8fbc8f;
-			background-color: #1a1a1a;
-		}
+		// &>code::before {
+		// 	content: attr(data-lang);
+		// 	position: absolute;
+		// 	right: 20px;
+		// 	top: -10px;
+		// 	padding: 0 7.5px;
+		// 	border: 1px solid #828282;
+		// 	border-radius: 5px;
+		// 	text-align: center;
+		// 	color: #8fbc8f;
+		// 	background-color: #1a1a1a;
+		// }
 
 		.lineno {
 			color: #608079;

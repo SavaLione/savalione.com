@@ -16,3 +16,6 @@
 - Added pwa maskable icon
 - Added html ``theme-color`` tag for pwa
 - Changed tag color
+- Added font FiraCode (for code snippets)
+- Added callouts (info, success, danger)
+- Fixed dark theme (it needs removing)

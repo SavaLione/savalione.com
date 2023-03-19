@@ -37,6 +37,25 @@
 	src: local('Open Sans Bold Italic'), url('/assets/fonts/open-sans-bold-italic.woff2') format('woff2');
 }
 
+/* FiraCode type for code snippets */
+@font-face
+{
+	font-family: 'FiraCode';
+	font-style: normal;
+	font-weight: 400;
+	font-display: swap;
+	src: local('FiraCode Regular'), url('/assets/fonts/firacode-regular.woff2') format('woff2');
+}
+
+@font-face
+{
+	font-family: 'FiraCode';
+	font-style: normal;
+	font-weight: bold;
+	font-display: swap;
+	src: local('FiraCode Bold'), url('/assets/fonts/firacode-bold.woff2') format('woff2');
+}
+
 :root
 {
 	--typography__default: 'Open Sans', sans-serif;

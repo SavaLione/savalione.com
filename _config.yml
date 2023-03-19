@@ -50,9 +50,16 @@ pagination:
 # JavaScript
 javascript_enabled: true
 
-# Build settings
+# Highlight
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter_opts:
+    default_lang: html
+    css_class   : 'syntax'
+
+# Plugins
 plugins:
   - jekyll-paginate-v2
   - jekyll-archives
