@@ -87,23 +87,23 @@ sass:
 collections:
   posts:
     output: true
-    permalink: "/post/:title"
+    permalink: "/post/:year/:month/:day/:title/"
   docs:
     output: true
-    permalink: "/docs/:categories/:title"
+    permalink: "/docs/:year/:month/:day/:title/"
 
 defaults:
   - scope:
       path: "_posts/posts"
       type: "posts"
     values:
-      permalink: /post/:title
+      permalink: /post/:year/:month/:day/:title/
       layout: "post"
   - scope:
       path: "_posts/docs"
       type: "posts"
     values:
-      permalink: /docs/:categories/:title
+      permalink: /docs/:year/:month/:day/:title/
       layout: "docs"
 
 # Progressive Web App

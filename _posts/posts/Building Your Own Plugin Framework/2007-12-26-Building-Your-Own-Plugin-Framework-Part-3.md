@@ -8,6 +8,7 @@ categories: [Programming]
 tags:
   - c
   - cpp
+permalink: /post/Building-Your-Own-Plugin-Framework-Part-3
 ---
 
 Author: Gigi Sayfan

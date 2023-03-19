@@ -26,3 +26,6 @@
 - Changed name of dark mode (``Dark`` - ``Dark mode``)
 - Changed name of light mode (``Light`` - ``Light mode``)
 - Fixed dark/light mode
+- Changed link path generation
+    - Added slash at the end of a link
+    - Added permalink to all existing post to avoid redirections and new link generation

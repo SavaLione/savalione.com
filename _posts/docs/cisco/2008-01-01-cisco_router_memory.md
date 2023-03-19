@@ -11,6 +11,7 @@ tags:
   - Routing
   - Memory
   - Specs
+permalink: /docs/cisco/cisco_router_memory
 ---
 All numbers for table 1a/b/c are for internal DRAM/Flash only.
 For external flash cards/disks, see table 5.

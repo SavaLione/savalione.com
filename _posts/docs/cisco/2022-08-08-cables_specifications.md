@@ -13,6 +13,7 @@ tags:
   - ATM
   - Specs
   - Datasheet
+permalink: /docs/physical/cables_specifications
 ---
 
 
