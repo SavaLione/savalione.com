@@ -22,3 +22,7 @@
 - Changed hover color
 - Removed hover background color
 - Changed post wrapper margin (0.8 -> 0.6)
+- Removed dark mode from top menu
+- Changed name of dark mode (``Dark`` - ``Dark mode``)
+- Changed name of light mode (``Light`` - ``Light mode``)
+- Fixed dark/light mode

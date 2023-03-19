@@ -5,12 +5,12 @@ body.dark {
 	color: var(--color__gray--light);
 
 	a {
-		color: var(--color__gray--light)
+		color: var(--color__gray--light);
 	}
 
 	a:hover {
-		background-color: var(--color__gray--light);
-		color: var(--color__gray--dark);
+		// background-color: var(--color__gray--light);
+		color: #0969da;
 	}
 
 	p {
@@ -19,13 +19,26 @@ body.dark {
 
 	blockquote {
 		border-left: 5px solid var(--color__gray--light);
-		color: var(--color__gray--light)
+		color: var(--color__gray--light);
 	}
 
-	code,
 	pre {
 		color: var(--color__gray--dark);
-		font-family: var(--typography__default);
+
+        font-family: "FiraCode", monospace;
+        background-color: #eee;
+        // letter-spacing: 1px;
+        // font-size: 0.9rem;
+        font-size: 85%;
+        overflow-x: auto;
+    
+        margin-top: 0.5rem;
+        border: 1px solid #d0d7de;
+        border-radius: 6px;
+
+        &>code {
+
+        }
 	}
 
 	.tags {
@@ -34,11 +47,11 @@ body.dark {
 	}
 
 	li {
-		color: var(--color__gray--light)
+		color: var(--color__gray--light);
 	}
 
 	figcaption {
-		color: var(--color__gray--light)
+		color: var(--color__gray--light);
 	}
 
 	hr.stylish {
@@ -47,11 +60,11 @@ body.dark {
 
 	input {
 		background-color: var(--color__gray--dark);
-		color: var(--color__gray--light)
+		color: var(--color__gray--light);
 	}
 
 	input::placeholder {
-		color: var(--color__gray--light)
+		color: var(--color__gray--light);
 	}
 
 	._progress-wrapper {
@@ -61,4 +74,13 @@ body.dark {
 	#_progress {
 		background: linear-gradient(to right, rgb(204, 204, 204) var(--scroll), transparent 0);
 	}
+
+    .title-tags {
+        color: var(--color__gray--light);
+        font-size: 1.125rem;
+    }
+
+    img {
+        background-color: #ffffff;
+    }
 }
