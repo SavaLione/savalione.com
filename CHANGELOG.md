@@ -1,13 +1,13 @@
+1.0.1 - 2023-10-25
+------------------
 - Changed About Me page (``pages/about.md``)
 - Changed name (``Saveliy Pototskiy`` -> ``Savelii Pototskii``)
     - Yeah, kinda stupid, but the new name is the same as on all my papers, so I'm tired of correcting it everywhere
 - Changed config (``_config.yml``)
 - Changed links section (``pages/links.md``)
 
-
 1.0.0 - 2023-04-24
 ------------------
-
 - Added changelog (CHANGELOG.md)
 - Changed copyright
     - Changed date
