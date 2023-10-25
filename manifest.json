@@ -1,6 +1,6 @@
 {
     "lang": "en",
-    "name": "Saveliy Pototskiy blog",
+    "name": "Savelii Pototskii",
     "short_name": "savalione",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
@@ -8,7 +8,7 @@
     "orientation": "any",
     "scope": "/",
     "start_url": "/",
-    "description": "Saveliy Pototskiy blog",
+    "description": "Savelii Pototskii",
     "icons": [
         {
             "src": "assets/ico/favicon.svg",

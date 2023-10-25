@@ -2,8 +2,8 @@
 layout: page
 title: Links
 date:   2019-11-04
-last_modified_at: 2022-08-01 17:07:00
-description: "contact information about me"
+last_modified_at: 2023-10-25 14:03:00
+description: "Contact information"
 permalink: /links/
 ---
 
@@ -14,7 +14,9 @@ permalink: /links/
 * Personal web page: [savalione.com](https://savalione.com)
 
 ### pgp
-[SavaLione public pgp key link](https://files.savalione.com/key/SavaLione_0x28D3EE95_public.asc)
+I don't really use it.
+
+[Link to my public pgp key](https://files.savalione.com/key/SavaLione_0x28D3EE95_public.asc)
 
 ```
 -----BEGIN PGP PUBLIC KEY BLOCK-----

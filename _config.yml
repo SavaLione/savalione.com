@@ -1,10 +1,10 @@
 # savalione.com
 
-title: Saveliy Pototskiy blog
+title: Savelii Pototskii
 email: monologuesplus@gmail.com
-name: Saveliy Pototskiy
-description: "Saveliy Pototskiy blog"
-keywords: [savalione c++ web blog cisco network]
+name: Savelii Pototskii
+description: "Savelii Pototskii"
+keywords: [savalione c++ web blog network Savelii Pototskii]
 domain: "savalione.com"
 
 # The base hostname and protocol for site, e.g. http://example.com
@@ -17,11 +17,11 @@ baseurl: ""
 analytics_google: G-4Z4CDPDP4M
 
 # Copyright
-copyright: "2019-2023 Saveliy Pototskiy (SavaLione)"
+copyright: "2019-2023 Savelii Pototskii (SavaLione)"
 
 # Jekyll seo tag author
 author:
-  name: "Saveliy Pototskiy"
+  name: "Savelii Pototskii"
   url: https://savalione.com
 
 # Jekyll seo locale
