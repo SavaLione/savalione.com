@@ -6,6 +6,7 @@ date:   2022-08-09
 last_modified_at: 2022-08-09 07:27:00
 description: "Ethernet specifications: data rate period, frame and packet sizes, frames per second, packet per second, and else"
 categories: [docs]
+author: Savelii Pototskii
 ---
 
 ## Ethernet data rate period

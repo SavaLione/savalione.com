@@ -21,6 +21,15 @@ layout: default
 
 		<hr class="stylish" />
 
+		<div class="post-information">
+			<div>Author: {{ page.author }}</div>
+            <div>Date: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time></div>
+            <div><a href="https://github.com/SavaLione/savalione.com/blob/master/{{ page.path }}">Edit this page on GitHub</a></div>
+            <div>Copyright: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a></div>
+		</div>
+
+        <hr class="stylish" />
+
 		<div class="tags-container">
 			Categories: <span>
 				{% for category in page.categories %}

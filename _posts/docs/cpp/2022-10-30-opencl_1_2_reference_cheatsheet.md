@@ -6,6 +6,7 @@ date:   2022-10-30
 last_modified_at: 2022-11-01 21:21:00
 description: "OpenCL 1.2 Reference scheatsheet"
 categories: [docs]
+author: Savelii Pototskii
 ---
 
 ## OpenCL 1.2

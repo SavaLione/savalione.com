@@ -6,6 +6,7 @@ date:   2022-08-16
 last_modified_at: 2022-08-16 21:14:00
 description: "Network test tools: Throughput tools"
 categories: [docs]
+author: Savelii Pototskii
 ---
 
 There are a number of open-source command line tolls available

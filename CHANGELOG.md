@@ -19,6 +19,7 @@
 - Changed bottom categories link
 - Excluded files from website generator
 - Removed drafts
+- Added post information that consists of: author, dat, edit this page on GitHub and copyright
 
 1.0.1 - 2023-10-25
 ------------------
