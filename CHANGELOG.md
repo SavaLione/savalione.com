@@ -33,6 +33,7 @@
     - Typography: `--typography__default` -> `--typography-default`
     - Root light grey color: `--color__gray--light` -> `--color-gray-light`
     - Root dark grey color: `--color__gray--dark` -> `--color-gray-dark`
+- Added the docs page description
 
 
 1.0.1 - 2023-10-25
