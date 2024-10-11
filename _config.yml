@@ -93,3 +93,8 @@ defaults:
     values:
       permalink: /docs/:year/:month/:day/:title/
       layout: "docs"
+
+# Exclude some files
+exclude:
+  - CHANGELOG.md
+  - README.md

@@ -16,6 +16,8 @@
 - Added proper author variable to posts
 - Changed tags and categories
 - Changed categories page
+- Changed bottom categories link
+- Excluded files from website generator
 
 1.0.1 - 2023-10-25
 ------------------
