@@ -34,7 +34,8 @@
     - Root light grey color: `--color__gray--light` -> `--color-gray-light`
     - Root dark grey color: `--color__gray--dark` -> `--color-gray-dark`
 - Added the docs page description
-
+- Added a feature to remove an author field or copyright field from a post
+- Fixed a grammar mistake
 
 1.0.1 - 2023-10-25
 ------------------

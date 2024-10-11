@@ -6,7 +6,9 @@ date:   1998-06-15
 last_modified_at: 2022-08-05 11:44:00
 description: "Cisco Catalyst 8510 Multiservice Switch Router datasheet and specs"
 categories: [docs]
-author: Savelii Pototskii
+author: Cisco
+hide_author: true
+hide_copyright: true
 ---
 
 The Cisco Catalyst 8500 is a Layer 3-enhanced ATM switch that **seamlessly integrates** wire-speed **Layer 3 switching and ATM switching**,
