@@ -1,3 +1,9 @@
+{% capture post_description %}{% include_relative pages/posts-description.md %}{% endcapture %}
+
+{{ post_description | markdownify }}
+
+<hr class="stylish">
+
 <main class="home-main">
     <section id="posts">
         <div class="parent">

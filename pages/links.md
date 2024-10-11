@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Links
+title: Contact information and additional links
 date:   2019-11-04
 last_modified_at: 2024-10-11 14:53:00
 description: "Contact information and additional links"
