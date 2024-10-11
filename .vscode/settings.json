@@ -1,5 +1,25 @@
+/*
+    My Visual Studio Code settings
+    Savelii Pototskii (savalione.com)
+    Updated: 2024-06-26
+
+    Plugin IDs
+        General
+            streetsidesoftware.code-spell-checker
+            streetsidesoftware.code-spell-checker-russian
+            shd101wyy.markdown-preview-enhanced
+        C and C++
+            xaver.clang-format
+            llvm-vs-code-extensions.vscode-clangd
+            josetr.cmake-language-support-vscode
+        Unix
+            plorefice.devicetree
+        Web
+            dawhite.mustache
+*/
+
 {
-    // End of line (we want LF instead of CRLF )
+    // End of line (I want LF instead of CRLF)
     "files.eol": "\n",
 
     // Tab size is equal 4 spaces
@@ -8,27 +28,49 @@
     // Insert spaces when pressing Tab
     "editor.insertSpaces": true,
 
-    // I guess we don't want to override tab size settings
+    // I don't want to override tab size settings
     "editor.detectIndentation": false,
 
     // Always use utf-8
     "files.encoding": "utf8",
 
-    // Spelling language (we want English and Russian spelling check)
-    "spellright.language": [
-        "en"
+    // Disable annoying css color picker
+    "css.colorDecorators.enable": false,
+
+    // Disable annoying scss color picker
+    "scss.colorDecorators.enable": false,
+
+    // Disable enter autocomplete suggestions
+    "editor.acceptSuggestionOnEnter": "off",
+
+    // Dictionary language (I want to have English and Russian spelling check)
+    "cSpell.language": "en-US,ru",
+    
+    // File associations
+    "files.associations": {
+        "iostream": "cpp",
+        "ostream": "cpp"
+    },
+
+    // clangd setting
+    // You can add "-log=verbose" for verbose logging
+    //
+    // For Windows use something like that:
+    //   clangd.arguments
+    //     -pretty
+    //     --background-index
+    //     --query-driver=C:\\mingw\\bin\\g++.exe
+    //
+    // For Unix use something like that:
+    //   clangd.path
+    //     /usr/bin/clangd-17
+    //   clang-format.executable
+    //     /usr/bin/clang-format-17
+    //
+    "clangd.path": "/usr/bin/clangd-17",
+    "clangd.arguments": [
+        "--header-insertion=never"
     ],
-    "spellright.documentTypes": [
-        "latex",
-        "plaintext",
-        "markdown",
-        "jsonc",
-        "scss",
-        "yaml"
-    ],
-    "spellright.parserByClass": {
-        "bibtex": {
-            "parser": "plain"
-        }
-    }
+    "clang-format.executable": "/usr/bin/clang-format-17",
+    "clang-format.style": "file"
 }

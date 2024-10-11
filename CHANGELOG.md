@@ -1,3 +1,5 @@
+- Changed vs code settings
+
 1.0.1 - 2023-10-25
 ------------------
 - Changed About Me page (``pages/about.md``)
