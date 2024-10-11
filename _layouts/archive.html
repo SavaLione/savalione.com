@@ -1,7 +1,0 @@
----
-layout: page
-sitemap: false
----
-{% for post in page.posts %}
-<li><span>{{ post.date | date: "%Y-%m-%d" }}: </span><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-{% endfor %}

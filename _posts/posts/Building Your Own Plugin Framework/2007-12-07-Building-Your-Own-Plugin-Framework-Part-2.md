@@ -4,11 +4,9 @@ title:  "Building Your Own Plugin Framework: Part 2"
 date:   2007-12-07
 last_modified_at: 2022-08-02 10:36:00
 description: "Building Your Own Plugin Framework on C and C++: Part 2"
-categories: [Programming]
+categories: [c++]
 tags:
-  - c
-  - cpp
-permalink: /post/Building-Your-Own-Plugin-Framework-Part-2
+  - c++
 author: Gigi Sayfan
 ---
 

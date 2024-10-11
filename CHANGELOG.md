@@ -14,6 +14,8 @@
 - Removed Open Sans font
 - Removed docs from the main page
 - Added proper author variable to posts
+- Changed tags and categories
+- Changed categories page
 
 1.0.1 - 2023-10-25
 ------------------

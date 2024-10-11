@@ -5,12 +5,7 @@ title:  "Cisco routing performance"
 date:   2009-11-03
 last_modified_at: 2022-08-03 21:06:00
 description: "Cisco routing performance"
-categories: [Cisco]
-tags:
-  - Cisco
-  - Routing
-  - Performance
-  - Specs
+categories: [docs]
 ---
 ## Router Switching Performance in Packets Per Second (PPS)
 Numbers are given with 64 byte packet size, IP only, and are only an indication of raw switching performance.

@@ -22,9 +22,9 @@ layout: default
 		<hr class="stylish" />
 
 		<div class="tags-container">
-			Tags: <span>
-				{% for tag in page.tags %}
-				<a class="tags" href="{{ site.baseurl }}/tag/{{ tag | slugify }}">{{ tag }}</a>
+			Categories: <span>
+				{% for category in page.categories %}
+				<a class="tags" href="{{ site.baseurl }}/categories/#{{ category | slugify }}">{{ category }}</a>
 				{% endfor %}
 			</span>
 			&nbsp;

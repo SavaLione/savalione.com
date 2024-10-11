@@ -5,13 +5,7 @@ title:  "Network test tools: Throughput tools"
 date:   2022-08-16
 last_modified_at: 2022-08-16 21:14:00
 description: "Network test tools: Throughput tools"
-categories:
-  - Network
-  - testing_tools
-tags:
-  - Ethernet
-  - Testing
-  - Performance
+categories: [docs]
 ---
 
 There are a number of open-source command line tolls available

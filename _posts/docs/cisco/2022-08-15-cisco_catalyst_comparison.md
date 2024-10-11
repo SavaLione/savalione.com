@@ -5,12 +5,7 @@ title:  "Cisco main catalyst switches features"
 date:   2022-08-15
 last_modified_at: 2022-08-15 15:17:00
 description: "Cisco main catalyst switches features"
-categories: [Cisco]
-tags:
-  - Cisco
-  - Switching
-  - Specs
-  - Datasheet
+categories: [docs]
 ---
 
 ## Hardware

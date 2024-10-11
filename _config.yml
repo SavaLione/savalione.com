@@ -62,21 +62,10 @@ kramdown:
 # Plugins
 plugins:
   - jekyll-paginate-v2
-  - jekyll-archives
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-spaceship
-
-# Category settings
-jekyll-archives:
-  enabled: 
-    - categories
-    - tags
-  layout: archive
-  permalinks:
-    category: /category/:name/
-    tag: /tag/:name/
 
 sass:
   sass_dir: _sass
