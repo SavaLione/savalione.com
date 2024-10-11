@@ -5,13 +5,7 @@
 
 {% seo %}
 
-<!-- Fonts -->
-<link rel="preload" href="{{ site.baseurl }}/assets/fonts/open-sans-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="{{ site.baseurl }}/assets/fonts/open-sans-italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="{{ site.baseurl }}/assets/fonts/open-sans-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="{{ site.baseurl }}/assets/fonts/open-sans-bold-italic.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="{{ site.baseurl }}/assets/fonts/firacode-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
-<link rel="preload" href="{{ site.baseurl }}/assets/fonts/firacode-bold.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+{% include fonts.html %}
 
 <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/main.css" />
 <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" />

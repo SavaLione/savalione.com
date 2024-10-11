@@ -1,5 +1,6 @@
 - Changed vs code settings
 - Removed PWA
+- Changed main font from Open Sans to Roboto
 
 1.0.1 - 2023-10-25
 ------------------
