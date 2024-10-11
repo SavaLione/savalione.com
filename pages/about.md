@@ -2,7 +2,7 @@
 layout: page
 title: About
 date:   2019-11-03
-last_modified_at: 2023-10-25 13:25:00
+last_modified_at: 2024-10-11 15:00:00
 description: "About Me"
 permalink: /about/
 ---
@@ -19,7 +19,9 @@ The main programming language I use is C++.
 * 2023--TBD, Ural Federal University, PhD in information technology and telecommunications.
 
 ## Contact information
-* Email: monologuesplus@gmail.com
+For additional contacts check [links](/links/).
+
+* Email: savelii.pototskii@gmail.com
 * LinkedIn: [linkedin.com/in/savalione/](https://www.linkedin.com/in/savalione/)
 * Github: [github.com/SavaLione](https://github.com/SavaLione)
-* Personal web page: [savalione.com](https://savalione.com)
+* Personal blog: [savalione.com](https://savalione.com)

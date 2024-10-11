@@ -2,72 +2,16 @@
 layout: page
 title: Links
 date:   2019-11-04
-last_modified_at: 2023-10-25 14:03:00
+last_modified_at: 2024-10-11 14:53:00
 description: "Contact information"
 permalink: /links/
 ---
 
 ## Contacts
-* Email: monologuesplus@gmail.com
+* Email: savelii.pototskii@gmail.com
 * LinkedIn: [linkedin.com/in/savalione/](https://www.linkedin.com/in/savalione/)
 * Github: [github.com/SavaLione](https://github.com/SavaLione)
-* Personal web page: [savalione.com](https://savalione.com)
+* Personal blog: [savalione.com](https://savalione.com)
 
-### pgp
-I don't really use it.
-
-[Link to my public pgp key](https://files.savalione.com/key/SavaLione_0x28D3EE95_public.asc)
-
-```
------BEGIN PGP PUBLIC KEY BLOCK-----
-
-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
-=wZYG
------END PGP PUBLIC KEY BLOCK-----
-```
+## Additional links
+* [ORCID](https://orcid.org/0009-0006-5105-465X)

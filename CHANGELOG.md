@@ -4,6 +4,13 @@
 - Fixed author tag
 - Removed unnecessary `http-equiv` tag
 - Fixed Jekyll seo tag language (`og::locale`, `en_us` -> `en_US`)
+- Changed `_includes/copyright.html`
+- Changed posts destination
+- Fixed email in links.md
+- Removed pgp from links
+- Added new links to links.md
+- Fixed email and contacts
+- Added orcid link
 
 1.0.1 - 2023-10-25
 ------------------
