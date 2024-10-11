@@ -1,8 +1,8 @@
 - Changed vs code settings
 - Removed PWA
 - Changed main font from Open Sans to Roboto
-- Fixed author tag
-- Removed unnecessary `http-equiv` tag
+- Fixed the author tag
+- Removed the unnecessary `http-equiv` tag
 - Fixed Jekyll seo tag language (`og::locale`, `en_us` -> `en_US`)
 - Changed `_includes/copyright.html`
 - Changed posts destination
@@ -13,15 +13,17 @@
 - Added orcid link
 - Removed Open Sans font
 - Removed docs from the main page
-- Added proper author variable to posts
+- Added a proper author variable to posts
 - Changed tags and categories
-- Changed categories page
-- Changed bottom categories link
+- Changed the categories page
+- Changed a bottom categories link
 - Excluded files from website generator
 - Removed drafts
-- Added post information that consists of: author, dat, edit this page on GitHub and copyright
+- Added a post's information that consists of: author, dat, edit this page on GitHub and copyright
 - Changed blog's name
-- Changed top menu design
+- Changed the top menu design
+- Changed a title on some pages
+- Removed posts about plugin framework
 
 1.0.1 - 2023-10-25
 ------------------
