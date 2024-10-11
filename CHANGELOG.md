@@ -29,6 +29,11 @@
 - Changed README.md repository description
 - Added additional links
 - Changed the 404 page title (for no reason whatsoever)
+- Changed sass variables
+    - Typography: `--typography__default` -> `--typography-default`
+    - Root light grey color: `--color__gray--light` -> `--color-gray-light`
+    - Root dark grey color: `--color__gray--dark` -> `--color-gray-dark`
+
 
 1.0.1 - 2023-10-25
 ------------------

@@ -1,25 +1,25 @@
 @charset "utf-8";
 
 body.dark {
-	background-color: var(--color__gray--dark);
-	color: var(--color__gray--light);
+	background-color: var(--color-gray-dark);
+	color: var(--color-gray-light);
 
 	a {
-		color: var(--color__gray--light);
+		color: var(--color-gray-light);
 	}
 
 	a:hover {
-		// background-color: var(--color__gray--light);
+		// background-color: var(--color-gray-light);
 		color: #0969da;
 	}
 
 	p {
-		color: var(--color__gray--light);
+		color: var(--color-gray-light);
 
         &>code {
             font-family: "FiraCode", monospace;
             background-color: #eee;
-            color: var(--color__gray--dark);
+            color: var(--color-gray-dark);
             font-size: 85%;
             overflow-x: auto;
             border: 1px solid #d0d7de;
@@ -28,12 +28,12 @@ body.dark {
 	}
 
 	blockquote {
-		border-left: 5px solid var(--color__gray--light);
-		color: var(--color__gray--light);
+		border-left: 5px solid var(--color-gray-light);
+		color: var(--color-gray-light);
 	}
 
 	pre {
-		color: var(--color__gray--dark);
+		color: var(--color-gray-dark);
 
         font-family: "FiraCode", monospace;
         background-color: #eee;
@@ -52,16 +52,16 @@ body.dark {
 	}
 
 	.tags {
-		background-color: var(--color__gray--light);
-		color: var(--color__gray--dark);
+		background-color: var(--color-gray-light);
+		color: var(--color-gray-dark);
 	}
 
 	li {
-		color: var(--color__gray--light);
+		color: var(--color-gray-light);
 	}
 
 	figcaption {
-		color: var(--color__gray--light);
+		color: var(--color-gray-light);
 	}
 
 	hr.stylish {
@@ -69,12 +69,12 @@ body.dark {
 	}
 
 	input {
-		background-color: var(--color__gray--dark);
-		color: var(--color__gray--light);
+		background-color: var(--color-gray-dark);
+		color: var(--color-gray-light);
 	}
 
 	input::placeholder {
-		color: var(--color__gray--light);
+		color: var(--color-gray-light);
 	}
 
 	._progress-wrapper {
@@ -86,7 +86,7 @@ body.dark {
 	}
 
     .title-tags {
-        color: var(--color__gray--light);
+        color: var(--color-gray-light);
         font-size: 1.125rem;
     }
 
