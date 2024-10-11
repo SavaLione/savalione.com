@@ -1,0 +1,11 @@
+<!-- meta -->
+<meta charset="utf-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+{% seo %}
+
+{% if site.keywords or page.tags %}
+<meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', '}}{% else %}{{ site.keywords | join: ', ' }}{% endif %}" />
+{% endif %}
+<!-- meta -->

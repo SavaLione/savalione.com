@@ -1,8 +1,8 @@
 # savalione.com
 
 title: Savelii Pototskii
-email: monologuesplus@gmail.com
-name: Savelii Pototskii
+email: savelii.pototskii@gmail.com
+name: savalione.com
 description: "Savelii Pototskii"
 keywords: [savalione c++ web blog network Savelii Pototskii]
 domain: "savalione.com"
@@ -17,7 +17,7 @@ baseurl: ""
 analytics_google: G-4Z4CDPDP4M
 
 # Copyright
-copyright: "2019-2024 Savelii Pototskii (SavaLione)"
+copyright: "2019-2024 Savelii Pototskii (savalione)"
 
 # Jekyll seo tag author
 author:
@@ -25,7 +25,7 @@ author:
   url: https://savalione.com
 
 # Jekyll seo locale
-locale: en_us
+locale: en_US
 language: en
 # https://developer.yoast.com/features/opengraph/api/changing-og-locale-output/
 
@@ -86,7 +86,7 @@ sass:
 collections:
   posts:
     output: true
-    permalink: "/post/:year/:month/:day/:title/"
+    permalink: "/posts/:year/:month/:day/:title/"
   docs:
     output: true
     permalink: "/docs/:year/:month/:day/:title/"
@@ -96,7 +96,7 @@ defaults:
       path: "_posts/posts"
       type: "posts"
     values:
-      permalink: /post/:year/:month/:day/:title/
+      permalink: /posts/:year/:month/:day/:title/
       layout: "post"
   - scope:
       path: "_posts/docs"

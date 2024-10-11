@@ -1,6 +1,9 @@
 - Changed vs code settings
 - Removed PWA
 - Changed main font from Open Sans to Roboto
+- Fixed author tag
+- Removed unnecessary `http-equiv` tag
+- Fixed Jekyll seo tag language (`og::locale`, `en_us` -> `en_US`)
 
 1.0.1 - 2023-10-25
 ------------------
