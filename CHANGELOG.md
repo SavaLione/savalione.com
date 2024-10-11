@@ -18,6 +18,7 @@
 - Changed categories page
 - Changed bottom categories link
 - Excluded files from website generator
+- Removed drafts
 
 1.0.1 - 2023-10-25
 ------------------
