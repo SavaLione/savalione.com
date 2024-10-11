@@ -11,6 +11,7 @@
 - Added new links to links.md
 - Fixed email and contacts
 - Added orcid link
+- Removed Open Sans font
 
 1.0.1 - 2023-10-25
 ------------------
