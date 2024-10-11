@@ -12,6 +12,7 @@
 - Fixed email and contacts
 - Added orcid link
 - Removed Open Sans font
+- Removed docs from the main page
 
 1.0.1 - 2023-10-25
 ------------------
