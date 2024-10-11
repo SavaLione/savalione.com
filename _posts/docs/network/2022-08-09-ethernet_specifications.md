@@ -10,7 +10,6 @@ tags:
   - Ethernet
   - Specs
   - Datasheet
-permalink: /docs/network/ethernet_specifications
 ---
 
 ## Ethernet data rate period

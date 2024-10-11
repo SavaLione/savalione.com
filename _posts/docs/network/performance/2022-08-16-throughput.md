@@ -12,7 +12,6 @@ tags:
   - Ethernet
   - Testing
   - Performance
-permalink: /docs/network/testing_tools/throughput
 ---
 
 There are a number of open-source command line tolls available

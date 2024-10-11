@@ -11,7 +11,6 @@ tags:
   - Switching
   - Specs
   - Datasheet
-permalink: /docs/cisco/cisco_catalyst_comparison
 ---
 
 ## Hardware

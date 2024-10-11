@@ -14,7 +14,6 @@ tags:
   - cheatsheet
   - Specs
   - Datasheet
-permalink: /docs/cpp/code/opencl_1_2_reference_cheatsheet
 ---
 
 ## OpenCL 1.2
