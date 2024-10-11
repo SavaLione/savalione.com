@@ -24,6 +24,7 @@
 - Changed the top menu design
 - Changed a title on some pages
 - Removed posts about plugin framework
+- Updated the index page
 
 1.0.1 - 2023-10-25
 ------------------

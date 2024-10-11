@@ -15,4 +15,6 @@ permalink: /links/
 * Personal blog: [savalione.com](https://savalione.com)
 
 ## Additional links
-* [ORCID](https://orcid.org/0009-0006-5105-465X)
+* ORCID: [orcid.org/0009-0006-5105-465X](https://orcid.org/0009-0006-5105-465X)
+* Google for developers: [g.dev/savalione](https://g.dev/savalione)
+* Linux foundation: [openprofile.dev/profile/SavaLione](https://openprofile.dev/profile/SavaLione)
