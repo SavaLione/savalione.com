@@ -27,10 +27,11 @@
 - Updated the index page
 - Changed some titles and descriptions
 - Changed README.md repository description
+- Added additional links
 
 1.0.1 - 2023-10-25
 ------------------
-- Changed About Me page (``pages/about.md``)
+- Changed the About Me page (``pages/about.md``)
 - Changed name (``Saveliy Pototskiy`` -> ``Savelii Pototskii``)
     - Yeah, kinda stupid, but the new name is the same as on all my papers, so I'm tired of correcting it everywhere
 - Changed config (``_config.yml``)
@@ -68,7 +69,7 @@
 - Fixed dark/light mode
 - Changed link path generation
     - Added slash at the end of a link
-    - Added permalink to all existing post to avoid redirections and new link generation
+    - Added permalink to all existing post to avoid redirects and new link generation
 - Fixed text inline code snippets
 - Fixed dark mode of text inline code snippets
 - Fixed code snippet in OpenCL doc
