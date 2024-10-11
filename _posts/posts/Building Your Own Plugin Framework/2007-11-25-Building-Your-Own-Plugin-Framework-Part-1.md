@@ -9,6 +9,7 @@ tags:
   - c
   - cpp
 permalink: /post/Building-Your-Own-Plugin-Framework-Part-1
+author: Gigi Sayfan
 ---
 
 Author: Gigi Sayfan
