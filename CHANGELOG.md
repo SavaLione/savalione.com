@@ -25,6 +25,7 @@
 - Changed a title on some pages
 - Removed posts about plugin framework
 - Updated the index page
+- Changed some titles and descriptions
 
 1.0.1 - 2023-10-25
 ------------------

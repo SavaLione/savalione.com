@@ -3,7 +3,7 @@ layout: page
 title: Links
 date:   2019-11-04
 last_modified_at: 2024-10-11 14:53:00
-description: "Contact information"
+description: "Contact information and additional links"
 author: Savelii Pototskii
 permalink: /links/
 ---
