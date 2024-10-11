@@ -28,6 +28,7 @@
 - Changed some titles and descriptions
 - Changed README.md repository description
 - Added additional links
+- Changed the 404 page title (for no reason whatsoever)
 
 1.0.1 - 2023-10-25
 ------------------
