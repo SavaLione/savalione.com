@@ -21,6 +21,7 @@
 - Removed drafts
 - Added post information that consists of: author, dat, edit this page on GitHub and copyright
 - Changed blog's name
+- Changed top menu design
 
 1.0.1 - 2023-10-25
 ------------------

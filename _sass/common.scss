@@ -269,6 +269,19 @@ hr.stylish {
 	border: none;
 }
 
+.menu-up {
+    display: flex;
+
+    .left-menu {
+        margin-left: 0;
+    }
+
+    .right-menu {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
 button {
 	padding: 5px 10px;
 	color: white;
