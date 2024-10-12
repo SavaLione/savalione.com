@@ -20,3 +20,4 @@ permalink: /links/
 * Linux foundation: [openprofile.dev/profile/SavaLione](https://openprofile.dev/profile/SavaLione)
 * Bluesky: [@savalione.bsky.social](https://bsky.app/profile/savalione.bsky.social)
 * ~~Twitter~~/X: [@SavaLione](https://x.com/SavaLione)
+* Dev: [dev.to/savalione](https://dev.to/savalione)

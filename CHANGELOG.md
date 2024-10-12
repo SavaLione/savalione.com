@@ -37,7 +37,8 @@
 - Added a feature to remove an author field or copyright field from a post
 - Fixed a grammar mistake
 - Added the posts page description
-- Changed the links page title 
+- Changed the links page's title
+- Added a new link (dev.to)
 
 1.0.1 - 2023-10-25
 ------------------
