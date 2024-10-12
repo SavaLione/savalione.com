@@ -39,6 +39,9 @@
 - Added the posts page description
 - Changed the links page's title
 - Added a new link (dev.to)
+- Rewritten the theme selector
+    - Removed Cookies
+    - Added `localStorage` support
 
 1.0.1 - 2023-10-25
 ------------------
