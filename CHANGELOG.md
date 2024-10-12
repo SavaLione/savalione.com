@@ -1,15 +1,17 @@
+v2.0.0 - 2024-10-12
+-------------------
 - Changed vs code settings
 - Removed PWA
-- Changed main font from Open Sans to Roboto
+- Changed the main font from Open Sans to Roboto
 - Fixed the author tag
 - Removed the unnecessary `http-equiv` tag
-- Fixed Jekyll seo tag language (`og::locale`, `en_us` -> `en_US`)
+- Fixed the Jekyll seo tag language variable (`og::locale`, `en_us` -> `en_US`)
 - Changed `_includes/copyright.html`
 - Changed posts destination
-- Fixed email in links.md
+- Fixed the email address in links.md
 - Removed pgp from links
 - Added new links to links.md
-- Fixed email and contacts
+- Fixed emails and contacts
 - Added orcid link
 - Removed Open Sans font
 - Removed docs from the main page
@@ -46,21 +48,21 @@
 - Removed completed todo tasks
 - Fixed one line code sections in lists
 - Fixed content types
-- Added the post: Installing chrony on Ubuntu
-- Added the post: Changing hostname on Ubuntu
-- Added the post: Creating a swap file on Ubuntu and configuring swappiness
-- Added the post: Basic ZFS commands and tricks that I use often on Ubuntu
+- Added post: Installing chrony on Ubuntu
+- Added post: Changing hostname on Ubuntu
+- Added post: Creating a swap file on Ubuntu and configuring swappiness
+- Added post: Basic ZFS commands and tricks that I use often on Ubuntu
 
-1.0.1 - 2023-10-25
-------------------
+v1.0.1 - 2023-10-25
+-------------------
 - Changed the About Me page (``pages/about.md``)
 - Changed name (``Saveliy Pototskiy`` -> ``Savelii Pototskii``)
     - Yeah, kinda stupid, but the new name is the same as on all my papers, so I'm tired of correcting it everywhere
 - Changed config (``_config.yml``)
 - Changed links section (``pages/links.md``)
 
-1.0.0 - 2023-04-24
-------------------
+v1.0.0 - 2023-04-24
+-------------------
 - Added changelog (CHANGELOG.md)
 - Changed copyright
     - Changed date
