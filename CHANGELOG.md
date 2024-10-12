@@ -46,6 +46,10 @@
 - Removed completed todo tasks
 - Fixed one line code sections in lists
 - Fixed content types
+- Added the post: Installing chrony on Ubuntu
+- Added the post: Changing hostname on Ubuntu
+- Added the post: Creating a swap file on Ubuntu and configuring swappiness
+- Added the post: Basic ZFS commands and tricks that I use often on Ubuntu
 
 1.0.1 - 2023-10-25
 ------------------
