@@ -42,6 +42,7 @@
 - Rewritten the theme selector
     - Removed Cookies
     - Added `localStorage` support
+- Added the todo list (`./TODO.md`)
 
 1.0.1 - 2023-10-25
 ------------------

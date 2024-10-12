@@ -97,3 +97,4 @@ defaults:
 exclude:
   - CHANGELOG.md
   - README.md
+  - TODO.md
