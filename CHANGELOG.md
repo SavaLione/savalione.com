@@ -45,6 +45,7 @@
 - Added the todo list (`./TODO.md`)
 - Removed completed todo tasks
 - Fixed one line code sections in lists
+- Fixed content types
 
 1.0.1 - 2023-10-25
 ------------------

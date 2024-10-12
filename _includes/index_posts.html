@@ -8,7 +8,7 @@
     <section id="posts">
         <div class="parent">
             {% for post in paginator.posts %}
-            {% if post.type == "post" %}
+            {% if post.type == "posts" %}
             <div class="post-wrapper">
                 <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
                 <a class="post-link" href="{{ post.url }}">
