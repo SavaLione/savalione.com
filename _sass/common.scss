@@ -244,6 +244,16 @@ li {
 	font-size: 1.25rem;
 	line-height: 1.6em;
 	color: #000000;
+
+    &>code {
+        font-family: "FiraCode", monospace;
+        background-color: #eee;
+        font-size: 80%;
+        overflow-x: auto;
+        border: 1px solid #d0d7de;
+        border-radius: 1px;
+        padding: 2px;
+    }
 }
 
 figure {
