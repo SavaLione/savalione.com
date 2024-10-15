@@ -1,3 +1,5 @@
+- Added post: How to create a zfs pool out of a file
+
 v2.0.0 - 2024-10-12
 -------------------
 - Changed vs code settings
@@ -21,7 +23,7 @@ v2.0.0 - 2024-10-12
 - Changed a bottom categories link
 - Excluded files from website generator
 - Removed drafts
-- Added a post's information that consists of: author, dat, edit this page on GitHub and copyright
+- Added a post's information that consists of: author, date, edit this page on GitHub and copyright
 - Changed blog's name
 - Changed the top menu design
 - Changed a title on some pages
