@@ -3,7 +3,7 @@ layout: post
 type: posts
 title: "Installing chrony on Ubuntu"
 date: 2024-09-23
-last_modified_at: 2024-09-23 14:58:00
+last_modified_at: 2024-11-09 17:26:00
 description: "The way I configure chrony on a Ubuntu machine"
 categories: [linux]
 tags: [ubuntu, linux, chrony]
@@ -17,7 +17,6 @@ It's not a preferable or right way but I am just used to set up time servers lik
 ## Installing
 Simplest way to install chrony is to download package from apt repository:
 * `sudo apt install chrony`
-* test
 
 ## Configuring
 chrony configure file is located here:
