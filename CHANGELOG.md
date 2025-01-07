@@ -1,5 +1,7 @@
 - Added post: How to create a zfs pool out of a file
 - Fixed a typo in the `Installing chrony on Ubuntu` post
+- Changed the date in the footer (Happy New Year!)
+- Added my printables account to the contact information page
 
 v2.0.0 - 2024-10-12
 -------------------

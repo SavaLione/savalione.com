@@ -21,3 +21,4 @@ permalink: /links/
 * Bluesky: [@savalione.bsky.social](https://bsky.app/profile/savalione.bsky.social)
 * ~~Twitter~~/X: [@SavaLione](https://x.com/SavaLione)
 * Dev: [dev.to/savalione](https://dev.to/savalione)
+* Printables: [@savalione_2614240](https://www.printables.com/@savalione_2614240)
