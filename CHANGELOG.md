@@ -2,6 +2,7 @@
 - Fixed a typo in the `Installing chrony on Ubuntu` post
 - Changed the date in the footer (Happy New Year!)
 - Added my printables account to the contact information page
+- Fixed typos in the `Basic ZFS commands and tricks that I use often on Ubuntu` post
 
 v2.0.0 - 2024-10-12
 -------------------

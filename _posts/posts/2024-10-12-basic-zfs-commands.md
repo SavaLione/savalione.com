@@ -32,7 +32,7 @@ To erase all partitions you can simply do the following:
     * `sudo fdisk -l`
     * (for example let's use `/dev/sdf`)
 2. Open the drive using `fdisk`:
-    * ``sudo fdisk /dev/sdf`
+    * `sudo fdisk /dev/sdf`
     * (now you're using `fdisk` application)
 3. In order to check whether you're using the right drive you can print the drive info and all partitions that are on current drive by pressing `p`.
 4. Delete partitions:
@@ -50,7 +50,7 @@ As a way to find required drive, just use `ls` and `grep`:
 * `ls -l /dev/disk/by-id/ | grep sd`
 
 Usually drives are named using following convention: `type-id-partition`.
-* Example: ` scsi-SATA_ST2000DM008-2FR1_ZFL16E1K-part1`
+* Example: `scsi-SATA_ST2000DM008-2FR1_ZFL16E1K-part1`
 * Type may be: `ata`, `scsi`, `wwn`, etc. Usually it doesn't matter what you choose. I prefer using `scsi`.
 * ID may include following characters: `_`, `-`.
 * If you've erased partitions from a drive, you won't see `-part*`.
