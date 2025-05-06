@@ -2,7 +2,7 @@
 layout: page
 title: Contact information and additional links
 date:   2019-11-04
-last_modified_at: 2024-10-11 14:53:00
+last_modified_at: 2025-05-06 21:09:00
 description: "Contact information and additional links"
 author: Savelii Pototskii
 permalink: /links/
@@ -21,4 +21,5 @@ permalink: /links/
 * Bluesky: [@savalione.bsky.social](https://bsky.app/profile/savalione.bsky.social)
 * ~~Twitter~~/X: [@SavaLione](https://x.com/SavaLione)
 * Dev: [dev.to/savalione](https://dev.to/savalione)
-* Printables: [@savalione_2614240](https://www.printables.com/@savalione_2614240)
+* Printables: [@sava](https://www.printables.com/@sava)
+* Credly: [@sava](https://www.credly.com/users/sava)

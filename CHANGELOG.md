@@ -3,6 +3,8 @@
 - Changed the date in the footer (Happy New Year!)
 - Added my printables account to the contact information page
 - Fixed typos in the `Basic ZFS commands and tricks that I use often on Ubuntu` post
+- Changed the user handle of my printables account
+- Added my Credly account to the contact information page
 
 v2.0.0 - 2024-10-12
 -------------------
