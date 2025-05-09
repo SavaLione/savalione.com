@@ -1,9 +1,9 @@
 # savalione.com
-title: Savelii Pototskii's blog
+title: Savelii Pototskii
 email: savelii.pototskii@gmail.com
-name: Savelii Pototskii's blog
-description: "Savelii Pototskii's blog"
-keywords: [Savelii Pototskii, personal blog, blog]
+name: Savelii Pototskii
+description: "Savelii Pototskii - personal blog"
+keywords: [Savelii Pototskii, software development, blog, systems engineering, DevOps, embedded systems development]
 domain: "savalione.com"
 
 # The base hostname and protocol for site, e.g. http://example.com
@@ -16,11 +16,11 @@ baseurl: ""
 analytics_google: G-4Z4CDPDP4M
 
 # Copyright
-copyright: "2019-2025 Savelii Pototskii (savalione)"
+copyright: "2019-2025 Savelii Pototskii"
 
 # Jekyll seo tag author
 author:
-  name: "Savelii Pototskii's blog"
+  name: "Savelii Pototskii"
   url: https://savalione.com
 
 # Jekyll seo locale

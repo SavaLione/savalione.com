@@ -5,6 +5,13 @@
 - Fixed typos in the `Basic ZFS commands and tricks that I use often on Ubuntu` post
 - Changed the user handle of my printables account
 - Added my Credly account to the contact information page
+- Removed the apostrophe from the blog's title (`Savelii Pototskii's blog` -> `Savelii Pototskii`)
+- Changed the title and description in the website's config
+- Added tags to the website
+- Removed the nickname from the copyright line (`_config.yml`, `site.copyright`)
+- Fixed a constant variable in the upper menu (`_includes/menu_up.html`)
+- Fixed quotes in the changelog
+- Fixed CRLF in the upper menu (`_includes/menu_up.html`)
 
 v2.0.0 - 2024-10-12
 -------------------
@@ -63,11 +70,11 @@ v2.0.0 - 2024-10-12
 
 v1.0.1 - 2023-10-25
 -------------------
-- Changed the About Me page (``pages/about.md``)
-- Changed name (``Saveliy Pototskiy`` -> ``Savelii Pototskii``)
+- Changed the About Me page (`pages/about.md`)
+- Changed name (`Saveliy Pototskiy` -> `Savelii Pototskii`)
     - Yeah, kinda stupid, but the new name is the same as on all my papers, so I'm tired of correcting it everywhere
-- Changed config (``_config.yml``)
-- Changed links section (``pages/links.md``)
+- Changed config (`_config.yml`)
+- Changed links section (`pages/links.md`)
 
 v1.0.0 - 2023-04-24
 -------------------
@@ -87,7 +94,7 @@ v1.0.0 - 2023-04-24
 - Fixed pwa manifest icon path
 - Added Progressive Web App support
 - Added pwa maskable icon
-- Added html ``theme-color`` tag for pwa
+- Added html `theme-color` tag for pwa
 - Changed tag color
 - Added font FiraCode (for code snippets)
 - Added callouts (info, success, danger)
@@ -96,8 +103,8 @@ v1.0.0 - 2023-04-24
 - Removed hover background color
 - Changed post wrapper margin (0.8 -> 0.6)
 - Removed dark mode from top menu
-- Changed name of dark mode (``Dark`` - ``Dark mode``)
-- Changed name of light mode (``Light`` - ``Light mode``)
+- Changed name of dark mode (`Dark` - `Dark mode`)
+- Changed name of light mode (`Light` - `Light mode`)
 - Fixed dark/light mode
 - Changed link path generation
     - Added slash at the end of a link
