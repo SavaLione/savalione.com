@@ -18,7 +18,7 @@ permalink: /links/
 * ORCID: [orcid.org/0009-0006-5105-465X](https://orcid.org/0009-0006-5105-465X)
 * Google for developers: [g.dev/savalione](https://g.dev/savalione)
 * Linux foundation: [openprofile.dev/profile/SavaLione](https://openprofile.dev/profile/SavaLione)
-* Bluesky: [@savalione.bsky.social](https://bsky.app/profile/savalione.bsky.social)
+* Bluesky: [@savalione.com](https://bsky.app/profile/savalione.com)
 * ~~Twitter~~/X: [@SavaLione](https://x.com/SavaLione)
 * Dev: [dev.to/savalione](https://dev.to/savalione)
 * Printables: [@sava](https://www.printables.com/@sava)
