@@ -13,6 +13,7 @@
 - Fixed quotes in the changelog
 - Fixed CRLF in the upper menu (`_includes/menu_up.html`)
 - Changed the user handle of my Bluesky account
+- Changed the Google Analytics tag
 
 v2.0.0 - 2024-10-12
 -------------------
