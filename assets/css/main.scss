@@ -2,12 +2,10 @@
 ---
 @charset "utf-8";
 
-@import
-	"constants",
-	"typography",
-	"theme",
-	"syntax-highlighter",
-	"common",
-	"table",
-    "callouts"
-;
+@forward "constants";
+@forward "typography";
+@forward "theme";
+@forward "syntax-highlighter";
+@forward "common";
+@forward "table";
+@forward "callouts";

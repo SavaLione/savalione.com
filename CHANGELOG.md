@@ -14,6 +14,7 @@
 - Fixed CRLF in the upper menu (`_includes/menu_up.html`)
 - Changed the user handle of my Bluesky account
 - Changed the Google Analytics tag
+- Fixed the deprecated Sass tag `import`
 
 v2.0.0 - 2024-10-12
 -------------------
