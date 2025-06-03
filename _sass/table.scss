@@ -4,7 +4,7 @@ table {
 	width: 100%;
 	border-collapse: collapse;
 	border: 1px solid;
-	margin-bottom: 20px;
+	margin-bottom: var(--default-margin-bottom);
 
 	th,
 	td {

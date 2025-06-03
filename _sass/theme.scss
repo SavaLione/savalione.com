@@ -1,107 +1,23 @@
 @charset "utf-8";
 
 [data-theme="dark"] {
-	background-color: var(--color-gray-dark);
-	color: var(--color-gray-light);
+    --background-color-default: #0d1117;
+    --background-color-muted: #151b23;
+    --background-color-neutral-muted: #656c7633;
+    --color-default: #f0f6fc;
+    --color-accent: #4493f8;
+    --border-color-muted: #3d444db3;
 
-	a {
-		color: var(--color-gray-light);
-	}
+    --color-menu: var(--color-accent);
 
-	a:hover {
-		// background-color: var(--color-gray-light);
-		color: #0969da;
-	}
+    // Code highlighter
+    --color-highlight-string: #a5d6ff;
+    --color-highlight-constant: #79c0ff;
+    --color-highlight-entity: #d2a8ff;
+    --color-highlight-keyword: #ff7b72;
 
-	p {
-		color: var(--color-gray-light);
-
-        &>code {
-            font-family: "FiraCode", monospace;
-            background-color: #eee;
-            color: var(--color-gray-dark);
-            font-size: 85%;
-            overflow-x: auto;
-            border: 1px solid #d0d7de;
-            border-radius: 6px;
-        }
-	}
-
-	blockquote {
-		border-left: 5px solid var(--color-gray-light);
-		color: var(--color-gray-light);
-	}
-
-	pre {
-		color: var(--color-gray-dark);
-
-        font-family: "FiraCode", monospace;
-        background-color: #eee;
-        // letter-spacing: 1px;
-        // font-size: 0.9rem;
-        font-size: 85%;
-        overflow-x: auto;
-    
-        margin-top: 0.5rem;
-        border: 1px solid #d0d7de;
-        border-radius: 6px;
-
-        &>code {
-
-        }
-	}
-
-	.tags {
-		background-color: var(--color-gray-light);
-		color: var(--color-gray-dark);
-	}
-
-	li {
-		color: var(--color-gray-light);
-
-        &>code {
-            font-family: "FiraCode", monospace;
-            background-color: #eee;
-            color: var(--color-gray-dark);
-            font-size: 80%;
-            overflow-x: auto;
-            border: 1px solid #d0d7de;
-            border-radius: 1px;
-            padding: 2px;
-        }
-	}
-
-	figcaption {
-		color: var(--color-gray-light);
-	}
-
-	hr.stylish {
-		background-image: linear-gradient(to right, rgba(white, 0.90), rgba(white, 0.45), rgba(white, 0));
-	}
-
-	input {
-		background-color: var(--color-gray-dark);
-		color: var(--color-gray-light);
-	}
-
-	input::placeholder {
-		color: var(--color-gray-light);
-	}
-
-	._progress-wrapper {
-		background-color: rgb(51, 51, 51);
-	}
-
-	#_progress {
-		background: linear-gradient(to right, rgb(204, 204, 204) var(--scroll), transparent 0);
-	}
-
-    .title-tags {
-        color: var(--color-gray-light);
-        font-size: 1.125rem;
-    }
-
-    img {
-        background-color: #ffffff;
-    }
+    // 240, 246, 252 - are --color-default in rgb()
+    --stylish-color-1: rgba(240, 246, 252, 0.90);
+    --stylish-color-2: rgba(240, 246, 252, 0.45);
+    --stylish-color-3: rgba(240, 246, 252, 0);
 }

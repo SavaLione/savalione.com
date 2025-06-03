@@ -15,6 +15,10 @@
 - Changed the user handle of my Bluesky account
 - Changed the Google Analytics tag
 - Fixed the deprecated Sass tag `import`
+- Changed overall appearance (big changes)
+    - Changed default colors
+    - Changed the appearance of the syntax highlighter
+    - Removed the progress slider
 
 v2.0.0 - 2024-10-12
 -------------------

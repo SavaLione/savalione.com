@@ -1,6 +1,37 @@
 @charset "utf-8";
 
 :root {
-	--color-gray-light: rgb(191, 191, 191);
-	--color-gray-dark: rgb(26, 26, 26);
+    --font-size: 1rem;
+    --font-size-h1: 2rem;
+    --font-size-h2: 1.5rem;
+    --font-size-h3: 1.17rem;
+    --font-size-h4: var(--font-size);
+    --font-size-h5: 0.83rem;
+    --font-size-h6: 0.67rem;
+    --font-size-h7: var(--font-size);
+
+    --font-line-height: 1.6rem;
+    --default-margin-bottom: 1rem;
+
+    --background-color-default: #ffffff;
+    --background-color-muted: #f6f8fa;
+    --background-color-neutral-muted: #818b981f;
+    --color-default: #1f2328;
+    --color-accent: #0969da;
+    --border-color-muted: #d1d9e0b3;
+
+    --color-menu: var(--color-default);
+
+    --color-image-border: #0094ff;
+
+    // Code highlighter
+    --color-highlight-string: #0a3069;
+    --color-highlight-constant: #0550ae;
+    --color-highlight-entity: #6639ba;
+    --color-highlight-keyword: #cf222e;
+
+    // 31, 35, 40 - are --color-default in rgb()
+    --stylish-color-1: rgba(31, 35, 40, 0.90);
+    --stylish-color-2: rgba(31, 35, 40, 0.45);
+    --stylish-color-3: rgba(31, 35, 40, 0);
 }
