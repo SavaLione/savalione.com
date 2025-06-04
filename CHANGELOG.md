@@ -21,6 +21,7 @@
     - Removed the progress slider
 - Changed the content on the `Links & Contact`, `About Me`, `Index`, `Blog Categories`, `All Blog Posts` and `Tech Docs & Notes`  pages
 - Changed the description and keywords of the blog
+- Published the `AzuraCast Music Library: Host Passthrough with ZFS, Incus, and Docker` post
 
 v2.0.0 - 2024-10-12
 -------------------
