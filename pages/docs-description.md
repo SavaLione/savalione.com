@@ -1,6 +1,4 @@
-### What are the docs?
-Docs are small notes I wrote.
-Usually they contain some information I may need to use.
-
-### What is this page all about?
-This page stores all docs that are present on the blog.
+### My Tech Docs & Notes
+Think of this section as my personal collection of quick technical notes, command-line cheat sheets, and practical solutions I've jotted down.
+They're often the kind of information I find myself needing to look up again.
+I hope you might find them useful too!
