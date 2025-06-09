@@ -13,7 +13,10 @@ url: "https://savalione.com"
 baseurl: ""
 
 # Google Analytics
-analytics_google: G-MB1BBH7T0M
+analytics_google:
+
+# Goat Counter
+goat_counter: gc.savalione.com
 
 # Copyright
 copyright: "2019-2025 Savelii Pototskii"
