@@ -24,6 +24,7 @@
 - Published the `AzuraCast Music Library: Host Passthrough with ZFS, Incus, and Docker` post
 - Removed Google Analytics
 - Added Goat Counter (`_includes/goat_counter.html`)
+- Published the `Cloud-Powered C++: Building a Dev Environment with Incus, Clang, and VS Code in Your Browser` post
 
 v2.0.0 - 2024-10-12
 -------------------
