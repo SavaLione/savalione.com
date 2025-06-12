@@ -26,6 +26,7 @@
 - Added Goat Counter (`_includes/goat_counter.html`)
 - Published the `Cloud-Powered C++: Building a Dev Environment with Incus, Clang, and VS Code in Your Browser` post
 - Changed the location of the GoatCounter script (now it is the assets directory)
+- Added a website html check
 
 v2.0.0 - 2024-10-12
 -------------------
