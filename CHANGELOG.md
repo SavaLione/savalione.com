@@ -27,6 +27,7 @@
 - Published the `Cloud-Powered C++: Building a Dev Environment with Incus, Clang, and VS Code in Your Browser` post
 - Changed the location of the GoatCounter script (now it is the assets directory)
 - Added a website html check
+- Fixed typos in the `AzuraCast Music Library: Host Passthrough with ZFS, Incus, and Docker` post
 
 v2.0.0 - 2024-10-12
 -------------------

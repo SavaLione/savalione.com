@@ -209,7 +209,7 @@ The destination of a mount can be a symbolic link itself, but AzuraCast may not 
 
 ## Notice - access rights
 The directory that stores the music library can be read-only.
-Usually I usually set the following permissions and all files:
+Usually, I set the following permissions on all files:
 * `775` - for directories.
 * `664` - for files.
 
