@@ -28,6 +28,7 @@
 - Changed the location of the GoatCounter script (now it is the assets directory)
 - Added a website html check
 - Fixed typos in the `AzuraCast Music Library: Host Passthrough with ZFS, Incus, and Docker` post
+- Published the `Isolating AzuraCast: Running Docker within an Incus VM for a Cleaner Host` post
 
 v2.0.0 - 2024-10-12
 -------------------
