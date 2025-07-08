@@ -31,6 +31,7 @@
 - Published the `Isolating AzuraCast: Running Docker within an Incus VM for a Cleaner Host` post
 - Fixed upper and lower menu title tags
 - Added social links to Jekyll configure file (for Jekyll seo tag plugin)
+- Published the `Beyond Docker: A Guide to C++ CI/CD with Jenkins and Incus` post
 
 v2.0.0 - 2024-10-12
 -------------------
