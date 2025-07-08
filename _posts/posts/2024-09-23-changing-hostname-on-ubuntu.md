@@ -3,11 +3,9 @@ layout: post
 type: posts
 title: "Changing hostname on Ubuntu"
 date: 2024-09-23
-last_modified_at: 2024-09-23 23:17:00
 description: "One of the ways to change hostname on a Ubuntu machine"
 categories: [linux]
 tags: [ubuntu, linux, hostname]
-author: Savelii Pototskii
 ---
 
 Here I show one of the ways to change hostname on a Ubuntu machine.

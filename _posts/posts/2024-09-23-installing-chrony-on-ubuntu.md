@@ -3,11 +3,9 @@ layout: post
 type: posts
 title: "Installing chrony on Ubuntu"
 date: 2024-09-23
-last_modified_at: 2024-11-09 17:26:00
 description: "The way I configure chrony on a Ubuntu machine"
 categories: [linux]
 tags: [ubuntu, linux, chrony]
-author: Savelii Pototskii
 ---
 
 Here I describe a way I configure time server on a Ubuntu machine.

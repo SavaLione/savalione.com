@@ -1,12 +1,11 @@
 ---
 layout: docs
 type: docs
-title:  "Cable specifications"
-date:   2022-08-08
+title: "Cable specifications"
+date: 2022-08-08
 last_modified_at: 2022-08-08 00:36:00
 description: "Network layer one cables specifications"
 categories: [docs]
-author: Savelii Pototskii
 ---
 
 

@@ -3,11 +3,9 @@ layout: post
 type: posts
 title: "How to create a zfs pool out of a file"
 date: 2024-10-15
-last_modified_at: 2024-10-15 17:39:44
 description: "This post is about a way you can create a zfs pool and filesystem out of a single file or series of files"
 categories: [linux]
 tags: [ubuntu, linux, zfs]
-author: Savelii Pototskii
 ---
 
 One of the neat features that zfs allows you to implement is to create a zfs filesystem out of a file.

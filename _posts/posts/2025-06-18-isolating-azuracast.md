@@ -3,11 +3,9 @@ layout: post
 type: posts
 title: "Isolating AzuraCast: Running Docker within an Incus VM for a Cleaner Host"
 date: 2025-06-18
-last_modified_at: 2025-06-18 10:34:00
 description: "Isolate your AzuraCast Docker deployment by running it inside an Incus VM for a cleaner, more organized host."
 categories: [self-hosting]
 tags: [AzuraCast, Docker, Incus, Isolation, Ubuntu, Linux, Self-hosting, System Administration, Open Source, Server Management, Tutorial]
-author: Savelii Pototskii
 ---
 
 Docker is a great tool for managing applications and services across heterogeneous servers.

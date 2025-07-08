@@ -3,11 +3,9 @@ layout: post
 type: posts
 title: "AzuraCast Music Library: Host Passthrough with ZFS, Incus, and Docker"
 date: 2025-06-04
-last_modified_at: 2025-06-04 14:00:00
 description: "Integrate your existing ZFS music library with AzuraCast using Incus and Docker. Step-by-step tutorial for host passthrough and separate cache management"
 categories: [self-hosting]
 tags: [AzuraCast, ZFS, Incus, Docker, Host Passthrough, Music Library, Self-Hosted Radio, Linux, Ubuntu, Tutorial]
-author: Savelii Pototskii
 ---
 
 AzuraCast is a neat tool when you need a self-hosted web radio station.

@@ -1,12 +1,10 @@
 ---
 layout: docs
 type: docs
-title:  "Cisco main catalyst switches features"
-date:   2022-08-15
-last_modified_at: 2022-08-15 15:17:00
+title: "Cisco main catalyst switches features"
+date: 2022-08-15
 description: "Cisco main catalyst switches features"
 categories: [docs]
-author: Savelii Pototskii
 ---
 
 ## Hardware

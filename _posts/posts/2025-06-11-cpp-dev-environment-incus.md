@@ -3,11 +3,9 @@ layout: post
 type: posts
 title: "Cloud-Powered C++: Building a Dev Environment with Incus, Clang, and VS Code in Your Browser"
 date: 2025-06-11
-last_modified_at: 2025-06-11 11:59:00
 description: "Build a powerful, browser-accessible C++ development environment. This guide walks you through setting up Incus, Clang, and VS Code for remote coding."
 categories: [devops-infrastructure]
 tags: [C++, Incus, Remote Development, VS Code, code-server, Clang, LLVM, Development Environment, Tutorial, Linux, Ubuntu, DevOps, Containerization, Nginx, CMake, clangd]
-author: Savelii Pototskii
 ---
 
 It's hard to overestimate the influence of the C++ programming language on the whole software development field.

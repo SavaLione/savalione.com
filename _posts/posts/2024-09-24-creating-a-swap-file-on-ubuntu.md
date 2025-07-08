@@ -3,11 +3,9 @@ layout: post
 type: posts
 title: "Creating a swap file on Ubuntu and configuring swappiness"
 date: 2024-09-24
-last_modified_at: 2024-09-24 19:03:00
 description: "In this post I show a way to create a swap file and swap extension"
 categories: [linux]
 tags: [ubuntu, linux, swap, swappiness]
-author: Savelii Pototskii
 ---
 
 Here I describe a way to create a swap file and swap extension.

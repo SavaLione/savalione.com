@@ -3,11 +3,9 @@ layout: post
 type: posts
 title: "Basic ZFS commands and tricks that I use often on Ubuntu"
 date: 2024-10-12
-last_modified_at: 2024-10-12 16:17:00
 description: "This post is about a way I use ZFS on Ubuntu"
 categories: [linux]
 tags: [ubuntu, linux, zfs]
-author: Savelii Pototskii
 ---
 
 Here I describe a way I use ZFS on Ubuntu.

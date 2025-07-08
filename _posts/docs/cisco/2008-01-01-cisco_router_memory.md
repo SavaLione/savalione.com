@@ -1,12 +1,10 @@
 ---
 layout: docs
 type: docs
-title:  "Cisco router memory"
-date:   2008-01-01
-last_modified_at: 2022-08-04 00:32:00
+title: "Cisco router memory"
+date: 2008-01-01
 description: "Cisco router memory datasheet and specs"
 categories: [docs]
-author: Savelii Pototskii
 ---
 All numbers for table 1a/b/c are for internal DRAM/Flash only.
 For external flash cards/disks, see table 5.

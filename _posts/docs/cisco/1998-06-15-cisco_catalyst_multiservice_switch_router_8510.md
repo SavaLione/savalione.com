@@ -1,9 +1,8 @@
 ---
 layout: docs
 type: docs
-title:  "Cisco Catalyst 8510 Multiservice Switch Router"
-date:   1998-06-15
-last_modified_at: 2022-08-05 11:44:00
+title: "Cisco Catalyst 8510 Multiservice Switch Router"
+date: 1998-06-15
 description: "Cisco Catalyst 8510 Multiservice Switch Router datasheet and specs"
 categories: [docs]
 author: Cisco

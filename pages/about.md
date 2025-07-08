@@ -2,9 +2,7 @@
 layout: page
 title: About Me
 date:   2019-11-10
-last_modified_at: 2025-06-04 12:27:00
 description: "Learn more about Savelii Pototskii, a software developer focused on C++, backend systems, performance, and open source. Discover his background, education, and passion for technology"
-author: Savelii Pototskii
 permalink: /about/
 ---
 Hi!

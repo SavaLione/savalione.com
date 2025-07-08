@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Links & Contact
-date:   2019-11-04
-last_modified_at: 2025-06-04 12:11:00
+date: 2019-11-04
 description: "Connect with Savelii Pototskii. Get in touch via email or find my work on GitHub, LinkedIn, and other platforms for software development and open source"
-author: Savelii Pototskii
 permalink: /links/
 ---
 I'm active on several platforms where I share my work, insights, and connect with others.

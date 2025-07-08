@@ -11,7 +11,6 @@ image:
   width: 1200
   height: 630
   alt: "Header image for the article 'Beyond Docker: A Guide to C++ CI/CD with Jenkins and Incus'"
-author: Savelii Pototskii
 ---
 
 ![Header image for the article 'Beyond Docker: A Guide to C++ CI/CD with Jenkins and Incus'](/assets/img/2025-07-08-jenkins-incus/header.png "Header image for the article 'Beyond Docker: A Guide to C++ CI/CD with Jenkins and Incus'")
