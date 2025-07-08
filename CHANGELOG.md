@@ -30,6 +30,7 @@
 - Fixed typos in the `AzuraCast Music Library: Host Passthrough with ZFS, Incus, and Docker` post
 - Published the `Isolating AzuraCast: Running Docker within an Incus VM for a Cleaner Host` post
 - Fixed upper and lower menu title tags
+- Added social links to Jekyll configure file (for Jekyll seo tag plugin)
 
 v2.0.0 - 2024-10-12
 -------------------

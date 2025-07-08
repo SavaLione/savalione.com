@@ -21,10 +21,25 @@ goat_counter: gc.savalione.com
 # Copyright
 copyright: "2019-2025 Savelii Pototskii"
 
-# Jekyll seo tag author
+# Jekyll seo tag
 author:
   name: "Savelii Pototskii"
   url: https://savalione.com
+  twitter: savalione
+
+social:
+  name: "Savelii Pototskii"
+  links:
+    - https://github.com/SavaLione
+    - https://www.linkedin.com/in/savalione/
+    - https://orcid.org/0009-0006-5105-465X
+    - https://g.dev/savalione
+    - https://openprofile.dev/profile/SavaLione
+    - https://www.credly.com/users/sava
+    - https://bsky.app/profile/savalione.com
+    - https://x.com/SavaLione
+    - https://dev.to/savalione
+    - https://www.printables.com/@sava
 
 # Jekyll seo locale
 locale: en_US
