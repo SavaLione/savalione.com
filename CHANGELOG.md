@@ -35,6 +35,7 @@
 - Fixed `summary_large_image`
 - Fixed the issue with the `author` tag in posts
 - Removed the `last_modified_at` tags
+- Fixed the author field in posts
 
 v2.0.0 - 2024-10-12
 -------------------

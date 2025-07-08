@@ -22,7 +22,7 @@ layout: default
 		<div class="post-information">
             {% if page.hide_author == true %}
             {% else %}
-			<div>Author: {{ page.author }}</div>
+			<div>Author: {{ site.author.name }}</div>
             {% endif %}
 
             <div>Date: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time></div>
