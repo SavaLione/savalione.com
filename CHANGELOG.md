@@ -32,6 +32,7 @@
 - Fixed upper and lower menu title tags
 - Added social links to Jekyll configure file (for Jekyll seo tag plugin)
 - Published the `Beyond Docker: A Guide to C++ CI/CD with Jenkins and Incus` post
+- Fixed `summary_large_image`
 
 v2.0.0 - 2024-10-12
 -------------------

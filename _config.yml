@@ -41,6 +41,9 @@ social:
     - https://dev.to/savalione
     - https://www.printables.com/@sava
 
+twitter:
+  card: summary_large_image
+
 # Jekyll seo locale
 locale: en_US
 language: en
