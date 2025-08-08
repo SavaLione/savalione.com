@@ -1,6 +1,4 @@
 ---
-layout: post
-type: posts
 title: "AzuraCast Music Library: Host Passthrough with ZFS, Incus, and Docker"
 date: 2025-06-04
 description: "Integrate your existing ZFS music library with AzuraCast using Incus and Docker. Step-by-step tutorial for host passthrough and separate cache management"

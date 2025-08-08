@@ -1,6 +1,4 @@
 ---
-layout: post
-type: posts
 title: "Isolating AzuraCast: Running Docker within an Incus VM for a Cleaner Host"
 date: 2025-06-18
 description: "Isolate your AzuraCast Docker deployment by running it inside an Incus VM for a cleaner, more organized host."

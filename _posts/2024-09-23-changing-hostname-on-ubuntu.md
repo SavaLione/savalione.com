@@ -1,6 +1,4 @@
 ---
-layout: post
-type: posts
 title: "Changing hostname on Ubuntu"
 date: 2024-09-23
 description: "One of the ways to change hostname on a Ubuntu machine"

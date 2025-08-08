@@ -1,6 +1,4 @@
 ---
-layout: post
-type: posts
 title: "Basic ZFS commands and tricks that I use often on Ubuntu"
 date: 2024-10-12
 description: "This post is about a way I use ZFS on Ubuntu"

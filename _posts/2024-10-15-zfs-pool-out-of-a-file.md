@@ -1,6 +1,4 @@
 ---
-layout: post
-type: posts
 title: "How to create a zfs pool out of a file"
 date: 2024-10-15
 description: "This post is about a way you can create a zfs pool and filesystem out of a single file or series of files"

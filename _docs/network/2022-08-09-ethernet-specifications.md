@@ -1,6 +1,4 @@
 ---
-layout: docs
-type: docs
 title:  "Ethernet specifications"
 date: 2022-08-09
 description: "Ethernet specifications: data rate period, frame and packet sizes, frames per second, packet per second, and else"

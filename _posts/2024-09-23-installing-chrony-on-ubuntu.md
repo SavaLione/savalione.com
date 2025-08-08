@@ -1,6 +1,4 @@
 ---
-layout: post
-type: posts
 title: "Installing chrony on Ubuntu"
 date: 2024-09-23
 description: "The way I configure chrony on a Ubuntu machine"

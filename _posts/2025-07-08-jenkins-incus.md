@@ -1,6 +1,4 @@
 ---
-layout: post
-type: posts
 title: "Beyond Docker: A Guide to C++ CI/CD with Jenkins and Incus"
 date: 2025-07-08 10:03:41
 description: "A step-by-step guide to setting up a robust C++ CI/CD pipeline with Jenkins and Incus, offering a powerful alternative to Docker-based workflows."

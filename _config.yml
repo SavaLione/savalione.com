@@ -102,13 +102,13 @@ collections:
 
 defaults:
   - scope:
-      path: "_posts/posts"
+      path: "_posts"
       type: "posts"
     values:
       permalink: /posts/:year/:month/:day/:title/
       layout: "post"
   - scope:
-      path: "_posts/docs"
+      path: "_docs"
       type: "docs"
     values:
       permalink: /docs/:year/:month/:day/:title/

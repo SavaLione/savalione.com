@@ -1,6 +1,4 @@
 ---
-layout: post
-type: posts
 title: "Cloud-Powered C++: Building a Dev Environment with Incus, Clang, and VS Code in Your Browser"
 date: 2025-06-11
 description: "Build a powerful, browser-accessible C++ development environment. This guide walks you through setting up Incus, Clang, and VS Code for remote coding."

@@ -108,7 +108,7 @@ inefficient, multi-system solution, the Catalyst 8500 switch provides an
 I suggested that it would be better to isolate some of the technical specifications, such as length or pinout,
 and move them to a new page.
 I did this because usually the length and pinout is the same for different equipment.
-You can see cables technical specifications here: [Cables specifications](/docs/physical/cables_specifications).
+You can see cables technical specifications here: [Cables specifications](/docs/2022/08/08/cable-specifications/).
 
 #### RJ-45
 

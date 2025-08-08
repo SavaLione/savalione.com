@@ -1,6 +1,4 @@
 ---
-layout: post
-type: posts
 title: "Creating a swap file on Ubuntu and configuring swappiness"
 date: 2024-09-24
 description: "In this post I show a way to create a swap file and swap extension"

@@ -37,6 +37,12 @@
 - Removed the `last_modified_at` tags
 - Fixed the author field in posts
 - Changed the url of Goat Counter
+- Fixed the bug with `post` and `blog` urls: all documents were using `post` in their urls
+- Omitted `layout` and `type` parameters from posts and documents
+- Fixed collections and defaults in the Jenkins configuration
+- Underscore symbols (`_`) replaced with hyphen-minus (`-`, the keyboard minus key which is close to `0`) in documents
+- Fixed broken links in documents
+- Changed behavior of the `/docs/` page 
 
 v2.0.0 - 2024-10-12
 -------------------
