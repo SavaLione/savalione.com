@@ -42,7 +42,8 @@
 - Fixed collections and defaults in the Jenkins configuration
 - Underscore symbols (`_`) replaced with hyphen-minus (`-`, the keyboard minus key which is close to `0`) in documents
 - Fixed broken links in documents
-- Changed behavior of the `/docs/` page 
+- Changed behavior of the `/docs/` page
+- Corrected grammar and added images to the post: `How to create a zfs pool out of a file`
 
 v2.0.0 - 2024-10-12
 -------------------
