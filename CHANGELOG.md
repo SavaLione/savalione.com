@@ -44,6 +44,7 @@
 - Fixed broken links in documents
 - Changed behavior of the `/docs/` page
 - Corrected grammar and added images to the post: `How to create a zfs pool out of a file`
+- Fixed tags in `site.webmanifest`
 
 v2.0.0 - 2024-10-12
 -------------------
