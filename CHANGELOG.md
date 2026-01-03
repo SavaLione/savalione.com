@@ -45,6 +45,7 @@
 - Changed behavior of the `/docs/` page
 - Corrected grammar and added images to the post: `How to create a zfs pool out of a file`
 - Fixed tags in `site.webmanifest`
+- Changed the date in the footer (2025 -> 2026) (Happy New Year!)
 
 v2.0.0 - 2024-10-12
 -------------------
