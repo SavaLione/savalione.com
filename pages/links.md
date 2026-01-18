@@ -23,5 +23,4 @@ Developer & Academic Profiles:
 Social & Content Platforms:
 * Bluesky: [@savalione.com](https://bsky.app/profile/savalione.com)
 * ~~Twitter~~/X: [@SavaLione](https://x.com/SavaLione)
-* Dev.to: [dev.to/savalione](https://dev.to/savalione)
 * Printables: [@sava](https://www.printables.com/@sava)
