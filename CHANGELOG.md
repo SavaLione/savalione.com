@@ -58,6 +58,7 @@
 - Changed the comment in the html (`_includes/copyright.html`)
 - Added projects to the index and about pages
 - Fixed the end of line on every page (`CRLF` -> `LF`)
+- Updated the about page
 
 v2.0.0 - 2024-10-12
 -------------------

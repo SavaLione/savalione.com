@@ -38,16 +38,16 @@ Feel free to check out the repositories and contribute!
 
 ### Work Experience
 * Software Developer - IMM UB RAS (Part-time)
-    * Feb. 2024 - Present
+    * Feb 2024 - Present
     * Focus: Embedded Linux, network stack software development.
 * Master of Science Researcher - Ural Federal University (Part-time)
-    * Mar. 2023 - Jan 2026
+    * Mar 2023 - Jan 2026
     * Focus: Web application architecture, student supervision, and teaching.
 * Lead Software Engineer - Drev-Master LLC
     * July 2022 - Present
     * Focus: Server software design, network architecture, and C++/Go optimization.
 * Software Engineer - Drev-Master LLC
-    * Mar. 2018 - July 2022
+    * Mar 2018 - July 2022
     * Focus: Server software development, system administration, and database module development.
 
 ### Software Development Skills
@@ -58,6 +58,10 @@ Feel free to check out the repositories and contribute!
 * Hardware: KiCad, STM32, ESP32, FPGA (Gowin), RISC-V, ARM
 * HPC: OpenCL, OpenMP, Khronos SYCL
 * OS and Distributions: Ubuntu LTS, Debian, FreeBSD, NetBSD, pfSense
+
+### Language Skills
+* English: C1 - Cambridge English C1 Advanced (2025)
+* Russian: Native
 
 ### Talks & Publications
 I frequently present on topics ranging from robotics and network routers to FPGA architecture.
