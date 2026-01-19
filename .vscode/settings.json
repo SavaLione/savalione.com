@@ -1,25 +1,10 @@
 /*
     My Visual Studio Code settings
     Savelii Pototskii (savalione.com)
-    Updated: 2024-06-26
-
-    Plugin IDs
-        General
-            streetsidesoftware.code-spell-checker
-            streetsidesoftware.code-spell-checker-russian
-            shd101wyy.markdown-preview-enhanced
-        C and C++
-            xaver.clang-format
-            llvm-vs-code-extensions.vscode-clangd
-            josetr.cmake-language-support-vscode
-        Unix
-            plorefice.devicetree
-        Web
-            dawhite.mustache
+    Updated: 2026-01-11
 */
-
 {
-    // End of line (I want LF instead of CRLF)
+    // End of line (LF instead of CRLF)
     "files.eol": "\n",
 
     // Tab size is equal 4 spaces
@@ -34,43 +19,11 @@
     // Always use utf-8
     "files.encoding": "utf8",
 
-    // Disable annoying css color picker
-    "css.colorDecorators.enable": false,
-
-    // Disable annoying scss color picker
-    "scss.colorDecorators.enable": false,
-
     // Disable enter autocomplete suggestions
     "editor.acceptSuggestionOnEnter": "off",
 
-    // Dictionary language (I want to have English and Russian spelling check)
-    "cSpell.language": "en-US,ru",
+    // Dictionary language
+    "cSpell.language": "en-US",
     
-    // File associations
-    "files.associations": {
-        "iostream": "cpp",
-        "ostream": "cpp"
-    },
-
-    // clangd setting
-    // You can add "-log=verbose" for verbose logging
-    //
-    // For Windows use something like that:
-    //   clangd.arguments
-    //     -pretty
-    //     --background-index
-    //     --query-driver=C:\\mingw\\bin\\g++.exe
-    //
-    // For Unix use something like that:
-    //   clangd.path
-    //     /usr/bin/clangd-17
-    //   clang-format.executable
-    //     /usr/bin/clang-format-17
-    //
-    "clangd.path": "/usr/bin/clangd-17",
-    "clangd.arguments": [
-        "--header-insertion=never"
-    ],
-    "clang-format.executable": "/usr/bin/clang-format-17",
-    "clang-format.style": "file"
+    "cSpell.maxNumberOfProblems": 1000,
 }

@@ -48,6 +48,7 @@
 - Changed the date in the footer (2025 -> 2026) (Happy New Year!)
 - Fixed a bug in the posts section (it was empty)
 - Removed `Dev.to` link in the links page
+- Removed annoying blog's name at the end of every title tag on every page (`| Savelii Pototskii`)
 
 v2.0.0 - 2024-10-12
 -------------------
