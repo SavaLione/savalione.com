@@ -57,6 +57,7 @@
 - Changed the blog name (`Savelii Pototskii's blog` -> `Savelii Pototskii`) (I don't like the possessive s in the title)
 - Changed the comment in the html (`_includes/copyright.html`)
 - Added projects to the index and about pages
+- Fixed the end of line on every page (`CRLF` -> `LF`)
 
 v2.0.0 - 2024-10-12
 -------------------
