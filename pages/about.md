@@ -27,16 +27,14 @@ My focus: Go, C++, Linux and Open Source.
 * Bachelor's Degree in Software Engineering (2017 - 2021)
   * Ural Federal University
 
-### Latest projects
+### Latest Projects
 Here are a few of the projects I've been working on recently.
 Feel free to check out the repositories and contribute!
 
-* [go-mirror-zig](https://github.com/SavaLione/go-mirror-zig) - A self-hostable solution written in Go for creating a community mirror for the Zig programming language.
-    * Stack: Go
-* [yolo-cls](https://github.com/SavaLione/yolo-cls) - A command-line tool for YOLO-based image classification.
-    * Stack: C++, OpenCV, ONNX Runtime
-* [hdcp-gen-key](https://github.com/SavaLione/hdcp-gen-key) - A command-line tool for generating HDCP (High-bandwidth Digital Content Protection) keys for versions 1.0 through 1.4.
-    * Stack: C++
+|Name|Description|Stack|
+|:---|:---|:---|
+{% for project in site.data.projects %}|[{{ project.name }}]({{ project.url }})|{{ project.description }}|{{ project.stack }}|
+{% endfor %}
 
 ### Work Experience
 * Software Developer - IMM UB RAS (Part-time)

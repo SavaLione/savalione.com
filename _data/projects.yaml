@@ -1,0 +1,17 @@
+- name: "go-mirror-zig"
+  description: "A self-hostable solution written in Go for creating a community mirror for the Zig programming language"
+  stack: "Go"
+  url: "https://github.com/SavaLione/go-mirror-zig"
+  date: 2025-09-09
+
+- name: "yolo-cls"
+  description: "A command-line tool for YOLO-based image classification"
+  stack: "C++, OpenCV, ONNX Runtime"
+  url: "https://github.com/SavaLione/yolo-cls"
+  date: 2025-08-24
+
+- name: "hdcp-gen-key"
+  description: "A command-line tool for generating HDCP (High-bandwidth Digital Content Protection) keys for versions 1.0 through 1.4"
+  stack: "C++"
+  url: "https://github.com/SavaLione/hdcp-gen-key"
+  date: 2025-05-26

@@ -25,6 +25,23 @@
 
 <hr class="stylish">
 
+<h4>Latest projects:</h4>
+<main class="home-main">
+    <section id="posts">
+        <div class="parent">
+            {% for project in site.data.projects %}
+            <div class="post-wrapper">
+                <time class="post-date" datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%Y-%m-%d" }}</time>
+                <a class="post-link" href="{{ project.url }}">{{ project.description }}</a>
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+</main>
+
+
+<hr class="stylish">
+
 {% capture links %}{% include_relative pages/links-new.md %}{% endcapture %}
 
 {{ links | markdownify }}
