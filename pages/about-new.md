@@ -1,7 +1,9 @@
-### Welcome! I'm Savelii Pototskii
-This is my personal blog where I share practical insights, tutorials, and explorations in the world of software development, open-source technologies, and systems engineering.
-My goal is to create useful content that helps fellow developers and enthusiasts navigate topics like C++, Go, Linux, networking, FPGAs, and more.
-I'm passionate about the power of open source and strive to make complex subjects accessible.
+### Hi, I'm Savelii Pototskii
+I am a software engineer specializing in backend systems, performance optimization, network applications, and open-source software.
+I care deeply about the open-source ecosystem because I believe it is the future of technology.
+
+This blog is where I share my thoughts, insights, and practical knowledge on topics like Go, C++, Linux, FPGAs, and the broader open-source world.
+My aim is to create content that is open, informative, and helpful.
 
 All original content on this blog is published under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, unless otherwise noted.
 

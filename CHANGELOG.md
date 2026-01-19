@@ -49,6 +49,13 @@
 - Fixed a bug in the posts section (it was empty)
 - Removed `Dev.to` link in the links page
 - Removed annoying blog's name at the end of every title tag on every page (`| Savelii Pototskii`)
+- Changed the content on several pages
+    - Updated about and about-new pages
+    - Updated skills, education, talks and publication pages (mostly changed the order and subtle inconsistencies)
+    - Added the 'Work Experience' section to the about page
+    - Changed description of the docs page
+- Changed the blog name (`Savelii Pototskii's blog` -> `Savelii Pototskii`) (I don't like the possessive s in the title)
+- Changed the comment in the html (`_includes/copyright.html`)
 
 v2.0.0 - 2024-10-12
 -------------------
