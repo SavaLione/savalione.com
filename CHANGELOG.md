@@ -59,6 +59,9 @@
 - Added projects to the index and about pages
 - Fixed the end of line on every page (`CRLF` -> `LF`)
 - Updated the about page
+- Changed the name of the files that appear on the main page
+    - `about-new.md` -> `index-about.md`
+    - `links-new.md` -> `index-links.md`
 
 v2.0.0 - 2024-10-12
 -------------------
