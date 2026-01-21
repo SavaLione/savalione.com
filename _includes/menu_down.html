@@ -12,8 +12,12 @@
 	<a class="nav-item" href='{{ site.baseurl }}/links/' title="Links & Contact">Links</a>
 	|
 	<a class="nav-item" href="{{ site.baseurl }}/feed.xml" title="RSS feed">RSS</a>
+</nav>
+
+<nav class="top-nav">
+	<a class="nav-item" href="{{ site.baseurl }}/server/" title="Information about the server currently hosting this blog">Server</a>
 	{% if site.javascript_enabled %}
 	|
-	<a class="nav-item dark-light-switch" href="#"></a>
+	<a class="nav-item dark-light-switch" href="#" title="Switch between dark and light themes"></a>
 	{% endif %}
 </nav>

@@ -62,6 +62,11 @@
 - Changed the name of the files that appear on the main page
     - `about-new.md` -> `index-about.md`
     - `links-new.md` -> `index-links.md`
+- Added the server information page (for GeoDNS)
+    - Added a new server in `servers.yaml`
+    - Added two new plugins for displaying different stats
+- Added a title tag to the color switcher
+- Modified the bottom menu (now it has 2 columns)
 
 v2.0.0 - 2024-10-12
 -------------------
