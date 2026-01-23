@@ -4,7 +4,6 @@ title: Server information
 date: 2026-01-21
 description: "Information about the server currently hosting this blog"
 permalink: /server/
-sitemap: false
 ---
 
 You have reached the `{{ site.data.server.hostname }}` node via Geo-DNS.

@@ -72,6 +72,8 @@
     - Total ram is now displayed in MB (not in GB)
     - When a tool is not installed you get `N/A`
     - Nginx version is parsed correctly
+- Added new lines to `robots.txt` (otherwise it would look bad in a terminal when accessed by `curl`)
+- Removed the tag `sitemap: false` from some pages
 
 v2.0.0 - 2024-10-12
 -------------------
