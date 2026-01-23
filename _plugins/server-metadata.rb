@@ -30,17 +30,23 @@ module Jekyll
             end
 
             # RAM
-            mem_total_gb = "Unknown"
+            mem_total_mb = "Unknown"
             if File.exist?('/proc/meminfo')
                 mem_kb = File.read('/proc/meminfo').match(/MemTotal:\s+(\d+)\s/)[1].to_i
-                mem_total_gb = (mem_kb / 1024 / 1024)
+                mem_total_mb = (mem_kb / 1024)
             end
 
             # Tools
-            go_version = `go version 2>/dev/null`.strip.split(' ')[2] rescue "N/A"
-            gcc_version = `gcc --version 2>/dev/null`.lines.first&.strip.split(' ')[3] rescue "N/A"
-            git_version = `git --version 2>/dev/null`.strip.split(' ')[2] rescue "N/A"
-            nginx_version = `nginx -version 2>/dev/null`.strip.split(' ')[2] rescue "N/A"
+            go_version = `go version 2>/dev/null`.strip.split(' ')[2] || "N/A"
+            gcc_version = `gcc --version 2>/dev/null`.lines.first&.strip.split(' ')[3] || "N/A"
+            git_version = `git --version 2>/dev/null`.strip.split(' ')[2] || "N/A"
+
+            nginx_raw = `nginx -version 2>&1`.strip
+            if nginx_raw.downcase.include?("nginx version:")
+                nginx_version = nginx_raw.split(' ')[2]
+            else
+                nginx_version = "N/A"
+            end
       
             # Injecting data into site.data
             site.data['server'] = {
@@ -49,7 +55,7 @@ module Jekyll
                 'distro' => os_name,
                 'virt' => virt_type,
                 'cpu' => "#{cpu_model} (#{cpu_count} vCPUs)",
-                'ram' => mem_total_gb,
+                'ram' => mem_total_mb,
                 'tools' => {
                     'go' => go_version,
                     'gcc' => gcc_version,

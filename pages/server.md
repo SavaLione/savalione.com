@@ -26,7 +26,7 @@ Location and Network
 {% endfor %}
 Hardware
     CPU: {{ site.data.server.cpu }}
-    RAM: {{ site.data.server.ram }} GB
+    RAM: {{ site.data.server.ram }} MB
     Architecture: {{ site.data.server.virt | upcase }}
 
 System Environment

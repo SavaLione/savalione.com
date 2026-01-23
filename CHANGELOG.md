@@ -68,6 +68,10 @@
 - Added a title tag to the color switcher
 - Modified the bottom menu (now it has 2 columns)
 - Added a new server `ru-msk-01`
+- Fixed the server page behavior
+    - Total ram is now displayed in MB (not in GB)
+    - When a tool is not installed you get `N/A`
+    - Nginx version is parsed correctly
 
 v2.0.0 - 2024-10-12
 -------------------
