@@ -5,3 +5,11 @@
     - 2a03:b0c0:3:d0::9ab:1
   region: "Central Europe"
   location: "Frankfurt, Germany"
+
+- id: ru-msk-01
+  provider: Timeweb Cloud
+  network:
+    - 109.196.98.239
+    - 2a03:6f00:a::1:ab6a
+  region: "Eastern Europe"
+  location: "Moscow, Russia"
