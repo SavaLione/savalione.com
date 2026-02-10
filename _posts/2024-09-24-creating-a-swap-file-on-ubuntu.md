@@ -1,77 +1,79 @@
 ---
-title: "Creating a swap file on Ubuntu and configuring swappiness"
+title: "Creating a Swap File on Ubuntu and Configuring Swappiness"
 date: 2024-09-24
-description: "In this post I show a way to create a swap file and swap extension"
+description: "In this post, I demonstrate how to create a swap file and configure swap space on Linux"
 categories: [linux]
 tags: [ubuntu, linux, swap, swappiness]
 ---
 
-Here I describe a way to create a swap file and swap extension.
+In this post, I describe how to create a swap file and enable swap space.
 
-I don't prefer to create a swap partition from an entire disk partition and I'm not sure there is a reason for that.
+I prefer not to dedicate an entire disk partition to swap.
+Using a file offers more flexibility.
 
 ## Creating a file for swap
-First of all you need to create a file for a swap partition:
-* `sudo fallocate -l 1G /swap_file`
+First of all, you need to create a file that will act as the swap space:
+* `sudo fallocate -l 1G /swap`
 
 Where:
-* `1G` - is size of the file.
-* `/swap_file` - filename and location.
+* `1G` - the size of the file.
+* `/swap` - the filename and location.
 
-Then set rights on the file:
-* `sudo chmod 600 /swap_file`
+Next, set the correct permissions on the file to ensure only the root user can read it:
+* `sudo chmod 600 /swap`
 
-To check the created file and its rights you can use `ls`:
-* `ls -lh /swap_file`
+To check the created file and its permissions, use `ls`:
+* `ls -lh /swap`
 
-## Making the created file a swap
-To make a file swap you need to use `mkswap` and `swapon`:
-1. `sudo mkswap /swap_file`
-2. `sudo swapon /swap_file`
+## Enabling the swap file
+To turn the file into swap space, use `mkswap` and `swapon`:
+1. `sudo mkswap /swap`
+2. `sudo swapon /swap`
 
-To check current swap extensions you may use `swapon` and `free`:
+To check the current swap status, use `swapon` and `free`:
 * `swapon --show`
 * `free -h`
 
 ## Making swap persistent
-Previously created swap won't be persistent and will vanish after system reboot.
-To prevent that behavior you need to modify `fstab` file.
+The swap space created above is not persistent and will vanish after reboot.
+To prevent this, you need to modify the `fstab` file.
 
-First of all, it's a good practice to create a backup version of existent `fstab` file:
+First, it's a good practice to create a backup of the existing `fstab` file:
 * `sudo cp /etc/fstab /etc/fstab.bak`
 
-Then you need to add created swap file to file systems table (`fstab`).
-It's usually done by modifying `/etc/fstab` and adding the line that describes swap file location and it's properties.
+Then, add the created swap file to the file system table (`fstab`).
+This is done by modifying the `/etc/fstab` file and appending a line that describes the swap file location and its properties.
 
-Use `sudo nano /etc/fstab` to modify `fstab` file.
-Add the next line at the end of file:
-* `/swap_file none swap sw 0 0`
+Use `sudo nano /etc/fstab` to modify the file.
+Add the following line at the end of the file:
+* `/swap none swap sw 0 0`
 
 Where:
-* `/swap_file` - location to the swap file.
+* `/swap` - the location of the swap file.
 
 ## Modifying swappiness
-Kernel parameter `vm.swappiness` describes the amount of ram will be moved to swap extension if needed.
-Usually it's 60% but sometimes my servers stuck when I try to compile something.
-I prefer it to be 10%.
 
-First thing I do is to use `sysctl` command to change swappiness right away:
+The kernel parameter `vm.swappiness` controls how aggressively the Linux kernel swaps memory pages.
+The default value is usually `60`, but I find that my servers sometimes become unresponsive during heavy compilation tasks with this setting.
+I prefer this setting to be `10` (which means 10%).
+
+To change swappiness immediately (until the next reboot), use `sysctl`:
 * `sudo sysctl vm.swappiness=10`
 
-But changing swappiness that way won't be persistent so you also need to change `sysctl.conf` file:
+To make this change persistent across reboots, you need to modify the `sysctl.conf` file:
 * `sudo nano /etc/sysctl.conf`
-    * `vm.swappiness=10`
+    * Add or modify: `vm.swappiness=10`
 
-In order to check current swappiness you can write `cat /proc/sys/vm/swappiness` in your terminal.
+To check the current swappiness value, run `cat /proc/sys/vm/swappiness`.
 
-## Summing up
-1. `sudo fallocate -l 1G /swap_file`
-2. `sudo chmod 600 /swap_file`
-3. `sudo mkswap /swap_file`
-4. `sudo swapon /swap_file`
-5. `sudo cp /etc/fstab /etc/fstab.bak`
-6. `sudo nano /etc/fstab`
-    * `/swap_file none swap sw 0 0`
-7. `sudo sysctl vm.swappiness=10`
-8. `sudo nano /etc/sysctl.conf`
-    * `vm.swappiness=10`
+## Summary
+1. Create the file: `sudo fallocate -l 1G /swap`
+2. Set permissions: `sudo chmod 600 /swap`
+3. Initialize swap: `sudo mkswap /swap`
+4. Enable swap: `sudo swapon /swap`
+5. Backup fstab: `sudo cp /etc/fstab /etc/fstab.bak`
+6. Edit fstab: `sudo nano /etc/fstab`
+    * Add: `/swap none swap sw 0 0`
+7. Set runtime swappiness: `sudo sysctl vm.swappiness=10`
+8. Set persistent swappiness: `sudo nano /etc/sysctl.conf`
+    * Add: `vm.swappiness=10`

@@ -76,6 +76,8 @@
 - Removed the tag `sitemap: false` from some pages
 - Published a post 'Easy Static Site Development Using Containers'
 - Fixed a typo in `_includes/copyright.html`
+- Changed the swap file name in the `Creating a swap file on Ubuntu and configuring swappiness` post (`swap_file` -> `swap`)
+- Fixed grammar in the `Creating a swap file on Ubuntu and configuring swappiness` post 
 
 v2.0.0 - 2024-10-12
 -------------------
