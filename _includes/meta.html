@@ -7,6 +7,8 @@
 
 {% seo title=false %}
 
+{% include json-ld.html %}
+
 {% if site.keywords or page.tags %}
 <meta name="keywords" content="{% if page.tags %}{{ page.tags | join: ', '}}{% else %}{{ site.keywords | join: ', ' }}{% endif %}" />
 {% endif %}

@@ -1,0 +1,14 @@
+- name: "Go"
+  url: "https://en.wikipedia.org/wiki/Go_(programming_language)"
+
+- name: "C++"
+  url: "https://en.wikipedia.org/wiki/C%2B%2B"
+
+- name: "Linux"
+  url: "https://en.wikipedia.org/wiki/Linux"
+
+- name: "High-performance computing"
+  url: https://en.wikipedia.org/wiki/High-performance_computing
+
+- name: "Open-source software"
+  url: "https://en.wikipedia.org/wiki/Open-source_software"

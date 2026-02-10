@@ -84,6 +84,7 @@
     - If `true` the server is active (in use)
     - If `false` the server is not in use (retired)
 - Added a new section (Global Infrastructure) to the `/server/` page
+- Added JSON-LD support
 
 v2.0.0 - 2024-10-12
 -------------------
