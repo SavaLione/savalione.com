@@ -60,3 +60,12 @@ git commit
     short: {{ site.data.git.hash }}
     full: {{ site.data.git.full_hash }}
 ```
+
+### Global Infrastructure
+Here is the list of all active nodes in the Geo-DNS cluster:
+
+|Node ID|Location|Provider|IP  |Status|
+|:------|:-------|:-------|:---|:-----|
+{% for server in site.data.servers %}|`{{ server.id }}`|{{ server.location }}|{{ server.provider }}|`{{ server.network[0] }}`|{% if server.id == site.data.server.hostname %}**Current**{% else %} {% if server.active %}Active{% else %}Retired{% endif %}{% endif %}|
+{% if server.network.size > 1 %}{% for ip in server.network offset:1 %}| ^^ | ^^ | ^^ |`{{ ip }}`| ^^ |
+{% endfor %}{% endif %}{% endfor %}

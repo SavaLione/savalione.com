@@ -80,6 +80,10 @@
 - Fixed grammar in the `Creating a swap file on Ubuntu and configuring swappiness` post
 - Replaced NTP servers in the `Installing and Configuring chrony on Ubuntu` post (NTP Pool Project -> Google Public NTP)
 - Added a new server `us-sfo-01`
+- Added a new parameter to the `servers.yaml` (boolean `active`)
+    - If `true` the server is active (in use)
+    - If `false` the server is not in use (retired)
+- Added a new section (Global Infrastructure) to the `/server/` page
 
 v2.0.0 - 2024-10-12
 -------------------

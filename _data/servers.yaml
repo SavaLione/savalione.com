@@ -5,6 +5,7 @@
     - 2a03:b0c0:3:d0::9ab:1
   region: "Central Europe"
   location: "Frankfurt, Germany"
+  active: true
 
 - id: ru-msk-01
   provider: Timeweb Cloud
@@ -13,6 +14,7 @@
     - 2a03:6f00:a::1:ab6a
   region: "Eastern Europe"
   location: "Moscow, Russia"
+  active: true
 
 - id: us-sfo-01
   provider: DigitalOcean
@@ -21,3 +23,4 @@
     - 2604:a880:4:1d0:0:1:e14f:0
   region: "North America"
   location: "San Francisco, USA"
+  active: true
