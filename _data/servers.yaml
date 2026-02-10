@@ -13,3 +13,11 @@
     - 2a03:6f00:a::1:ab6a
   region: "Eastern Europe"
   location: "Moscow, Russia"
+
+- id: us-sfo-01
+  provider: DigitalOcean
+  network:
+    - 144.126.221.211
+    - 2604:a880:4:1d0:0:1:e14f:0
+  region: "North America"
+  location: "San Francisco, USA"
