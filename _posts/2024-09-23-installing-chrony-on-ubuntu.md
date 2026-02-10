@@ -1,24 +1,24 @@
 ---
-title: "Installing chrony on Ubuntu"
+title: "Installing and Configuring chrony on Ubuntu"
 date: 2024-09-23
-description: "The way I configure chrony on a Ubuntu machine"
+description: "A guide on how I configure the chrony NTP client on Ubuntu"
 categories: [linux]
-tags: [ubuntu, linux, chrony]
+tags: [ubuntu, linux, chrony, ntp]
 ---
 
-Here I describe a way I configure time server on a Ubuntu machine.
+In this post, I describe how I configure a time server on an Ubuntu machine.
 
-It's not a preferable or right way but I am just used to set up time servers like that.
+While the default configuration works for most users, I prefer to explicitly set up my upstream NTP servers.
 
 ## Installing
-Simplest way to install chrony is to download package from apt repository:
+The simplest way to install chrony is to download the package from the apt repository:
 * `sudo apt install chrony`
 
 ## Configuring
-chrony configure file is located here:
+The chrony configuration file is located here:
 * `/etc/chrony/chrony.conf`
 
-You can keep default settings that are provided by package maintainer, but I usually change default pool addresses.
+You can keep the default settings provided by the package maintainer, but I usually change the default pool addresses.
 
 Default NTP pool servers:
 ```
@@ -28,36 +28,42 @@ pool 1.ubuntu.pool.ntp.org iburst maxsources 1
 pool 2.ubuntu.pool.ntp.org iburst maxsources 2
 ```
 
-I change them to be as follows:
+I change them to the Google Public NTP servers:
 ```
-server 0.pool.ntp.org iburst
-server 1.pool.ntp.org iburst
-server 2.pool.ntp.org iburst
-server 3.pool.ntp.org iburst
+server time1.google.com iburst
+server time2.google.com iburst
+server time3.google.com iburst
+server time4.google.com iburst
 ```
 
-After changing setting you need to restart chrony service:
+After changing the settings, you need to restart the service:
 * `sudo systemctl restart chrony`
 
 ## Changing timezone
-By using `timedatectl set-timezone` you can change timezone.
+You can change the system timezone using `timedatectl`:
 * `sudo timedatectl set-timezone Etc/UTC`
 
-You can see all available timezones via:
+You can view all available timezones via:
 * `timedatectl list-timezones`
 
 ## Checking chrony stats
-To check chrony stats you can write:
+To check the sources chrony is currently using:
 * `chronyc sources`
 
-## Summing up
+To check the tracking details (system offset, stratum, etc.):
+* `chronyc tracking`
+
+## Summary
 1. `sudo apt install chrony`
 2. `sudo nano /etc/chrony/chrony.conf`
 3. Change default NTP pool servers:
-    ```
-    server 0.pool.ntp.org iburst
-    server 1.pool.ntp.org iburst
-    server 2.pool.ntp.org iburst
-    server 3.pool.ntp.org iburst
-    ```
+```
+server time1.google.com iburst
+server time2.google.com iburst
+server time3.google.com iburst
+server time4.google.com iburst
+```
 4. `sudo systemctl restart chrony`
+
+## Additional links
+* [Google Public NTP - Configuring Clients](https://developers.google.com/time/guides)

@@ -77,7 +77,9 @@
 - Published a post 'Easy Static Site Development Using Containers'
 - Fixed a typo in `_includes/copyright.html`
 - Changed the swap file name in the `Creating a swap file on Ubuntu and configuring swappiness` post (`swap_file` -> `swap`)
-- Fixed grammar in the `Creating a swap file on Ubuntu and configuring swappiness` post 
+- Fixed grammar in the `Creating a swap file on Ubuntu and configuring swappiness` post
+- Replaced NTP servers in the `Installing and Configuring chrony on Ubuntu` post (NTP Pool Project -> Google Public NTP)
+
 
 v2.0.0 - 2024-10-12
 -------------------
