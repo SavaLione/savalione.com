@@ -75,6 +75,7 @@
 - Added new lines to `robots.txt` (otherwise it would look bad in a terminal when accessed by `curl`)
 - Removed the tag `sitemap: false` from some pages
 - Published a post 'Easy Static Site Development Using Containers'
+- Fixed a typo in `_includes/copyright.html`
 
 v2.0.0 - 2024-10-12
 -------------------
