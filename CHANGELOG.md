@@ -86,6 +86,7 @@
 - Added a new section (Global Infrastructure) to the `/server/` page
 - Added JSON-LD support
 - Published a post 'How to Host a Static Website Using nginx and Certbot on Ubuntu'
+- Added a new tag
 
 v2.0.0 - 2024-10-12
 -------------------

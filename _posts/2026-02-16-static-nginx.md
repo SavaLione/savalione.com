@@ -3,7 +3,7 @@ title: "How to Host a Static Website Using nginx and Certbot on Ubuntu"
 date: 2026-02-16
 description: "A guide to hosting a static website using nginx, securing it with SSL certificates via Certbot and Let's Encrypt on Ubuntu"
 categories: [devops-infrastructure]
-tags: [Nginx, Linux, Ubuntu, Certbot, SSL, HTTPS, Static Site, Tutorial, Self-hosting, UFW, DevOps]
+tags: [Nginx, Linux, Ubuntu, Certbot, SSL, HTTPS, Static Site, Tutorial, Self-hosting, SelfHosted, UFW, DevOps]
 image:
   path: /assets/img/2026-02-16-static-nginx/header.png
   width: 1200
