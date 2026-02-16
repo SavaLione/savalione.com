@@ -85,6 +85,7 @@
     - If `false` the server is not in use (retired)
 - Added a new section (Global Infrastructure) to the `/server/` page
 - Added JSON-LD support
+- Published a post 'How to Host a Static Website Using nginx and Certbot on Ubuntu'
 
 v2.0.0 - 2024-10-12
 -------------------
