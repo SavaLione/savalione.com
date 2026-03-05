@@ -41,7 +41,7 @@ Feel free to check out the repositories and contribute!
     * Feb 2024 - Present
     * Focus: Embedded Linux, network stack software development.
 * Master of Science Researcher - Ural Federal University (Part-time)
-    * Mar 2023 - Jan 2026
+    * Mar 2023 - Feb 2026
     * Focus: Web application architecture, student supervision, and teaching.
 * Lead Software Engineer - Drev-Master LLC
     * July 2022 - Present
