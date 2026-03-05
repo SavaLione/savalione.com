@@ -87,6 +87,7 @@
 - Added JSON-LD support
 - Published a post 'How to Host a Static Website Using nginx and Certbot on Ubuntu'
 - Added a new tag
+- Published a new post 'How to migrate from Certbot to acme.sh on nginx'
 
 v2.0.0 - 2024-10-12
 -------------------
