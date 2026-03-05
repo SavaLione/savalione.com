@@ -89,6 +89,7 @@
 - Added a new tag
 - Published a new post 'How to migrate from Certbot to acme.sh on nginx'
 - Corrected a date in the about section
+- Added a new social link (Medium)
 
 v2.0.0 - 2024-10-12
 -------------------
