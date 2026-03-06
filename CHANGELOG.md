@@ -90,6 +90,8 @@
 - Published a new post 'How to migrate from Certbot to acme.sh on nginx'
 - Corrected a date in the about section
 - Added a new social link (Medium)
+- Changed docs parent layout. Now it's inherited from `layout: default` and basically a copy of `_layouts/docs.html`.
+- Added breadcrumbs for posts and docs
 
 v2.0.0 - 2024-10-12
 -------------------

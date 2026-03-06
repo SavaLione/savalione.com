@@ -1,4 +1,61 @@
 ---
-layout: post
+layout: default
 ---
-{{content}}
+{% include docs-json-ld.html %}
+
+<header>
+	<h1>{{ page.title }}</h1>
+	<hr class="stylish" />
+	<header class="title-tags">
+		<time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time>
+	</header>
+</header>
+
+<hr class="stylish" />
+
+<main role="main">
+	<article>
+		<section class="content">
+			{{content}}
+		</section>
+
+		<hr class="stylish" />
+
+		<div class="post-information">
+            {% if page.hide_author == true %}
+            {% else %}
+			<div>Author: {{ site.author.name }}</div>
+            {% endif %}
+
+            <div>Date: <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: '%B %d, %Y' }}</time></div>
+            <div><a href="https://github.com/SavaLione/savalione.com/blob/master/{{ page.path }}">Edit this page on GitHub</a></div>
+
+            {% if page.hide_copyright == true %}
+            {% else %}
+            <div>Copyright: <a href="https://creativecommons.org/licenses/by/4.0/">CC-BY</a></div>
+            {% endif %}
+		</div>
+
+        <hr class="stylish" />
+
+		<div class="tags-container">
+			Categories: <span>
+				{% for category in page.categories %}
+				<a class="tags" href="{{ site.baseurl }}/categories/#{{ category | slugify }}">{{ category }}</a>
+				{% endfor %}
+			</span>
+			&nbsp;
+		</div>
+
+		<hr class="stylish" />
+
+		<section class="pagination">
+			{% if page.previous.url %}
+			<a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+			{% endif %}
+			{% if page.next.url %}
+			<a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+			{% endif %}
+		</section>
+	</article>
+</main>
