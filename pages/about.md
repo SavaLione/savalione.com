@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 title: About Me
 date:   2019-11-10
 description: "Learn more about Savelii Pototskii, a software developer focused on Go, C++, backend systems, performance, and open source. Discover his background, education and skills"

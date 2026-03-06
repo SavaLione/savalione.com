@@ -1,0 +1,63 @@
+<!--JSON-LD profile page structured data  -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "ProfilePage",
+    "mainEntity": {
+        "@type": "Person",
+        "@id": "https://savalione.com/about/",
+        "url": "https://savalione.com/about/",
+        "name": "Savelii Pototskii",
+        "givenName": "Savelii",
+        "familyName": "Pototskii",
+        "alternateName": [
+            "SavaLione",
+            "Савелий Потоцкий",
+            "Потоцкий Савелий Сергеевич"
+        ],
+        "gender": "Male",
+        "height": {
+            "@type": "QuantitativeValue",
+            "value": "192",
+            "unitCode": "CMT"
+        },
+        "knowsAbout": [
+            {% for skill in site.data.skills %} { "@type": "Thing", "name": "{{ skill.name }}", "sameAs": "{{ skill.url }}" }{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+        ],
+        "knowsLanguage": [
+            {
+                "@type": "Language",
+                "name": "English",
+                "alternateName": "en"
+            },
+            {
+                "@type": "Language",
+                "name": "Russian",
+                "alternateName": "ru"
+            }
+        ],
+        "image": {
+            "@type": "ImageObject",
+            "url": "{{ site.url }}/assets/img/savelii-pototskii.jpg",
+            "height": 1200,
+            "width": 1200
+        },
+        "description": "{{ site.my_description }}",
+        "email": "{{ site.email }}",
+        "jobTitle": "Software Engineer",
+        "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "Ural Federal University",
+            "sameAs": [
+                "https://urfu.ru",
+                "https://en.wikipedia.org/wiki/Ural_Federal_University"
+            ]
+        },
+        "sameAs": [
+            {% for link in site.social.links %}"{{ link }}"{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+        ]
+    }
+}
+</script>

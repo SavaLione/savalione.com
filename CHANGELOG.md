@@ -93,6 +93,8 @@
 - Changed docs parent layout. Now it's inherited from `layout: default` and basically a copy of `_layouts/docs.html`.
 - Added breadcrumbs for posts and docs
 - Fixed JSON-LD author url
+- Created about layout
+- Added JSON-LD profile page (`ProfilePage`) structured data to the about page
 
 v2.0.0 - 2024-10-12
 -------------------

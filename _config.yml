@@ -5,6 +5,7 @@ name: Savelii Pototskii
 description: "Software development tutorials and insights focused on Go, C++, Linux, and Open Source. By Savelii Pototskii."
 keywords: [Savelii Pototskii, Go, C++, golang, Software Development, Open Source, Linux, FPGA, Networking, Systems Engineering, Embedded Systems, Git, Ubuntu, BSD, Backend Development, Performance Optimization, Tech Blog]
 domain: "savalione.com"
+my_description: "Software engineer specializing in backend systems, Go, C++, and Open Source."
 
 # The base hostname and protocol for site, e.g. http://example.com
 url: "https://savalione.com"
