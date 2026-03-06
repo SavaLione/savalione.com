@@ -92,6 +92,7 @@
 - Added a new social link (Medium)
 - Changed docs parent layout. Now it's inherited from `layout: default` and basically a copy of `_layouts/docs.html`.
 - Added breadcrumbs for posts and docs
+- Fixed JSON-LD author url
 
 v2.0.0 - 2024-10-12
 -------------------
