@@ -96,6 +96,7 @@
 - Created about layout
 - Added JSON-LD profile page (`ProfilePage`) structured data to the about page
 - Fixed JSON-LD
+- Updated the list with things to do
 
 v2.0.0 - 2024-10-12
 -------------------

@@ -1,2 +1,27 @@
-# To Do
-- [ ] Add a page with my projects 
+# Tasks to do
+- [ ] Remove the `jekyll-seo-tag` plugin
+    - [ ] Create `seo.html`
+        - [ ] Meta and title
+        - [ ] Canonical URL
+        - [ ] Open Graph
+        - [ ] Twitter Cards
+    - [ ] Create dynamic JSON-LD
+        - [ ] Fix repetition issue (see JSON-LD sections on the `/about/` page)
+        - [ ] Remove `seo: \n tags:` from every page
+        - [ ] Fix `breadcrumbs` and `item lists`
+    - [ ] Create a single collection with links (no duplicates)
+    - [ ] Clean up `_config.yml` and `Gemfile`
+- [ ] Fix blog categories page
+    - [ ] Add title, description
+    - [ ] Fix JSON-LD (keywords and items in a collection)
+- [ ] Add a page with my projects
+- [ ] Add page with certifications
+- [ ] Add changelog as a page on the blog
+- [ ] Reduce the amount of downloaded fonts
+- [ ] Write a post guidelines
+    - [ ] Header image format, resolution, aspect ratio, compression
+    - [ ] A post structure (Introduction, See also)
+    - [ ] Markdown formatting and cheat sheet for basic markdown elements
+        - [ ] Code block (for example, no nested code blocs)
+        - [ ] One line code blocks (for example, no bullet points before code blocs)
+    - [ ] Graphical assets fonts, color palette, etc. (mainly for lightroom and paintnet)
