@@ -18,3 +18,27 @@
         </div>
     </section>
 </main>
+
+<!-- JSON-LD item list -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "{{ page.title }}",
+    "description": "{{ page.description }}",
+    "url": "https://savalione.com/posts/",
+    "mainEntity": {
+        "@type": "ItemList",
+        "numberOfItems": {{ paginator.posts.size }},
+        "itemListElement": [
+            {% for post in paginator.posts %}{
+                "@type": "ListItem",
+                "position": {{ forloop.index }},
+                "url": "{{ site.url }}{{ post.url }}",
+                "name": "{{ post.title }}"
+            }{% unless forloop.last %},{% endunless %}
+            {% endfor %}
+        ]
+    }
+}
+</script>

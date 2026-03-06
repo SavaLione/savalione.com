@@ -95,6 +95,7 @@
 - Fixed JSON-LD author url
 - Created about layout
 - Added JSON-LD profile page (`ProfilePage`) structured data to the about page
+- Fixed JSON-LD
 
 v2.0.0 - 2024-10-12
 -------------------
