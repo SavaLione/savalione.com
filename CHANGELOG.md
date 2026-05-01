@@ -98,6 +98,9 @@
 - Fixed JSON-LD
 - Updated the list with things to do
 - Published a post 'Initial setup and firmware upgrade of a Cisco CT2504'
+- Fixed a link in the post 'Initial setup and firmware upgrade of a Cisco CT2504'
+- Published a post 'Compiling and setting up DPDK on Ubuntu 24.04 LTS'
+
 
 v2.0.0 - 2024-10-12
 -------------------
