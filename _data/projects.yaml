@@ -1,3 +1,9 @@
+- name: "openwedge"
+  description: "A lightweight server that receives and processes barcode data scanned by Symbol, Motorola, and Zebra data terminals running DataWedge software"
+  stack: "Go"
+  url: "https://github.com/SavaLione/openwedge"
+  date: 2026-05-17
+
 - name: "go-mirror-zig"
   description: "A self-hostable solution written in Go for creating a community mirror for the Zig programming language"
   stack: "Go"
