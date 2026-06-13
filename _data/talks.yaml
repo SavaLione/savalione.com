@@ -1,0 +1,39 @@
+- name: "Architecture of enterprise Wi-Fi networks: separation of control and data planes in practice"
+  place: "IMM UB RAS"
+  date: "2026-06-04"
+
+- name: "Development of an electronic device"
+  place: "IMM UB RAS"
+  date: "2025-04-20"
+
+- name: "Development of an electronic device"
+  place: "URFU IMKN"
+  date: "2025-02-13"
+
+- name: "Development and analysis of scalable data processing architectures based on the low-power Gowin GW1NR-9 FPGA"
+  place: "URFU IMKN"
+  date: "2024-12-19"
+
+- name: "A history of popular microprocessors and microcontrollers, associated development tools, and real-time operating systems (RTOS)"
+  place: "IMM UB RAS"
+  date: "2024-10-24"
+
+- name: "Report on working with the Yahboom K210 visual recognition module development board, ROS (Robot Operating System) implementation results, aAnalysis of Apache NuttX, introduction to ld (linker) scripts, SSG Jekyll, and working with hewlett-packard physical servers"
+  place: "IMM UB RAS"
+  date: "2024-05-23"
+
+- name: "The Milk-V Duo microcontroller on the RISC-V architecture"
+  place: "IMM UB RAS"
+  date: "2024-02-01"
+
+- name: "Vector-based router model"
+  place: "IMM UB RAS"
+  date: "2023-04-27"
+
+- name: "Developing a vector-based data router to enhance network throughput"
+  place: "IMM UB RAS"
+  date: "2022-10-20"
+
+- name: "Infrastructure for the management of multi-axis robotic manipulators in the ROS environment"
+  place: "IMM UB RAS"
+  date: "2021-05-20"

@@ -100,7 +100,10 @@
 - Published a post 'Initial setup and firmware upgrade of a Cisco CT2504'
 - Fixed a link in the post 'Initial setup and firmware upgrade of a Cisco CT2504'
 - Published a post 'Compiling and setting up DPDK on Ubuntu 24.04 LTS'
-
+- Added a new project (`openwedge`)
+- Added a new talk (`Architecture of enterprise Wi-Fi networks: separation of control and data planes in practice`)
+- Talks and publications are now automatically generated via yaml files
+- Updated dates
 
 v2.0.0 - 2024-10-12
 -------------------

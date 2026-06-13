@@ -40,7 +40,7 @@ Feel free to check out the repositories and contribute!
 
 ### Work Experience
 * Software Developer - IMM UB RAS (Part-time)
-    * Feb 2024 - Present
+    * Feb 2024 - June 2026
     * Focus: Embedded Linux, network stack software development.
 * Master of Science Researcher - Ural Federal University (Part-time)
     * Mar 2023 - Feb 2026
@@ -67,22 +67,12 @@ Feel free to check out the repositories and contribute!
 
 ### Talks & Publications
 I frequently present on topics ranging from robotics and network routers to FPGA architecture.
-* Development of an Electronic Device (IMM UB RAS) - 2025-04-20.
-* Development of an Electronic Device (URFU IMKN) - 2024-02-13.
-* Development and Analysis of Scalable Data Processing Architectures Based on the Low-Power Gowin GW1NR-9 FPGA (URFU IMKN) - 2024-12-19.
-* A History of Popular Microprocessors and Microcontrollers, Associated Development Tools, and Real-Time Operating Systems (RTOS) (IMM UB RAS) - 2024-10-24.
-* Report on Working with the Yahboom K210 Visual Recognition Module Development Board, ROS (Robot Operating System) Implementation Results, Analysis of Apache NuttX, Introduction to ld (Linker) Scripts, SSG Jekyll, and Working with Hewlett-Packard Physical Servers (IMM UB RAS) - 2024-05-23.
-* The Milk-V Duo Microcontroller on the RISC-V Architecture (IMM UB RAS) - 2024-02-01.
-* Vector-Based Router Model (IMM UB RAS) - 2023-04-27.
-* Developing a Vector-Based Data Router to Enhance Network Throughput (IMM UB RAS) - 2022-10-20.
-* Infrastructure for the Management of Multi-Axis Robotic Manipulators in the ROS Environment (IMM UB RAS) - 2021-05-20.
+{% for talk in site.data.talks %}* {{ talk.name }} ({{ talk.place }}) - {{ talk.date }}.
+{% endfor %}
 
 Publications:
-* Developing a Vector-Based Data Router to Enhance Network Throughput (master's degree thesis) (2023-07-01)
-* Comparison of network traffic generators to optimize the process of testing telecommunications equipment (2023-05-28)
-* Comparing the performance of a scalar software router with a vector-based software router (2023-05-28)
-* Development of Control Software and a Visual Emulator for a Multi-Axis Industrial Robot (bachelor’s degree thesis) (2021-06-24)
-* Worldwide web as an information and communication environment of internet auctions for sale of antiques (2021-04-12)
+{% for publication in site.data.publications %}* {{ publication.name }} ({{ publication.date }})
+{% endfor %}
 
 ### Teaching
 1. Ural Federal University (March 2023 - May 2023)
