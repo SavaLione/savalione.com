@@ -104,6 +104,7 @@
 - Added a new talk (`Architecture of enterprise Wi-Fi networks: separation of control and data planes in practice`)
 - Talks and publications are now automatically generated via yaml files
 - Updated dates
+- Published a post 'Upgrading Ubuntu from 24.04 LTS to 26.04 LTS'
 
 v2.0.0 - 2024-10-12
 -------------------
