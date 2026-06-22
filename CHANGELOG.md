@@ -105,6 +105,7 @@
 - Talks and publications are now automatically generated via yaml files
 - Updated dates
 - Published a post 'Upgrading Ubuntu from 24.04 LTS to 26.04 LTS'
+- Published a post 'Installing and configuring Cisco TRex'
 
 v2.0.0 - 2024-10-12
 -------------------
