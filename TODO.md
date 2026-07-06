@@ -1,4 +1,6 @@
 # Tasks to do
+- [ ] Remove comments from html
+- [ ] Migrate to Hugo
 - [ ] Remove the `jekyll-seo-tag` plugin
     - [ ] Create `seo.html`
         - [ ] Meta and title
