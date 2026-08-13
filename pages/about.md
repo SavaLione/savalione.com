@@ -1,8 +1,8 @@
 ---
 layout: about
 title: About Me
-date: 2019-11-10
-description: "Learn more about Savelii Pototskii, a software developer focused on Go, C++, backend systems, performance, and open source. Discover his background, education and skills"
+date: 2026-08-13
+description: "Learn more about Savelii Pototskii, a software engineer focused on Go, C++, backend systems, performance, and open source. Discover his background, education and skills"
 permalink: /about/
 seo:
   type: ProfilePage
@@ -19,7 +19,7 @@ My aim is to create content that is open, informative, and helpful.
 
 All original content on this blog is published under the Creative Commons Attribution 4.0 International (CC BY 4.0) license, unless otherwise noted.
 
-My focus: Go, C++, Linux and Open Source.
+My focus: Go, C++, Linux, and Open Source.
 
 ### Education
 * PhD in System Analysis, Management and Information Processing, Statistics (2023 - Present)
@@ -39,26 +39,32 @@ Feel free to check out the repositories and contribute!
 {% endfor %}
 
 ### Work Experience
-* Software Developer - IMM UB RAS (Part-time)
+* Software Engineer - Krasovskii Institute of Mathematics and Mechanics of the Ural Branch of the Russian Academy of Sciences (IMM UB RAS)
+    * Jul 2026 - Present
+    * Focus: Heterogeneous software development.
+* Research Assistant - Ural Federal University (Part-time)
+    * Jul 2026 - Present
+    * Focus: Heterogeneous computing, point cloud processing.
+* Software Engineer - Krasovskii Institute of Mathematics and Mechanics of the Ural Branch of the Russian Academy of Sciences (IMM UB RAS) (Part-time)
     * Feb 2024 - June 2026
     * Focus: Embedded Linux, network stack software development.
-* Master of Science Researcher - Ural Federal University (Part-time)
+* Teaching Support Specialist - Ural Federal University (Part-time)
     * Mar 2023 - Feb 2026
     * Focus: Web application architecture, student supervision, and teaching.
 * Lead Software Engineer - Drev-Master LLC
-    * July 2022 - Present
-    * Focus: Server software design, network architecture, and C++/Go optimization.
+    * Aug 2022 - Jul 2026
+    * Focus: Server software design, network architecture, and C++/Go performance optimization.
 * Software Engineer - Drev-Master LLC
-    * Mar 2018 - July 2022
+    * Jul 2018 - Aug 2022
     * Focus: Server software development, system administration, and database module development.
 
 ### Software Development Skills
 * Languages: Go, C++
-* Compilers & Tools: GCC, Clang, MinGW, Git, CMake, Bash, GTest, Doxygen
+* Compilers & Tools: GCC, Clang, AdaptiveCpp, MinGW, Git, CMake, Bash, GTest, Doxygen
 * Libraries: STL, Boost, Protobuf, spdlog, SDL2, ImGui, libcurl, SQLite
 * DevOps: Incus, Nginx, Docker, LXC, KVM, Jenkins, Zabbix, PostgreSQL, MariaDB
 * Hardware: KiCad, STM32, ESP32, FPGA (Gowin), RISC-V, ARM
-* HPC: OpenCL, OpenMP, Khronos SYCL
+* HPC: Khronos SYCL, OpenCL, OpenMP
 * OS and Distributions: Ubuntu LTS, Debian, FreeBSD, NetBSD, pfSense
 
 ### Language Skills
@@ -86,6 +92,6 @@ Publications:
     * Oversaw the creation and integration of web educational platforms by student teams within the university's infrastructure
 
 ### Other Interests
-* 3D Printing: Experience with various printers for university and personal projects
-* Sport: Running and cycling
-* Photography: I use a Nikon D7000 to document my projects
+* 3D Printing: I have been using the Elegoo Neptune 3 Pro for most of my projects.
+* Sport: I have used my ProForm elliptical machine nearly every day for the past four years.
+* Photography: I enjoy shooting with my Nikon D7000 and a selection of lenses.
