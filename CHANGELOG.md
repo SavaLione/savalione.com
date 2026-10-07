@@ -107,6 +107,7 @@
 - Published a post 'Upgrading Ubuntu from 24.04 LTS to 26.04 LTS'
 - Published a post 'Installing and configuring Cisco TRex'
 - Published a post 'Installing AdaptiveCpp in an Incus container with full GPU support'
+- Turned off smart-quotes in kramdown
 
 v2.0.0 - 2024-10-12
 -------------------

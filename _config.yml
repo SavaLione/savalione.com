@@ -79,6 +79,7 @@ kramdown:
   syntax_highlighter_opts:
     default_lang: html
     css_class   : 'syntax'
+  smart_quotes: ["apos", "apos", "quot", "quot"]
 
 # Plugins
 plugins:
