@@ -1,8 +1,8 @@
 ---
 layout: page
-title: Server information
+title: Node information
 date: 2026-01-21
-description: "Information about the server currently hosting this blog"
+description: "Information about the node currently hosting this blog"
 permalink: /server/
 ---
 
@@ -62,10 +62,10 @@ git commit
 ```
 
 ### Global Infrastructure
-Here is the list of all active nodes in the Geo-DNS cluster:
+Here is the list of all nodes in the Geo-DNS cluster:
 
 |Node ID|Location|Provider|IP  |Status|
 |:------|:-------|:-------|:---|:-----|
-{% for server in site.data.servers %}|`{{ server.id }}`|{{ server.location }}|{{ server.provider }}|`{{ server.network[0] }}`|{% if server.id == site.data.server.hostname %}**Current**{% else %} {% if server.active %}Active{% else %}Retired{% endif %}{% endif %}|
+{% for server in site.data.servers %}|`{{ server.id }}`|{{ server.location }}|{{ server.provider }}|`{{ server.network[0] }}`|{% if server.id == site.data.server.hostname %}**Current**{% else %} {% if server.active %}Active{% else %}Retired{% if server.reason != blank %} <sup>[[why]]({{ server.reason }})</sup>{% endif %}{% endif %}{% endif %}|
 {% if server.network.size > 1 %}{% for ip in server.network offset:1 %}| ^^ | ^^ | ^^ |`{{ ip }}`| ^^ |
 {% endfor %}{% endif %}{% endfor %}

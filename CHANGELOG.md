@@ -109,6 +109,9 @@
 - Published a post 'Installing AdaptiveCpp in an Incus container with full GPU support'
 - Turned off smart-quotes in kramdown
 - Updated the 'Installing and Configuring chrony on Ubuntu' post. Added information about Ubuntu 26.04 LTS
+- Some small changes on the /servers/ page
+- The node `ru-msk-01` was retired (see https://savalione.com/posts/2026/10/10/retiring-node/ for more information)
+- Published a post 'Retiring the ru-msk-01 node'
 
 v2.0.0 - 2024-10-12
 -------------------

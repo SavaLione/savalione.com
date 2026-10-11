@@ -14,6 +14,16 @@
     - 2a03:6f00:a::1:ab6a
   region: "Eastern Europe"
   location: "Moscow, Russia"
+  reason: https://savalione.com/posts/2026/10/10/retiring-node/
+  active: false
+
+- id: ru-msk-02
+  provider: FirstVDS
+  network:
+    - 188.120.246.115
+    - 2a01:230:4:7d1::2
+  region: "Eastern Europe"
+  location: "Moscow, Russia"
   active: true
 
 - id: us-sfo-01
