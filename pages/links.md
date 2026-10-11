@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: links
 title: Links & Contact
 date: 2019-11-04
 description: "Connect with Savelii Pototskii. Get in touch via email or find my work on GitHub, LinkedIn, and other platforms for software development and open source"

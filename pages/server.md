@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: server
 title: Node information
 date: 2026-01-21
 description: "Information about the node currently hosting this blog"
