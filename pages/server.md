@@ -66,6 +66,6 @@ Here is the list of all nodes in the Geo-DNS cluster:
 
 |Node ID|Location|Provider|IP  |Status|
 |:------|:-------|:-------|:---|:-----|
-{% for server in site.data.servers %}|`{{ server.id }}`|{{ server.location }}|{{ server.provider }}|`{{ server.network[0] }}`|{% if server.id == site.data.server.hostname %}**Current**{% else %} {% if server.active %}Active{% else %}Retired{% if server.reason != blank %} <sup>[[why]]({{ server.reason }})</sup>{% endif %}{% endif %}{% endif %}|
-{% if server.network.size > 1 %}{% for ip in server.network offset:1 %}| ^^ | ^^ | ^^ |`{{ ip }}`| ^^ |
+{% for server in site.data.servers %}|`{{ server.id }}`|{{ server.location }}|{{ server.provider }}|{% if server.active %}`{{ server.network[0] }}`{% else %}Removed{% endif %}|{% if server.id == site.data.server.hostname %}**Current**{% else %} {% if server.active %}Active{% else %}Retired{% if server.reason != blank %} <sup>[[why]]({{ server.reason }})</sup>{% endif %}{% endif %}{% endif %}|
+{% if server.network.size > 1 and server.active %}{% for ip in server.network offset:1 %}| ^^ | ^^ | ^^ |`{{ ip }}`| ^^ |
 {% endfor %}{% endif %}{% endfor %}
