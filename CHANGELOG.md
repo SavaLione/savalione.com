@@ -115,6 +115,7 @@
 - Added JSON-LD breadcrumbs to some pages
 - Removed IPs from the retired nodes
 - Published a post 'How to temporarily mitigate CVE-2026-109618 and CVE-2026-109619'
+- Updated the post 'How to temporarily mitigate CVE-2026-109618 and CVE-2026-109619'
 
 v2.0.0 - 2024-10-12
 -------------------
